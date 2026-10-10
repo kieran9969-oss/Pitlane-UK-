@@ -4,7 +4,7 @@ from urllib.request import Request, urlopen
 
 
 def check_website():
-    url = "https://santapod.co.uk/"
+        url = "https://santapod.co.uk/events/"
 
     request = Request(
         url,
