@@ -18,7 +18,7 @@ def check_website():
 
     print("Santa Pod website accessible")
     print("Downloaded characters:", len(html))
-
+    print("Response preview:", repr(html[:500]))
 
 if __name__ == "__main__":
     check_website()
