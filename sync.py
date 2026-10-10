@@ -75,6 +75,7 @@ def sync():
             if v.get('id') not in ids:
                 v['status']='Stale — recheck source';out.append(v)
     out.sort(key=lambda x:(x.get('date',''),x['name']))
+    target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps({'generated_at':checked,'event_count':len(out),'source_errors':errors,'events':out},ensure_ascii=False,indent=2)+'\n')
     print(f'Published {len(out)} events; {len(errors)} source errors')
     for e in errors:print('ERROR',e['source'],e['error'])
