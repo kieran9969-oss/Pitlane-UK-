@@ -20,6 +20,8 @@ def check_website():
     print("Santa Pod website accessible")
     print("Downloaded characters:", len(html))
     print("Response preview:", repr(html[:500]))
+    print("Event structured data present:", "application/ld+json" in html)
+    print("HTML date tags found:", html.count("<time"))
 
 
 if __name__ == "__main__":
