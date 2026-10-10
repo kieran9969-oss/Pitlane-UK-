@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-10-10T21:37:39+00:00",
-  "event_count": 0,
+  "generated_at": "2026-10-10T21:51:27+00:00",
+  "event_count": 1,
   "source_errors": [],
-  "events": []
+  "events": [
+    {
+      "name": "GR8 Ultimate Stance 2026",
+      "date": "2026-10-24",
+      "end_date": "2026-10-25",
+      "venue": "Telford International Centre",
+      "region": "Shropshire",
+      "category": "Modified Car Show",
+      "organiser": "GR8 Events",
+      "official_url": "https://www.gr8ultimatestance.co.uk/",
+      "status": "Unverified",
+      "id": "ebee848073b13d49",
+      "last_checked": "2026-10-10T21:51:27+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    }
+  ]
 }
