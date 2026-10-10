@@ -12,3 +12,186 @@
     "status": "Unverified"
   }
 ]
+
+[
+  {
+    "name": "BRSCC Club Car Championships 2026",
+    "date": "2026-10-17",
+    "venue": "Oulton Park",
+    "region": "Cheshire",
+    "category": "Motorsport",
+    "organiser": "BRSCC",
+    "official_url": "https://www.msv.com/calendar",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "750 Motor Club Championships 2026",
+    "date": "2026-10-17",
+    "end_date": "2026-10-18",
+    "venue": "Donington Park",
+    "region": "Derbyshire",
+    "category": "Motorsport",
+    "organiser": "750 Motor Club",
+    "official_url": "https://www.msv.com/calendar",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "Motor Racing Legends 2026",
+    "date": "2026-10-17",
+    "end_date": "2026-10-18",
+    "venue": "Silverstone",
+    "region": "Northamptonshire",
+    "category": "Motorsport",
+    "organiser": "Motor Racing Legends",
+    "official_url": "https://www.silverstone.co.uk/news/whats-silverstone-2026-ultimate-event-calendar",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "Formula Ford Festival 2026",
+    "date": "2026-10-24",
+    "end_date": "2026-10-25",
+    "venue": "Brands Hatch",
+    "region": "Kent",
+    "category": "Motorsport",
+    "organiser": "BRSCC",
+    "official_url": "https://www.msv.com/calendar",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "GB4 and Ginetta Winter Series 2026",
+    "date": "2026-10-24",
+    "end_date": "2026-10-25",
+    "venue": "Snetterton",
+    "region": "Norfolk",
+    "category": "Motorsport",
+    "organiser": "MSV",
+    "official_url": "https://www.msv.com/calendar",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "750MC Birkett Relay 2026",
+    "date": "2026-10-24",
+    "venue": "Silverstone",
+    "region": "Northamptonshire",
+    "category": "Motorsport",
+    "organiser": "750 Motor Club",
+    "official_url": "https://www.silverstone.co.uk/news/whats-silverstone-2026-ultimate-event-calendar",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "GR8 Ultimate Stance 2026",
+    "date": "2026-10-24",
+    "venue": "Telford International Centre",
+    "region": "Shropshire",
+    "category": "Modified Car Show",
+    "organiser": "GR8 Ultimate Stance",
+    "official_url": "https://www.ultimate-stance.co.uk/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Walter Hayes Trophy 2026",
+    "date": "2026-10-31",
+    "end_date": "2026-11-01",
+    "venue": "Silverstone",
+    "region": "Northamptonshire",
+    "category": "Motorsport",
+    "organiser": "Silverstone",
+    "official_url": "https://www.silverstone.co.uk/news/whats-silverstone-2026-ultimate-event-calendar",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "Britcar into the Night 2026",
+    "date": "2026-11-07",
+    "venue": "Brands Hatch",
+    "region": "Kent",
+    "category": "Motorsport",
+    "organiser": "MSVR",
+    "official_url": "https://www.msv.com/calendar",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "MSVR Club Car Championships 2026",
+    "date": "2026-11-14",
+    "venue": "Brands Hatch",
+    "region": "Kent",
+    "category": "Motorsport",
+    "organiser": "MSVR",
+    "official_url": "https://www.msv.com/calendar",
+    "status": "Listed by organiser"
+  }
+]
+
+{
+  "name": "Santa Pod Flame & Thunder 2026",
+  "date": "2026-10-31",
+  "venue": "Santa Pod Raceway",
+  "region": "Northamptonshire",
+  "category": "Motorsport",
+  "organiser": "Santa Pod Raceway",
+  "official_url": "https://santapod.co.uk/events/",
+  "status": "Listed by organiser"
+},
+{
+  "name": "Tunerfest South 2027",
+  "date": "2027-03-29",
+  "venue": "Brands Hatch",
+  "region": "Kent",
+  "category": "Modified Car Show",
+  "organiser": "Tunerfest",
+  "official_url": "https://www.tunerfest.co.uk/",
+  "status": "Listed by organiser"
+},
+{
+  "name": "Isle of Wight Takeover 2027",
+  "date": "2027-05-15",
+  "end_date": "2027-05-16",
+  "venue": "Isle of Wight",
+  "region": "Isle of Wight",
+  "category": "Modified Car Show",
+  "organiser": "Isle of Wight Takeover",
+  "official_url": "https://www.iowtakeover.co.uk/",
+  "status": "Listed by organiser"
+},
+{
+  "name": "Tunerfest North 2027",
+  "date": "2027-07-24",
+  "venue": "Oulton Park",
+  "region": "Cheshire",
+  "category": "Modified Car Show",
+  "organiser": "Tunerfest",
+  "official_url": "https://www.tunerfest.co.uk/",
+  "status": "Listed by organiser"
+},
+{
+  "name": "Santa Pod Bug Jam 40",
+  "date": "2027-07-23",
+  "end_date": "2027-07-25",
+  "venue": "Santa Pod Raceway",
+  "region": "Northamptonshire",
+  "category": "Modified Car Show",
+  "organiser": "Santa Pod Raceway",
+  "official_url": "https://santapod.co.uk/events/",
+  "status": "Listed by organiser"
+},
+{
+  "name": "Ultimate Street Car 2027",
+  "date": "2027-07-30",
+  "end_date": "2027-08-01",
+  "venue": "Santa Pod Raceway",
+  "region": "Northamptonshire",
+  "category": "Modified Car Show",
+  "organiser": "Santa Pod Raceway",
+  "official_url": "https://santapod.co.uk/events/",
+  "status": "Listed by organiser"
+},
+{
+  "name": "Santa Pod VW Action 2027",
+  "date": "2027-09-03",
+  "end_date": "2027-09-05",
+  "venue": "Santa Pod Raceway",
+  "region": "Northamptonshire",
+  "category": "Modified Car Show",
+  "organiser": "Santa Pod Raceway",
+  "official_url": "https://santapod.co.uk/events/",
+  "status": "Listed by organiser"
+}
