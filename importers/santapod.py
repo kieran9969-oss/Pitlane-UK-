@@ -17,6 +17,11 @@ def check_website():
             "utf-8", errors="replace"
         )
 
+if "/.well-known/sgcaptcha/" in html:
+    print("Santa Pod security challenge detected")
+    print("No events imported")
+    return
+
     print("Santa Pod website accessible")
     print("Downloaded characters:", len(html))
     print("Response preview:", repr(html[:500]))
