@@ -24,7 +24,7 @@ def check_website():
     print("Response preview:", repr(html[:500]))
     print("Event structured data present:", "application/ld+json" in html)
     print("HTML date tags found:", html.count("<time"))
-
+    print("Event schema found:", '"@type":"Event"' in html or '"@type": "Event"' in html)
 
 if __name__ == "__main__":
     check_website()
