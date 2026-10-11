@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python3
-"""Discover and import Carmeets UK events for PITLANE UK."""
+"""Import upcoming Carmeets UK events without Goodwood duplicates."""
 
 import json
 import re
@@ -9,11 +9,11 @@ from datetime import date
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, urldefrag
+from urllib.parse import urljoin, urlparse
 
 BASE = Path(__file__).resolve().parent
-SOURCES_FILE = BASE / "modified-sources.json"
 EVENTS_FILE = BASE / "data/manual-events.json"
+SOURCES_FILE = BASE / "modified-sources.json"
 
 CALENDAR_URL = "https://carmeetsuk.com/events/list/"
 MAX_PAGES = 15
@@ -23,11 +23,8 @@ MAX_EVENTS = 200
 def download(url):
     request = urllib.request.Request(
         url,
-        headers={
-            "User-Agent": "Mozilla/5.0 PITLANE-UK/1.0"
-        },
+        headers={"User-Agent": "Mozilla/5.0 PITLANE-UK/1.0"},
     )
-
     with urllib.request.urlopen(
         request, timeout=25
     ) as response:
@@ -40,8 +37,7 @@ class PageParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links = []
-        self.next_links = []
-        self.json_scripts = []
+        self.scripts = []
         self.in_json = False
         self.script_text = ""
 
@@ -49,24 +45,14 @@ class PageParser(HTMLParser):
         attrs = dict(attrs)
 
         if tag == "a":
-            href = attrs.get("href", "")
+            href = attrs.get("href")
             if href:
                 self.links.append(href)
 
-            rel = attrs.get("rel", "")
-            if "next" in rel.lower().split():
-                self.next_links.append(href)
-
-        if tag == "link":
-            rel = attrs.get("rel", "")
-            if "next" in rel.lower().split():
-                href = attrs.get("href", "")
-                if href:
-                    self.next_links.append(href)
-
         if tag == "script":
-            script_type = attrs.get("type", "").lower()
-            if "application/ld+json" in script_type:
+            if "application/ld+json" in attrs.get(
+                "type", ""
+            ).lower():
                 self.in_json = True
                 self.script_text = ""
 
@@ -76,7 +62,7 @@ class PageParser(HTMLParser):
 
     def handle_endtag(self, tag):
         if tag == "script" and self.in_json:
-            self.json_scripts.append(self.script_text)
+            self.scripts.append(self.script_text)
             self.in_json = False
 
 
@@ -86,8 +72,11 @@ def parse_page(html):
     return parser
 
 
-def clean_url(url):
-    return urldefrag(url)[0]
+def normalise(value):
+    value = unescape(str(value)).lower()
+    return " ".join(
+        re.sub(r"[^a-z0-9]+", " ", value).split()
+    )
 
 
 def is_carmeets(url):
@@ -97,34 +86,20 @@ def is_carmeets(url):
     )
 
 
-def is_event_link(url):
-    path = urlparse(url).path
-
-    return (
-        is_carmeets(url)
-        and path.startswith("/event/")
-        and path.rstrip("/") != "/event"
-    )
-
-
-def is_calendar_page(url):
+def clean_url(url):
     parsed = urlparse(url)
-
     return (
-        is_carmeets(url)
-        and parsed.path.startswith("/events/")
-        and (
-            "/list" in parsed.path
-            or "/page/" in parsed.path
-            or "page=" in parsed.query
-        )
+        parsed.scheme
+        + "://"
+        + parsed.netloc
+        + parsed.path
     )
 
 
 def find_event_links():
     pending = [CALENDAR_URL]
     visited = set()
-    event_links = set()
+    found = set()
 
     while pending and len(visited) < MAX_PAGES:
         url = pending.pop(0)
@@ -136,66 +111,66 @@ def find_event_links():
         print(f"Checking calendar: {url}")
 
         try:
-            html = download(url)
-            parser = parse_page(html)
+            parser = parse_page(download(url))
         except Exception as error:
-            print(f"Calendar check failed: {error}")
+            print(f"Calendar failed: {error}")
             continue
 
         for href in parser.links:
-            link = clean_url(urljoin(url, href))
+            link = urljoin(url, href)
+            parsed = urlparse(link)
 
-            if is_event_link(link):
-                event_links.add(link)
+            if not is_carmeets(link):
+                continue
 
-        for href in parser.links + parser.next_links:
-            link = clean_url(urljoin(url, href))
+            if parsed.path.startswith("/event/"):
+                found.add(clean_url(link))
+                continue
+
+            # Follow only future/upcoming calendar pages.
+            # Never follow past views or iCalendar links.
+            if (
+                "eventDisplay=past" in link
+                or "ical=" in link.lower()
+                or "outlook-ical=" in link.lower()
+            ):
+                continue
 
             if (
-                is_calendar_page(link)
+                parsed.path.startswith("/events/list/page/")
                 and link not in visited
                 and link not in pending
             ):
                 pending.append(link)
 
-        print(
-            f"Events discovered: {len(event_links)}"
-        )
+        print(f"Event links found: {len(found)}")
 
-    if pending:
-        print("Calendar page limit reached.")
-
-    return sorted(event_links)
+    return sorted(found)
 
 
-def find_event_objects(data):
-    found = []
+def find_events(data):
+    result = []
 
     if isinstance(data, list):
         for item in data:
-            found.extend(find_event_objects(item))
+            result.extend(find_events(item))
 
     elif isinstance(data, dict):
-        event_type = data.get("@type", [])
-        types = (
-            event_type
-            if isinstance(event_type, list)
-            else [event_type]
-        )
+        types = data.get("@type", [])
+        if isinstance(types, str):
+            types = [types]
 
         if "Event" in types:
-            found.append(data)
+            result.append(data)
 
-        for key, value in data.items():
-            if key != "@context" and isinstance(
-                value, (dict, list)
-            ):
-                found.extend(find_event_objects(value))
+        for value in data.values():
+            if isinstance(value, (list, dict)):
+                result.extend(find_events(value))
 
-    return found
+    return result
 
 
-def get_location(event):
+def get_venue(event):
     location = event.get("location", "")
 
     if isinstance(location, list):
@@ -210,75 +185,54 @@ def get_location(event):
 
         if isinstance(address, dict):
             address = ", ".join(
-                str(value)
-                for key, value in address.items()
-                if key in (
+                str(address.get(key, ""))
+                for key in (
                     "streetAddress",
                     "addressLocality",
                     "addressRegion",
                 )
-                and value
+                if address.get(key)
             )
 
-        return unescape(
-            str(name or address)
-        ).strip()
+        return unescape(str(name or address)).strip()
 
     return ""
 
 
 def read_event(url):
-    html = download(url)
-    parser = parse_page(html)
+    parser = parse_page(download(url))
 
-    for script in parser.json_scripts:
+    for script in parser.scripts:
         try:
-            data = json.loads(script)
+            objects = find_events(json.loads(script))
         except (ValueError, TypeError):
             continue
 
-        for event in find_event_objects(data):
+        for item in objects:
             name = unescape(
-                str(event.get("name", ""))
+                str(item.get("name", ""))
             ).strip()
 
-            start_value = str(
-                event.get("startDate", "")
-            )
+            start_text = str(item.get("startDate", ""))
+            end_text = str(item.get("endDate", ""))
+            venue = get_venue(item)
 
-            end_value = str(
-                event.get("endDate", "")
-            )
-
-            venue = get_location(event)
-
-            if not (
-                name
-                and venue
-                and re.match(
-                    r"^\d{4}-\d{2}-\d{2}",
-                    start_value,
-                )
-            ):
+            if not name or not venue:
                 continue
 
             try:
                 start = date.fromisoformat(
-                    start_value[:10]
+                    start_text[:10]
                 )
-
                 end = (
-                    date.fromisoformat(end_value[:10])
-                    if end_value
+                    date.fromisoformat(end_text[:10])
+                    if end_text
                     else start
                 )
             except ValueError:
                 continue
 
-            if end < start:
-                continue
-
-            if start < date.today():
+            if end < start or end < date.today():
                 continue
 
             return {
@@ -296,55 +250,81 @@ def read_event(url):
     return None
 
 
-def normalise(value):
-    value = unescape(str(value)).lower()
-    value = re.sub(r"[^a-z0-9]+", " ", value)
-    return " ".join(value.split())
+def is_festival_of_speed(event):
+    name = normalise(event.get("name", ""))
+    return "festival of speed" in name
 
 
-def duplicate_event(new_event, existing):
-    new_url = new_event["official_url"].rstrip("/")
+def is_goodwood_duplicate(event, existing):
+    if not is_festival_of_speed(event):
+        return False
 
-    for event in existing:
-        old_url = str(
-            event.get("official_url", "")
-        ).rstrip("/")
-
-        if old_url and old_url == new_url:
-            return True
-
-        if event.get("date") != new_event["date"]:
+    for other in existing:
+        if other.get("organiser") != "Goodwood":
             continue
 
-        new_name = normalise(new_event["name"])
-        old_name = normalise(event.get("name", ""))
+        if not is_festival_of_speed(other):
+            continue
 
-        new_venue = normalise(new_event["venue"])
-        old_venue = normalise(event.get("venue", ""))
-
-        if new_name == old_name:
-            return True
-
-        if (
-            new_venue
-            and new_venue == old_venue
-            and (
-                new_name in old_name
-                or old_name in new_name
-            )
-        ):
+        if other.get("date") == event.get("date"):
             return True
 
     return False
 
 
+def is_duplicate(event, existing):
+    new_url = event["official_url"].rstrip("/")
+    new_name = normalise(event["name"])
+
+    for other in existing:
+        old_url = str(
+            other.get("official_url", "")
+        ).rstrip("/")
+
+        if old_url == new_url:
+            return True
+
+        if other.get("date") != event["date"]:
+            continue
+
+        old_name = normalise(other.get("name", ""))
+
+        if old_name == new_name:
+            return True
+
+        if is_goodwood_duplicate(event, [other]):
+            return True
+
+    return False
+
+
+def remove_goodwood_duplicates(events):
+    cleaned = []
+    removed = 0
+
+    for event in events:
+        if (
+            event.get("organiser") == "Carmeets UK"
+            and is_goodwood_duplicate(event, events)
+        ):
+            print(
+                "REMOVED DUPLICATE: "
+                + event.get("name", "")
+            )
+            removed += 1
+            continue
+
+        cleaned.append(event)
+
+    return cleaned, removed
+
+
 def main():
-    source_data = json.loads(
+    sources = json.loads(
         SOURCES_FILE.read_text(encoding="utf-8")
     )
-
     print(
-        f"Loaded {len(source_data['sources'])} sources."
+        f"Loaded {len(sources.get('sources', []))} sources."
     )
 
     existing = json.loads(
@@ -353,11 +333,14 @@ def main():
 
     if not isinstance(existing, list):
         raise ValueError(
-            "Expected manual-events.json to contain a list."
+            "manual-events.json must contain a list."
         )
 
-    links = find_event_links()
+    existing, removed = remove_goodwood_duplicates(
+        existing
+    )
 
+    links = find_event_links()
     print(f"\nFound {len(links)} event links.")
 
     added = 0
@@ -372,26 +355,22 @@ def main():
             continue
 
         if event is None:
-            print(f"No usable event details: {url}")
             skipped += 1
             continue
 
-        if duplicate_event(event, existing):
-            print(
-                f"Already listed: {event['name']}"
-            )
+        if is_duplicate(event, existing):
+            print(f"Already listed: {event['name']}")
             skipped += 1
             continue
 
         existing.append(event)
         added += 1
-
         print(
             f"ADDED: {event['name']} "
             f"({event['date']})"
         )
 
-    if added:
+    if added or removed:
         EVENTS_FILE.write_text(
             json.dumps(
                 existing,
@@ -404,6 +383,7 @@ def main():
     print("\n--- IMPORT SUMMARY ---")
     print(f"Event links found: {len(links)}")
     print(f"New events added: {added}")
+    print(f"Goodwood duplicates removed: {removed}")
     print(f"Skipped or already listed: {skipped}")
     print("Carmeets UK import complete.")
 
