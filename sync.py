@@ -48,7 +48,7 @@ def sync():
             if src['type']!='ics': raise ValueError('Unsupported source type')
             for v in read_ics(src['url']):
                 name=v.get('SUMMARY','').strip(); start=date(v.get('DTSTART',''))
-                if not name or not start: continue
+                if not name or not start or start < '2026-01-01': continue
                 venue=v.get('LOCATION','').strip()
                 link=v.get('URL','').strip() or src.get('website','')
                 key='|'.join((clean(name),start,clean(venue)))
@@ -62,7 +62,7 @@ def sync():
     manual=ROOT/'data/manual-events.json'
     if manual.exists():
         for v in json.loads(manual.read_text()):
-            if not all(v.get(k) for k in ('name','date','venue','official_url')):continue
+            if not all(v.get(k) for k in ('name','date','venue','official_url')) or v['date'] < '2026-01-01':continue
             key='|'.join((clean(v['name']),v['date'],clean(v['venue'])))
             if key in seen: continue
             v.setdefault('id',hashlib.sha256(key.encode()).hexdigest()[:16]);v.setdefault('last_checked',checked);v.setdefault('status','Unverified');v.setdefault('source_names',['Manual review']);out.append(v);seen[key]=v
@@ -72,7 +72,7 @@ def sync():
         old=json.loads(target.read_text()).get('events',[])
         ids={x['id'] for x in out}
         for v in old:
-            if v.get('id') not in ids:
+            if v.get('id') not in ids and v.get('date','') >= '2026-01-01':
                 v['status']='Stale — recheck source';out.append(v)
     out.sort(key=lambda x:(x.get('date',''),x['name']))
     target.parent.mkdir(parents=True, exist_ok=True)
