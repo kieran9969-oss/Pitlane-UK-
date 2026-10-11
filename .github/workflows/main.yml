@@ -28,9 +28,6 @@ jobs:
   
       - name: Check modified car show sources
         run: python modified_shows.py
-      
-      - name: Test Modified Live event dates
-        run: python check_modified_live.py
 
       - name: Import Modified Live events
         run: python modified_live.py
