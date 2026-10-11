@@ -18,6 +18,7 @@ SOURCES = [
         "venue": "Goodwood House",
         "category": "Motorsport",
         "duration": 4,
+        "months": [6, 7],
     },
     {
         "name": "Goodwood Revival",
@@ -25,6 +26,7 @@ SOURCES = [
         "venue": "Goodwood Motor Circuit",
         "category": "Classic cars",
         "duration": 3,
+        "months": [8, 9],
     },
     {
         "name": "Members' Meeting",
@@ -32,6 +34,7 @@ SOURCES = [
         "venue": "Goodwood Motor Circuit",
         "category": "Motorsport",
         "duration": 2,
+        "months": [3, 4],
     },
 ]
 
@@ -80,6 +83,9 @@ def find_dates(source):
         year = int(year)
 
         if year < 2027:
+            continue
+
+        if MONTHS[month.lower()] not in source["months"]:
             continue
 
         try:
