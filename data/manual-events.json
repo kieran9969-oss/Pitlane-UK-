@@ -397,5 +397,38 @@
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/salisbury-motor-show-salisbury/",
     "status": "Unverified"
+  },
+  {
+    "name": "Modified Live Castle Combe",
+    "date": "2027-06-26",
+    "end_date": "2027-06-26",
+    "venue": "Castle Combe Circuit",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Modified Live",
+    "official_url": "https://modifiedlive.co.uk/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Modified Live Cadwell Park",
+    "date": "2027-05-03",
+    "end_date": "2027-05-03",
+    "venue": "Cadwell Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Modified Live",
+    "official_url": "https://modifiedlive.co.uk/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Modified Live Snetterton",
+    "date": "2027-09-26",
+    "end_date": "2027-09-26",
+    "venue": "Snetterton Circuit",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Modified Live",
+    "official_url": "https://modifiedlive.co.uk/",
+    "status": "Unverified"
   }
 ]
