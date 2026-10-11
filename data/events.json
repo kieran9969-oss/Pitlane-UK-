@@ -1,1174 +1,13 @@
 {
-  "generated_at": "2026-10-11T20:42:55+00:00",
-  "event_count": 104,
+  "generated_at": "2026-10-11T20:52:27+00:00",
+  "event_count": 48,
   "source_errors": [],
   "events": [
-    {
-      "id": "5d9a8a0926bb9efb",
-      "name": "DWYB",
-      "date": "2026-01-07",
-      "end_date": "2026-01-08",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drifting",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
-    },
-    {
-      "id": "73fed15bb6176971",
-      "name": "DWYB",
-      "date": "2026-01-21",
-      "end_date": "2026-01-22",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drifting",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
-    },
-    {
-      "id": "a79470ca5d2b7239",
-      "name": "DWYB",
-      "date": "2026-02-04",
-      "end_date": "2026-02-05",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drifting",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
-    },
-    {
-      "id": "0459534eb0f849fe",
-      "name": "DWYB",
-      "date": "2026-02-18",
-      "end_date": "2026-02-19",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drifting",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
-    },
-    {
-      "id": "896a7da4f2879f75",
-      "name": "RWYB",
-      "date": "2026-03-01",
-      "end_date": "2026-03-02",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Bike racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
-    },
-    {
-      "id": "4d3bde05d745aaf3",
-      "name": "DWYB",
-      "date": "2026-03-04",
-      "end_date": "2026-03-05",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drifting",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
-    },
-    {
-      "id": "173bb054275e979d",
-      "name": "Dial in Day",
-      "date": "2026-03-14",
-      "end_date": "2026-03-15",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<br><br><br><a href=\"https://www.google.com/url?q=https://santapod.co.uk/dial-in-day.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2s-VojSj0xsi7vlLAPSaEp\" target=\"_blank\">An exclusive taster day for RWYB’ers to try out entry level bracket racing. Pre-entry only.</a><br><br><br><a></a>"
-    },
-    {
-      "id": "602615f6de87bdeb",
-      "name": "DWYB",
-      "date": "2026-03-18",
-      "end_date": "2026-03-19",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drifting",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
-    },
-    {
-      "id": "46a08c1cf97f0859",
-      "name": "RWYB",
-      "date": "2026-03-21",
-      "end_date": "2026-03-22",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Bike racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
-    },
-    {
-      "id": "611bbfdccdc41f45",
-      "name": "Straightliners",
-      "date": "2026-03-22",
-      "end_date": "2026-03-23",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<br><br><br><a href=\"https://www.google.com/url?q=https://straightliners.events/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1s7kzxcnOIKJ7Go-qSg77u\" target=\"_blank\">RWYB open to bikes and cars, including Round One of the Straightliners championships.</a>"
-    },
-    {
-      "id": "19907ab9715bb9b3",
-      "name": "Festival of Power Test Day",
-      "date": "2026-04-02",
-      "end_date": "2026-04-03",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/festival-of-power.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3ltqtQbPEoHazn6Xib84-v\" target=\"_blank\">Track open exclusively to racers entered into that weekends event with full track prep.</a>"
-    },
-    {
-      "id": "a94246e030f2d31a",
-      "name": "Festival of Power",
-      "date": "2026-04-03",
-      "end_date": "2026-04-06",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drag racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/festival-of-power.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1LdvJmb7PvHIlvZukzajB0\" target=\"_blank\">An action-packed weekend for the whole family with drag racing, stunts and much more.</a>"
-    },
-    {
-      "id": "0ae7616976ab5de1",
-      "name": "RWYB",
-      "date": "2026-04-11",
-      "end_date": "2026-04-12",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Bike racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
-    },
-    {
-      "id": "33a105c33b11fc9f",
-      "name": "GTI Spring Fest",
-      "date": "2026-04-12",
-      "end_date": "2026-04-13",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/gti-spring-fest.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2ngf58sb8WoaCanQRP5UBv\" target=\"_blank\">RWYB event for water-cooled VW’s with Show &amp; Shine, Club Displays, Autojumble and more.</a>"
-    },
-    {
-      "id": "5aa191fca660feca",
-      "name": "Springspeed Nationals Test Day",
-      "date": "2026-04-17",
-      "end_date": "2026-04-18",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<br><br><br><a href=\"https://www.google.com/url?q=https://santapod.co.uk/springspeed-nationals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2mhCS4OiIQKfv_VT7AjOvu\" target=\"_blank\">Track open exclusively to racers entered into that weekends event with full track prep.</a><br><br><br><a></a>"
-    },
-    {
-      "name": "Goodwood 83rd Members' Meeting 2026",
-      "date": "2026-04-18",
-      "end_date": "2026-04-19",
-      "venue": "Goodwood Motor Circuit",
-      "region": "West Sussex",
-      "category": "Motorsport",
-      "organiser": "Goodwood",
-      "official_url": "https://www.goodwood.com/motorsport/members-meeting/",
-      "status": "Unverified",
-      "id": "f7e3e9969fc5597b",
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "source_names": [
-        "Manual review"
-      ]
-    },
-    {
-      "id": "a187ebce0cbdc49a",
-      "name": "Springspeed Nationals",
-      "date": "2026-04-18",
-      "end_date": "2026-04-20",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drag racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/springspeed-nationals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2mhCS4OiIQKfv_VT7AjOvu\" target=\"_blank\">National Drag Racing Championship event, with a huge variety of race cars and bikes.</a>"
-    },
-    {
-      "id": "3e91a2f7e6aafa81",
-      "name": "Saturday Night Special",
-      "date": "2026-04-25",
-      "end_date": "2026-04-26",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">Run What Ya Brung till late. The track is open from 9.30am to 8pm with camping available.</a>"
-    },
-    {
-      "id": "d7b2b1a4918cd89d",
-      "name": "The Fast Show",
-      "date": "2026-04-26",
-      "end_date": "2026-04-27",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Modified show",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://thefastshow.co.uk/index.php\">The season-opener for all performance and modified car enthusiasts including RWYB and clubs.</a>"
-    },
-    {
-      "id": "f0aacc4f3992c3e1",
-      "name": "Nostalgia Nationals",
-      "date": "2026-05-01",
-      "end_date": "2026-05-04",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/nostalgia-nationals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2vJrV-vPEh01gjsERoUiHB\" target=\"_blank\">Pre ’73 RWYB for Hot Rods and Kustoms alongside traditional dragsters. </a>"
-    },
-    {
-      "id": "b7b0f6aac8521c44",
-      "name": "RWYB",
-      "date": "2026-05-09",
-      "end_date": "2026-05-10",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Bike racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
-    },
-    {
-      "id": "27c13457fd91d147",
-      "name": "JapShow",
-      "date": "2026-05-10",
-      "end_date": "2026-05-11",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://japshow.co.uk/index.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3eeNCT1saQ-KukjCOsT2Mz\" target=\"_blank\">The first major event for Japanese car fans with Jap only RWYB, Show &amp; Shine and more.</a>"
-    },
-    {
-      "id": "55d5ab6411ea1503",
-      "name": "Doorslammers",
-      "date": "2026-05-15",
-      "end_date": "2026-05-18",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/doorslammers.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw07MLLUjtl8j1dx5_Wtkdzp\" target=\"_blank\">The quickest doorslammer cars go head to head with a huge prize fund up for grabs!</a>"
-    },
-    {
-      "id": "d606eec154ac6e01",
-      "name": "VW Breakout",
-      "date": "2026-05-15",
-      "end_date": "2026-05-18",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/vw-breakout.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2BIhYYtGHzwd5A4PZBt9Ko\" target=\"_blank\">Family Friendly VW Weekender! Doorslammers on track, Show &amp; Shine, music and more.</a>"
-    },
-    {
-      "id": "2dc5244329c25d0e",
-      "name": "The Main Event Test Day",
-      "date": "2026-05-21",
-      "end_date": "2026-05-22",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/main-event.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2w1kd1HoYO4SJELlvMoeqb\" target=\"_blank\">Track open exclusively to racers entered into that weekends event with full track prep.</a>"
-    },
-    {
-      "id": "af872f18255c454d",
-      "name": "The Main Event",
-      "date": "2026-05-22",
-      "end_date": "2026-05-26",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drag racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/main-event.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2w1kd1HoYO4SJELlvMoeqb\" target=\"_blank\">European Championship drag racing, the perfect event for race fans and families alike!</a>"
-    },
-    {
-      "id": "e8fbe7ff13b14122",
-      "name": "RWYB",
-      "date": "2026-05-30",
-      "end_date": "2026-05-31",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Bike racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
-    },
-    {
-      "id": "51dd29926e88c606",
-      "name": "The Vauxhall Show",
-      "date": "2026-05-31",
-      "end_date": "2026-06-01",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/the-vauxhall-show.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw02ESlFlUwe1iHJetOEbW4f\" target=\"_blank\">Vauxhalls take over Santa Pod with Vauxhall only RWYB, clubs, Show &amp; Shine, and more!</a>"
-    },
-    {
-      "id": "05d872edb7d7f9bf",
-      "name": "Street Weekend",
-      "date": "2026-06-04",
-      "end_date": "2026-06-08",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/street-weekend.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2O6gtSqyU1yZb4YaTzYW14\" target=\"_blank\">A competition to find out who’s really king of the street at Santa Pod and Melbourne.</a>"
-    },
-    {
-      "id": "19eb290537ade6fb",
-      "name": "Truck Takeover",
-      "date": "2026-06-06",
-      "end_date": "2026-06-08",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Classic cars",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/truck-takeover.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0Y_YMuK5_Y5cHA9NKcbjoh\" target=\"_blank\">NEW FOR 2025! An incredible showcase of trucks, from vintage to the latest designs!</a>"
-    },
-    {
-      "id": "8287389e33b584c8",
-      "name": "Podstock",
-      "date": "2026-06-12",
-      "end_date": "2026-06-15",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://santapod.co.uk/events/podstock/\">Podstock</a> is Santa Pod’s brand new, budget-friendly tribute music festival, perfect for families who want a full weekend of live entertainment without the big festival price tag. Enjoy a feel-good line-up of top tribute acts celebrating iconic artists from rock, pop and country."
-    },
-    {
-      "id": "fc48e667d2a82853",
-      "name": "Sportsman Nationals Test Day",
-      "date": "2026-06-12",
-      "end_date": "2026-06-13",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/sportsman-nationals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0eSfz6Nv9T4A6ni7-K-vMO\" target=\"_blank\">Track open exclusively to racers entered into that weekends event with full track prep.</a>"
-    },
-    {
-      "id": "377287c295e65167",
-      "name": "Sportsman Nationals",
-      "date": "2026-06-13",
-      "end_date": "2026-06-15",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drag racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/sportsman-nationals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0eSfz6Nv9T4A6ni7-K-vMO\" target=\"_blank\">National Drag Racing Championship event, with a huge variety of race cars and bikes.</a>"
-    },
-    {
-      "id": "730f5c1533b6812f",
-      "name": "Saturday Night Special",
-      "date": "2026-06-20",
-      "end_date": "2026-06-21",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">Run What Ya Brung till late. The track is open from 9.30am to 8pm with camping available.</a>"
-    },
-    {
-      "id": "0765380b873de3bd",
-      "name": "BMW Show",
-      "date": "2026-06-21",
-      "end_date": "2026-06-22",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Modified show",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://bmwshow.co.uk/index.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2z0h2LDI273u5LSshsmdWr\" target=\"_blank\">Featuring modern, classic and modified BMWs including the new Mini!</a>"
-    },
-    {
-      "id": "d1a68c6b1bafdea9",
-      "name": "Dragstalgia",
-      "date": "2026-06-26",
-      "end_date": "2026-06-29",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/dragstalgia.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1Dkb7vXESYd_rhiL35aXTc\" target=\"_blank\">A weekend dedicated to the race cars, bikes, hot rods and music from a bygone era.</a>"
-    },
-    {
-      "id": "7a85a46ce6630f4d",
-      "name": "Pull Up 2",
-      "date": "2026-07-04",
-      "end_date": "2026-07-06",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://santapod.co.uk/pull-up.php\">https://santapod.co.uk/pull-up.php</a>"
-    },
-    {
-      "name": "Goodwood Festival of Speed 2026",
-      "date": "2026-07-09",
-      "end_date": "2026-07-12",
-      "venue": "Goodwood House",
-      "region": "West Sussex",
-      "category": "Motorsport",
-      "organiser": "Goodwood",
-      "official_url": "https://www.goodwood.com/motorsport/festival-of-speed/",
-      "status": "Unverified",
-      "id": "5ac766f00afe59a4",
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "source_names": [
-        "Manual review"
-      ]
-    },
-    {
-      "id": "0d697bd013b4edf9",
-      "name": "Summer Nationals",
-      "date": "2026-07-10",
-      "end_date": "2026-07-13",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drag racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/summer-nationals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0e_2PXe5E9OKyX6ayji8_4\" target=\"_blank\">National Drag Racing Championship event, with a huge variety of race cars and bikes.</a>"
-    },
-    {
-      "id": "804e19a47943ff5d",
-      "name": "TransitMania",
-      "date": "2026-07-17",
-      "end_date": "2026-07-20",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Modified show",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/transitmania.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0Y4yPPHLU_i4pjMb6MJNlL\" target=\"_blank\">A show for enthusiasts of Ford&#39;s legendary Transit Van, modified, classic or campers.</a>"
-    },
-    {
-      "id": "b4c105e9dd142e2b",
-      "name": "Mustang Nationals",
-      "date": "2026-07-18",
-      "end_date": "2026-07-19",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/mustang-nationals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw18cV2jQEsGbVLfRejm6Ja3\" target=\"_blank\">A horsepower-fuelled extravaganza! Paying homage to 60 years of the iconic Ford Mustang.</a>"
-    },
-    {
-      "id": "7b93ea8ee891eb18",
-      "name": "The Ford Show",
-      "date": "2026-07-19",
-      "end_date": "2026-07-20",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/the-ford-show.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qGoJORSU5b8Vv-Oivi75k\" target=\"_blank\">The blue oval takes over Santa Pod for Fords of all types with RWYB and show n shine.</a>"
-    },
-    {
-      "id": "0220c7c7f57ce350",
-      "name": "Bug Jam Festival 39",
-      "date": "2026-07-24",
-      "end_date": "2026-07-27",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://bugjam.co.uk/index.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0pJg-wf68ay3-nt-9XH8Si\" target=\"_blank\">The legendary summer festival, with music, comedy, racing, show n shine, and more.</a>"
-    },
-    {
-      "id": "ba09b27bdd0dcebe",
-      "name": "Ultimate Street Car",
-      "date": "2026-07-31",
-      "end_date": "2026-08-03",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Modified show",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://ultimatestreetcar.co.uk/index.ph&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0zoHBWGwyIc165qZNABizz\" target=\"_blank\">USC is the Largest, Loudest, Hottest and Fastest, modified car show in Europe.</a>"
-    },
-    {
-      "id": "fbf692c314d4b3dc",
-      "name": "Mopar Euro Nationals",
-      "date": "2026-08-07",
-      "end_date": "2026-08-10",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drag racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/mopar.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3L6zMBkD7jJKA_M_ijbT3l\" target=\"_blank\">The Ultimate American Muscle Car show with RWYB, drag racing, show n shine and music.</a>"
-    },
-    {
-      "id": "a8376aabe046382c",
-      "name": "GT-R Fest",
-      "date": "2026-08-15",
-      "end_date": "2026-08-17",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Other motorsport",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": ""
-    },
-    {
-      "id": "6475638916a1aadc",
-      "name": "Greenlight Nationals",
-      "date": "2026-08-22",
-      "end_date": "2026-08-24",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drag racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/greenlight-nationals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0ZtpRgjEuvVVq-pakMtMNI\" target=\"_blank\">National Drag Racing Championship event, with a huge variety of race cars and bikes.</a>"
-    },
-    {
-      "id": "6197a918c1419484",
-      "name": "VW Action",
-      "date": "2026-09-04",
-      "end_date": "2026-09-07",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://vwaction.co.uk/index.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw05hg6phepy7EWcIvtGMlKH\" target=\"_blank\">All things VW with racing, RWYB, Show &amp; Shine, trade village, autojumble and music.</a>"
-    },
-    {
-      "id": "e921b98fc4a1cf96",
-      "name": "Euro Finals Test Day",
-      "date": "2026-09-09",
-      "end_date": "2026-09-10",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/european-finals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1DywPKuVxUxEepDtmKe1Gd\" target=\"_blank\">Track open exclusively to racers entered into that weekends event with full track prep.</a>"
-    },
-    {
-      "id": "8f308334f104d415",
-      "name": "The Euro Finals",
-      "date": "2026-09-10",
-      "end_date": "2026-09-14",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drag racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/european-finals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1DywPKuVxUxEepDtmKe1Gd\" target=\"_blank\">Santa Pod’s most prestigious Drag Racing event featuring some of Europe’s finest teams.</a>"
-    },
-    {
-      "name": "Goodwood Revival 2026",
-      "date": "2026-09-18",
-      "end_date": "2026-09-20",
-      "venue": "Goodwood Motor Circuit",
-      "region": "West Sussex",
-      "category": "Classic cars",
-      "organiser": "Goodwood",
-      "official_url": "https://www.goodwood.com/motorsport/goodwood-revival/",
-      "status": "Unverified",
-      "id": "59239abe26f1f0e5",
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "source_names": [
-        "Manual review"
-      ]
-    },
-    {
-      "id": "3b459d983d9f088f",
-      "name": "Hot Rod Drags",
-      "date": "2026-09-18",
-      "end_date": "2026-09-21",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Circuit racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/hot-rod-drags.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3dXFKZNj2Jch6dfgUYUHCw\" target=\"_blank\">It’s a hot rod show at the race track! Pre ’73 RWYB, racing, live music, fireworks and more.</a>"
-    },
-    {
-      "id": "3cccccd89c097b9f",
-      "name": "National Finals",
-      "date": "2026-09-25",
-      "end_date": "2026-09-28",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Drag racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/national-finals.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2JbXd0ON3lRpHdvBRz87xV\" target=\"_blank\">National Drag Racing Championship Finals headlined by Motorsport UK Pro Modified.</a>"
-    },
-    {
-      "id": "9a6043204f03ace2",
-      "name": "RWYB",
-      "date": "2026-10-03",
-      "end_date": "2026-10-04",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Bike racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
-    },
-    {
-      "id": "8a2020f4889e258d",
-      "name": "DAS GTI Show",
-      "date": "2026-10-04",
-      "end_date": "2026-10-05",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Car meet",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/das-gti-show.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3xV5PEpLPtBwEw5UcjWVm6\" target=\"_blank\">The German car show for Audi, BMW, Mercedes, VW, Porsche. German Only RWYB.</a>"
-    },
-    {
-      "id": "ac00d481c2c8d41a",
-      "name": "RWYB",
-      "date": "2026-10-10",
-      "end_date": "2026-10-11",
-      "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
-      "region": "",
-      "category": "Bike racing",
-      "organiser": "Santa Pod Raceway",
-      "status": "Unverified",
-      "official_url": "https://santapod.co.uk/",
-      "ticket_url": "",
-      "source_names": [
-        "Santa Pod Raceway"
-      ],
-      "source_urls": [
-        "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
-      ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
-      "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
-    },
     {
       "id": "871b698fd246c8e2",
       "name": "JapShow Finale",
       "date": "2026-10-11",
-      "end_date": "2026-10-12",
+      "end_date": "2026-10-11",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Other motorsport",
@@ -1182,7 +21,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://japshowfinale.co.uk/index.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1W4DYWhWqhAdHBKCN5bTkb\" target=\"_blank\">The season finale for Japanese car enthusiasts with Jap only RWYB, clubs, Show &amp; Shine.</a>"
     },
     {
@@ -1196,7 +35,7 @@
       "official_url": "https://carmeetsuk.com/event/retro-coffees-cars-3/",
       "status": "Unverified",
       "id": "b8676689fbd13d81",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1205,7 +44,7 @@
       "id": "d46a7c9fb2b4b2a0",
       "name": "DWYB",
       "date": "2026-10-14",
-      "end_date": "2026-10-15",
+      "end_date": "2026-10-14",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Drifting",
@@ -1219,7 +58,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -1233,7 +72,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "2d1ab3207b88a53d",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1248,7 +87,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "eaed28121b66acdb",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1264,7 +103,7 @@
       "official_url": "https://www.silverstone.co.uk/news/whats-silverstone-2026-ultimate-event-calendar",
       "status": "Listed by organiser",
       "id": "2472c4980c05b49a",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1280,7 +119,7 @@
       "official_url": "https://carmeetsuk.com/event/october-meet-blandford-st-mary/",
       "status": "Unverified",
       "id": "6d40d35a178336f9",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1289,7 +128,7 @@
       "id": "dd9f17a6b19279d0",
       "name": "DWYB",
       "date": "2026-10-21",
-      "end_date": "2026-10-22",
+      "end_date": "2026-10-21",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Drifting",
@@ -1303,7 +142,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -1316,7 +155,7 @@
       "official_url": "https://www.silverstone.co.uk/news/whats-silverstone-2026-ultimate-event-calendar",
       "status": "Listed by organiser",
       "id": "5de385c9c265678b",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1332,7 +171,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "dee20796457e7cd9",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1348,7 +187,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "d6a33ce7073cf7ce",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1364,7 +203,7 @@
       "official_url": "https://www.gr8ultimatestance.co.uk/",
       "status": "Unverified",
       "id": "ebee848073b13d49",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1373,7 +212,7 @@
       "id": "3b66e5a136d3d993",
       "name": "RWYB",
       "date": "2026-10-24",
-      "end_date": "2026-10-25",
+      "end_date": "2026-10-24",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Bike racing",
@@ -1387,7 +226,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
     },
     {
@@ -1401,7 +240,7 @@
       "official_url": "https://carmeetsuk.com/event/east-coast-japanese-season-finale-kersey-mill/",
       "status": "Unverified",
       "id": "bace169aaea0071e",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1410,7 +249,7 @@
       "id": "694b05e2a73919dd",
       "name": "Straightliners",
       "date": "2026-10-25",
-      "end_date": "2026-10-26",
+      "end_date": "2026-10-25",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Other motorsport",
@@ -1424,14 +263,14 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<br><br><br><a href=\"https://www.google.com/url?q=https://straightliners.events/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1s7kzxcnOIKJ7Go-qSg77u\" target=\"_blank\">RWYB open to bikes and cars, including Round One of the Straightliners championships.</a>"
     },
     {
       "id": "89824f1a41542c6b",
       "name": "Flame & Thunder",
       "date": "2026-10-31",
-      "end_date": "2026-11-01",
+      "end_date": "2026-10-31",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Other motorsport",
@@ -1445,7 +284,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/flame-and-thunder.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0I2KaXtotDs0RToWWlAgzx\" target=\"_blank\">An action-packed day for all the family with Jet Cars, Monster Trucks, fireworks and more!</a>"
     },
     {
@@ -1458,7 +297,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "281fd40f4e0623c1",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1474,7 +313,7 @@
       "official_url": "https://www.silverstone.co.uk/news/whats-silverstone-2026-ultimate-event-calendar",
       "status": "Listed by organiser",
       "id": "8a3e95d953d06db5",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1490,7 +329,7 @@
       "official_url": "https://carmeetsuk.com/event/haynes-breakfast-club-80s-vs-90s-sparkford/",
       "status": "Unverified",
       "id": "2f000a92403281a7",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1499,7 +338,7 @@
       "id": "01f1228255c2506a",
       "name": "RWYB",
       "date": "2026-11-01",
-      "end_date": "2026-11-02",
+      "end_date": "2026-11-01",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Bike racing",
@@ -1513,7 +352,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
     },
     {
@@ -1526,7 +365,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "58a6ebb482113ec0",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1542,7 +381,7 @@
       "official_url": "https://carmeetsuk.com/event/lakeland-motor-museums-monthly-morning-meet-ulverston-4/",
       "status": "Unverified",
       "id": "9992ef4479a00b34",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1558,7 +397,7 @@
       "official_url": "https://carmeetsuk.com/event/retro-coffees-cars-4/",
       "status": "Unverified",
       "id": "1070ea2413b20644",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1567,7 +406,7 @@
       "id": "0ca39ae3d10f5742",
       "name": "DWYB",
       "date": "2026-11-11",
-      "end_date": "2026-11-12",
+      "end_date": "2026-11-11",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Drifting",
@@ -1581,7 +420,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -1594,7 +433,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "41fc45c8c1b44cd8",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1610,7 +449,7 @@
       "official_url": "https://carmeetsuk.com/event/november-meet-blandford-st-mary/",
       "status": "Unverified",
       "id": "86e34c99639e483e",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1619,7 +458,7 @@
       "id": "085d1b70399472fd",
       "name": "DWYB",
       "date": "2026-11-25",
-      "end_date": "2026-11-26",
+      "end_date": "2026-11-25",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Drifting",
@@ -1633,7 +472,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -1647,7 +486,7 @@
       "official_url": "https://carmeetsuk.com/event/lakeland-motor-museums-monthly-morning-meet-ulverston-5/",
       "status": "Unverified",
       "id": "fd95ed84a919b03e",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1663,7 +502,7 @@
       "official_url": "https://carmeetsuk.com/event/retro-coffees-cars-5/",
       "status": "Unverified",
       "id": "8c66a550d204a885",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1672,7 +511,7 @@
       "id": "8a609daed60576c7",
       "name": "DWYB",
       "date": "2026-12-16",
-      "end_date": "2026-12-17",
+      "end_date": "2026-12-16",
       "venue": "Santa Pod Raceway, Airfield Rd, Wellingborough NN29 7XA, UK",
       "region": "",
       "category": "Drifting",
@@ -1686,7 +525,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -1700,7 +539,7 @@
       "official_url": "https://carmeetsuk.com/event/race-retro-the-motorsport-show-2027-stoneleigh-park/",
       "status": "Unverified",
       "id": "cbf229fedc14e078",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1716,7 +555,7 @@
       "official_url": "https://carmeetsuk.com/event/london-international-motor-show-2027-excel-london/",
       "status": "Unverified",
       "id": "13bfffd15a7e7106",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1732,7 +571,7 @@
       "official_url": "https://south.tunerfest.co.uk/",
       "status": "Unverified",
       "id": "9fee62240b0fb0a7",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1747,7 +586,7 @@
       "official_url": "https://www.tunerfest.co.uk/",
       "status": "Listed by organiser",
       "id": "4cd230ea5f8e3c26",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1763,7 +602,7 @@
       "official_url": "https://www.goodwood.com/motorsport/members-meeting/",
       "status": "Unverified",
       "id": "570ffe81fdd7f642",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1779,7 +618,7 @@
       "official_url": "https://modifiedlive.co.uk/",
       "status": "Unverified",
       "id": "a9f923b583367c17",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1795,7 +634,7 @@
       "official_url": "https://www.iowtakeover.co.uk/",
       "status": "Listed by organiser",
       "id": "2941499728391207",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1811,7 +650,7 @@
       "official_url": "https://carmeetsuk.com/event/rewind-tour-britain-2027/",
       "status": "Unverified",
       "id": "0afc6951efbec48d",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1827,7 +666,7 @@
       "official_url": "https://carmeetsuk.com/event/salisbury-motor-show-salisbury/",
       "status": "Unverified",
       "id": "73aff8422d4f23e7",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1843,7 +682,7 @@
       "official_url": "https://modifiedlive.co.uk/",
       "status": "Unverified",
       "id": "a7694414e00f191f",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1859,7 +698,7 @@
       "official_url": "https://www.goodwood.com/motorsport/festival-of-speed/",
       "status": "Unverified",
       "id": "2688695069eff96f",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1875,7 +714,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "00ff5d391f557b80",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1891,7 +730,7 @@
       "official_url": "https://north.tunerfest.co.uk/",
       "status": "Unverified",
       "id": "e44cda3bb96693cb",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1906,7 +745,7 @@
       "official_url": "https://www.tunerfest.co.uk/",
       "status": "Listed by organiser",
       "id": "bd411c8399c88012",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1922,7 +761,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "e94d71fa6950cc00",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1938,7 +777,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "64b2cd43b7393a4f",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1954,7 +793,7 @@
       "official_url": "https://www.goodwood.com/motorsport/goodwood-revival/",
       "status": "Unverified",
       "id": "a7f7e8a78794c454",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1970,7 +809,7 @@
       "official_url": "https://modifiedlive.co.uk/",
       "status": "Unverified",
       "id": "5f8cfa188dc4322d",
-      "last_checked": "2026-10-11T20:42:55+00:00",
+      "last_checked": "2026-10-11T20:52:27+00:00",
       "source_names": [
         "Manual review"
       ]
