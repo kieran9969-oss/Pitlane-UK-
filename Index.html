@@ -1,0 +1,261 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PITLANE UK | Car Events & Motorsport</title>
+
+  <style>
+
+    * { box-sizing: border-box; }
+
+    body {
+
+      margin: 0;
+
+      background: #0b0e14;
+
+      color: white;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    header {
+
+      padding: 22px 18px;
+
+      background: #141923;
+
+      border-bottom: 3px solid  #DFFF00;
+
+    }
+
+    .logo {
+
+      font-size: 28px;
+
+      font-weight: 900;
+
+      letter-spacing: 1px;
+
+    }
+
+    .logo span { color:  #DFFF00; }
+
+    .hero {
+
+      padding: 52px 20px;
+
+      text-align: center;
+
+      background: linear-gradient(#202938, #0b0e14);
+
+    }
+
+    h1 { font-size: 36px; margin: 0 0 14px; }
+
+    .hero p { color: #b7c0cd; line-height: 1.6; }
+
+    main { max-width: 1100px; margin: auto; padding: 20px; }
+
+    input {
+
+      width: 100%;
+
+      padding: 16px;
+
+      border: 1px solid #394454;
+
+      border-radius: 10px;
+
+      background: #171e29;
+
+      color: white;
+
+      font-size: 16px;
+
+      margin: 15px 0 25px;
+
+    }
+
+    #events {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+      gap: 16px;
+
+    }
+
+    .event {
+
+      background: #171e29;
+
+      border: 1px solid #303948;
+
+      border-radius: 14px;
+
+      padding: 22px;
+
+    }
+
+    .date {
+
+      color:  #DFFF00;
+
+      font-size: 13px;
+
+      font-weight: bold;
+
+      text-transform: uppercase;
+
+    }
+
+    .event h3 { margin: 12px 0; }
+
+    .event p { color: #b7c0cd; }
+
+    footer {
+
+      padding: 35px;
+
+      text-align: center;
+
+      color: #8d98a8;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="logo">PITLANE <span>UK</span></div>
+
+  </header>
+
+  <section class="hero">
+
+    <h1>FIND YOUR NEXT EVENT.</h1>
+
+    <p>UK car shows, modified car meets and motorsport.
+
+       All in one place.</p>
+
+  </section>
+
+  <main>
+
+    <h2>Upcoming Events</h2>
+
+    <input id="search" placeholder="Search events or venues...">
+
+    <div id="events">Loading events...</div>
+
+  </main>
+
+  <footer>PITLANE UK — Built for car enthusiasts.</footer>
+
+  <script>
+
+    let allEvents = [];
+
+    const container = document.getElementById("events");
+
+    function renderEvents(query = "") {
+
+      container.replaceChildren();
+
+      const filtered = allEvents.filter(event =>
+
+        JSON.stringify(event).toLowerCase()
+
+          .includes(query.toLowerCase())
+
+      );
+
+      if (!filtered.length) {
+
+        container.textContent = "No matching events found.";
+
+        return;
+
+      }
+
+      filtered.forEach(event => {
+
+        const card = document.createElement("article");
+
+        card.className = "event";
+
+        const date = document.createElement("div");
+
+        date.className = "date";
+
+        date.textContent = event.start || event.date || "Date TBC";
+
+        const title = document.createElement("h3");
+
+        title.textContent = event.name || event.title || "Car Event";
+
+        const venue = document.createElement("p");
+
+        venue.textContent = event.venue || event.location || "UK";
+
+        card.append(date, title, venue);
+
+        container.append(card);
+
+      });
+
+    }
+
+    fetch("./data/events.json")
+
+      .then(response => {
+
+        if (!response.ok) throw new Error("Events unavailable");
+
+        return response.json();
+
+      })
+
+      .then(data => {
+
+        allEvents = Array.isArray(data) ? data : data.events || [];
+
+        renderEvents();
+
+      })
+
+      .catch(() => {
+
+        container.textContent = "Unable to load events right now.";
+
+      });
+
+    document.getElementById("search")
+
+      .addEventListener("input", event =>
+
+        renderEvents(event.target.value)
+
+      );
+
+  </script>
+
+</body>
+
+</html>
