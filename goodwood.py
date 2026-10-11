@@ -82,8 +82,8 @@ def find_dates(source):
         for match in PATTERN.finditer(text):
             first, last, month, year = match.groups()
             nearby = text[max(0, match.start() - 150):match.end() + 150]
-        if source["name"].lower() not in nearby.lower():
-            print("Date not near event name. Skipping.")
+            if source["name"].lower() not in nearby.lower():
+                print("Date not near event name. Skipping.")
             continue
         year = int(year)
 
