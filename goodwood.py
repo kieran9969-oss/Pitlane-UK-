@@ -58,6 +58,7 @@ PATTERN = re.compile(
     re.IGNORECASE,
 )
 
+
 def find_dates(source):
     request = urllib.request.Request(
         source["url"],
@@ -74,17 +75,24 @@ def find_dates(source):
         r"<(script|style)\b[^>]*>.*?</\1>",
         " ", html, flags=re.I | re.S,
     )
+
     text = unescape(re.sub(r"<[^>]+>", " ", html))
     text = re.sub(r"\s+", " ", text)
 
     found = {}
 
-        for match in PATTERN.finditer(text):
-            first, last, month, year = match.groups()
-            nearby = text[max(0, match.start() - 150):match.end() + 150]
-            if source["name"].lower() not in nearby.lower():
-                print("Date not near event name. Skipping.")
+    for match in PATTERN.finditer(text):
+        first, last, month, year = match.groups()
+
+        # Only accept dates close to the event name.
+        nearby = text[
+            max(0, match.start() - 150):match.end() + 150
+        ]
+
+        if source["name"].lower() not in nearby.lower():
+            print("Date not near event name. Skipping.")
             continue
+
         year = int(year)
 
         if year < 2027:
@@ -94,8 +102,16 @@ def find_dates(source):
             continue
 
         try:
-            start = date(year, MONTHS[month.lower()], int(first))
-            end = date(year, MONTHS[month.lower()], int(last))
+            start = date(
+                year,
+                MONTHS[month.lower()],
+                int(first),
+            )
+            end = date(
+                year,
+                MONTHS[month.lower()],
+                int(last),
+            )
         except ValueError:
             continue
 
@@ -107,6 +123,7 @@ def find_dates(source):
         )
 
     return found
+
 
 def main():
     events = json.loads(FILE.read_text(encoding="utf-8"))
@@ -128,14 +145,14 @@ def main():
 
             start, end = next(iter(candidates))
 
-            # Identify an event by organiser, type and year,
-            # not by its current date.
+            # Identify an event by organiser, type and year.
             matches = [
-                event for event in events
+                event
+                for event in events
                 if event.get("organiser") == "Goodwood"
                 and event.get("date", "").startswith(str(year))
                 and source["name"].lower()
-                    in event.get("name", "").lower()
+                in event.get("name", "").lower()
             ]
 
             if len(matches) > 1:
@@ -159,40 +176,40 @@ def main():
                 print("Existing event kept for manual review.")
                 continue
 
-            # A newly discovered event.
-            # The page identifies the event type, but this
-            # test does not yet establish a reliable year-
-            # specific official event announcement.
+            # Add a newly discovered future event.
             new_event = {
-    "name": f"Goodwood {source['name']} {year}",
-    "date": start,
-    "end_date": end,
-    "venue": source["venue"],
-    "region": "West Sussex",
-    "category": source["category"],
-    "organiser": "Goodwood",
-    "official_url": source["url"],
-    "status": "Unverified",
-}
+                "name": f"Goodwood {source['name']} {year}",
+                "date": start,
+                "end_date": end,
+                "venue": source["venue"],
+                "region": "West Sussex",
+                "category": source["category"],
+                "organiser": "Goodwood",
+                "official_url": source["url"],
+                "status": "Unverified",
+            }
 
             events.append(new_event)
             changed = True
+
             print(f"{year}: Added {new_event['name']}")
 
-    
-        if changed:
-            FILE.write_text(
-                json.dumps(events, indent=2, ensure_ascii=False) + "\n",
-                encoding="utf-8",
-            )
+    # Save changes after checking all three Goodwood events.
+    if changed:
+        FILE.write_text(
+            json.dumps(
+                events,
+                indent=2,
+                ensure_ascii=False,
+            ) + "\n",
+            encoding="utf-8",
+        )
+        print("Goodwood event data updated.")
+    else:
+        print("No Goodwood event changes needed.")
 
     print("\nGoodwood discovery and comparison complete.")
 
 
-    print("\nGoodwood discovery and comparison complete.")
 if __name__ == "__main__":
     main()
-
-
-    
-
