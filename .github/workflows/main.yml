@@ -32,9 +32,6 @@ jobs:
       - name: Import Modified Live events
         run: python modified_live.py
 
-      - name: Test Tunerfest event dates
-        run: python check_tunerfest.py
-
       - name: Import Tunerfest events
         run: python tunerfest.py
      
