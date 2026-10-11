@@ -31,6 +31,9 @@ jobs:
       
       - name: Test Modified Live event dates
         run: python check_modified_live.py
+
+      - name: Import Modified Live events
+        run: python modified_live.py
      
       - name: Update event data
         run: python sync.py
