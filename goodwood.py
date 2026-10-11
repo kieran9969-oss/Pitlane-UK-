@@ -164,22 +164,21 @@ def main():
     "status": "Unverified",
 }
 
-events.append(new_event)
-changed = True
-print(f"{year}: Added {new_event['name']}")
+            events.append(new_event)
+            changed = True
+            print(f"{year}: Added {new_event['name']}")
 
     
-    if changed:
-        FILE.write_text(
-            json.dumps(events, indent=2, ensure_ascii=False) + "\n",
-            encoding="utf-8",
-        )
+        if changed:
+            FILE.write_text(
+                json.dumps(events, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8",
+            )
 
     print("\nGoodwood discovery and comparison complete.")
 
 
     print("\nGoodwood discovery and comparison complete.")
-
 if __name__ == "__main__":
     main()
 
