@@ -152,11 +152,21 @@ def main():
             # The page identifies the event type, but this
             # test does not yet establish a reliable year-
             # specific official event announcement.
-            print(
-                f"{year}: New candidate: "
-                f"{source['name']}, {start} to {end}"
-            )
-            print("Not added yet: confirmation required.")
+            new_event = {
+    "name": f"Goodwood {source['name']} {year}",
+    "date": start,
+    "end_date": end,
+    "venue": source["venue"],
+    "region": "West Sussex",
+    "category": source["category"],
+    "organiser": "Goodwood",
+    "official_url": source["url"],
+    "status": "Unverified",
+}
+
+events.append(new_event)
+changed = True
+print(f"{year}: Added {new_event['name']}")
 
     if changed:
         FILE.write_text(
