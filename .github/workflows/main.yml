@@ -22,13 +22,15 @@ jobs:
           python-version: '3.12'
 
       
-      - name: Update event data
-        run: python sync.py
-
+      
       - name: Test Goodwood checker
         run: python goodwood.py
 
+      - name: Update event data
+        run: python sync.py
+
       - name: Commit updated events
+
 
 
         run: |
