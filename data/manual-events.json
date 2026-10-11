@@ -430,5 +430,27 @@
     "organiser": "Modified Live",
     "official_url": "https://modifiedlive.co.uk/",
     "status": "Unverified"
+  },
+  {
+    "name": "Tunerfest South",
+    "date": "2027-03-29",
+    "end_date": "2027-03-29",
+    "venue": "Brands Hatch",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Tunerfest",
+    "official_url": "https://south.tunerfest.co.uk/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Tunerfest North",
+    "date": "2027-07-24",
+    "end_date": "2027-07-24",
+    "venue": "Oulton Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Tunerfest",
+    "official_url": "https://north.tunerfest.co.uk/",
+    "status": "Unverified"
   }
 ]
