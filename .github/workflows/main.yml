@@ -34,6 +34,9 @@ jobs:
 
       - name: Import Tunerfest events
         run: python tunerfest.py
+        
+      - name: Remove past events
+        run: python cleanup_events.py
      
       - name: Update event data
         run: python sync.py
