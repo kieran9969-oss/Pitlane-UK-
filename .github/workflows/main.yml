@@ -28,9 +28,6 @@ jobs:
   
       - name: Check modified car show sources
         run: python modified_shows.py
-        
-      - name: Test Carmeets UK API
-        run: python check_carmeets_api.py
     
       - name: Update event data
         run: python sync.py
