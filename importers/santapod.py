@@ -2,7 +2,7 @@
 """Santa Pod event importer for PITLANE UK."""
 
 from urllib.request import Request, urlopen
-    import re
+import re
 
 
 def check_website():
