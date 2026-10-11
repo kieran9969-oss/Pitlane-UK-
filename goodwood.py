@@ -1,15 +1,22 @@
 
 #!/usr/bin/env python3
-"""Test access to Goodwood's official motorsport event pages."""
+"""Check Goodwood event dates and report possible changes."""
 
-import urllib.request
+import json
 import re
+import urllib.request
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
 
 PAGES = {
     "Festival of Speed": "https://www.goodwood.com/motorsport/festival-of-speed/",
     "Goodwood Revival": "https://www.goodwood.com/motorsport/goodwood-revival/",
     "Members' Meeting": "https://www.goodwood.com/motorsport/members-meeting/",
 }
+
+manual_file = ROOT / "data" / "manual-events.json"
+events = json.loads(manual_file.read_text())
 
 for name, url in PAGES.items():
     print(f"\nChecking {name}...")
@@ -25,21 +32,39 @@ for name, url in PAGES.items():
                 "utf-8", errors="replace"
             )
 
-        print("Page downloaded successfully")
-        print(f"Page size: {len(html)} characters")
-
         dates = sorted(set(re.findall(
-            r"20(?:26|27|28)-\d{2}-\d{2}",
-            html
+            r"2027-\d{2}-\d{2}", html
         )))
 
-        if dates:
-            print("Possible dates found:", ", ".join(dates[:20]))
+        if len(dates) != 2:
+            print("Dates unclear. No changes made.")
+            continue
+
+        matches = [
+            event for event in events
+            if event.get("organiser") == "Goodwood"
+            and "2027" in event.get("name", "")
+            and name.lower().replace("goodwood ", "")
+            in event.get("name", "").lower()
+        ]
+
+        if len(matches) != 1:
+            print("Could not identify one matching event.")
+            continue
+
+        event = matches[0]
+
+        if event["date"] == dates[0] and event.get("end_date") == dates[1]:
+            print("Dates match. No update needed.")
         else:
-            print("No ISO-format dates found")
+            print(f"Possible date change for {event['name']}")
+            print(f"Current: {event['date']} to {event.get('end_date')}")
+            print(f"Website: {dates[0]} to {dates[1]}")
+            print("Review required. No automatic changes made.")
 
     except Exception as error:
-        print(f"Could not check page: {error}")
+        print(f"Check failed: {error}")
 
-print("\nGoodwood test finished.")
+print("\nGoodwood date checks complete.")
+
 
