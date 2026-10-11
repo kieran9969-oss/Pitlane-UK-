@@ -419,5 +419,27 @@
     "organiser": "Tunerfest",
     "official_url": "https://north.tunerfest.co.uk/",
     "status": "Unverified"
+  },
+  {
+    "name": "The Reunion Show 2027",
+    "date": "2027-07-11",
+    "end_date": "2027-07-11",
+    "venue": "Staffordshire Showground",
+    "region": "West Midlands",
+    "category": "Modified Car Show",
+    "organiser": "The Reunion Show",
+    "official_url": "https://www.thereunionshow.co.uk/",
+    "status": "confirmed"
+  },
+  {
+    "name": "Rollhard Bicester 2027",
+    "date": "2027-08-01",
+    "end_date": "2027-08-01",
+    "venue": "Bicester Heritage",
+    "region": "South East",
+    "category": "Modified Car Show",
+    "organiser": "Rollhard",
+    "official_url": "https://www.rollhard.co.uk/pages/bicester",
+    "status": "confirmed"
   }
 ]
