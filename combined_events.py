@@ -44,7 +44,7 @@ EVENTS = [
     },
     {
         "name": "Isle of Wight Takeover 2027",
-        "date": "2027-05-16",
+        "date": "2027-05-15",
         "end_date": "2027-05-16",
         "venue": "Royal Isle of Wight County Showground",
         "region": "South East",
