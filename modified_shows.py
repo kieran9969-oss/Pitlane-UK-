@@ -3,6 +3,7 @@
 """Check PITLANE UK modified car show sources."""
 
 import json
+import urllib.request
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
@@ -23,7 +24,19 @@ def main():
             print(f"Skipping {name}: no website configured.")
             continue
 
-        print(f"Ready to check: {name} — {url}")
+                try:
+            request = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0 PITLANE-UK/1.0"},
+            )
+
+            with urllib.request.urlopen(request, timeout=20) as response:
+                html = response.read(1_000_000)
+
+            print(f"Checked {name}: received {len(html)} bytes")
+
+        except Exception as error:
+            print(f"Could not check {name}: {error}")
 
     print("Modified car show source check complete.")
 
