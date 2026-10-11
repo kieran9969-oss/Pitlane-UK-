@@ -38,6 +38,9 @@ jobs:
       - name: Import Tunerfest events
         run: python tunerfest.py
 
+      - name: Import combined car events
+        run: python combined_events.py
+
       - name: Check all event announcements
         run: python event_checker.py
 
