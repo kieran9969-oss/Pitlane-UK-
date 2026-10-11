@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python3
-"""Check PITLANE UK modified car show sources."""
+"""Check PITLANE UK modified car show websites."""
 
 import json
 import urllib.request
@@ -24,23 +24,28 @@ def main():
             print(f"Skipping {name}: no website configured.")
             continue
 
-                try:
+        try:
             request = urllib.request.Request(
                 url,
                 headers={"User-Agent": "Mozilla/5.0 PITLANE-UK/1.0"},
             )
 
-            with urllib.request.urlopen(request, timeout=20) as response:
+            with urllib.request.urlopen(
+                request, timeout=20
+            ) as response:
                 html = response.read(1_000_000)
 
-            print(f"Checked {name}: received {len(html)} bytes")
+            print(
+                f"Checked {name}: received {len(html)} bytes"
+            )
 
         except Exception as error:
             print(f"Could not check {name}: {error}")
 
-    print("Modified car show source check complete.")
+    print("Modified car show website check complete.")
 
 
 if __name__ == "__main__":
     main()
+
 
