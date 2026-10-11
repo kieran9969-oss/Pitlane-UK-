@@ -1,1 +1,13 @@
-{"sources":[{"name":"Approved iCalendar feed","type":"ics","url":"https://example.org/approved-events.ics","website":"https://example.org","enabled":false}]}
+
+{
+  "sources": [
+    {
+      "name": "Santa Pod Raceway",
+      "type": "ics",
+      "url": "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics",
+      "website": "https://santapod.co.uk/",
+      "enabled": true
+    }
+  ]
+}
+
