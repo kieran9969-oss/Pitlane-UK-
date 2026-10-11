@@ -37,7 +37,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/events.json
+          git add data/events.json data/manual-events.json
           if ! git diff --cached --quiet; then
             git commit -m "Update PITLANE UK events"
             git push
