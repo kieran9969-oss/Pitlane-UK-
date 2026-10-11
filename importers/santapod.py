@@ -20,7 +20,11 @@ def check_website():
 
     print("Security challenge detected:", "/.well-known/sgcaptcha/" in html)
 
-    print("Santa Pod website accessible")
+    if "/.well-known/sgcaptcha/" in html:
+        print("Santa Pod blocked automated access. No events imported.")
+        return
+
+    print("Santa Pod events page downloaded successfully")
     print("Downloaded characters:", len(html))
     print("Response preview:", repr(html[:500]))
     print("Event structured data present:", "application/ld+json" in html)
