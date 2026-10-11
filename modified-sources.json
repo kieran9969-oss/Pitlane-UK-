@@ -1,1 +1,57 @@
 
+{
+  "sources": [
+    {
+      "name": "Modified Live",
+      "url": "https://modifiedlive.co.uk/"
+    },
+    {
+      "name": "The Reunion Show",
+      "url": "https://www.thereunionshow.co.uk/"
+    },
+    {
+      "name": "Ultimate Street Car",
+      "url": "https://ultimatestreetcar.co.uk/"
+    },
+    {
+      "name": "The Ultimate Show",
+      "url": "https://www.ultimate-show.co.uk/"
+    },
+    {
+      "name": "Rollhard",
+      "url": "https://www.rollhard.co.uk/pages/bicester"
+    },
+    {
+      "name": "Modified Nationals",
+      "url": "https://www.modifiednationals.co.uk/"
+    },
+    {
+      "name": "Isle of Wight Takeover",
+      "url": "https://www.iowtakeover.co.uk/"
+    },
+    {
+      "name": "Ford Fair",
+      "url": "https://www.fastcar.co.uk/fce-events/"
+    },
+    {
+      "name": "Tunerfest",
+      "url": "https://www.modifiedlive.co.uk/"
+    },
+    {
+      "name": "Lancing Motor Show",
+      "url": ""
+    },
+    {
+      "name": "TRAX",
+      "url": "https://www.fastcar.co.uk/fce-events/"
+    },
+    {
+      "name": "The Fast Show",
+      "url": "https://santapod.co.uk/"
+    },
+    {
+      "name": "Gravity Show",
+      "url": "https://gravityshow.co.uk/"
+    }
+  ]
+}
