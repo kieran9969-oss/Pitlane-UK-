@@ -1,1011 +1,852 @@
 
-
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>PITLANE UK | Car & Bike Events</title>
 
   <style>
-
-    * {
-
-      box-sizing: border-box;
-
-    }
+    * { box-sizing: border-box; }
 
     body {
-
       margin: 0;
-
       background: #0b0e14;
-
       color: white;
-
       font-family: Arial, sans-serif;
-
     }
 
     header {
-
-      padding: 22px 18px;
-
+      padding: 20px;
       background: #141923;
-
       border-bottom: 3px solid #DFFF00;
-
     }
 
     .header-inner {
-
       max-width: 1100px;
-
       margin: auto;
-
       display: flex;
-
-      justify-content: space-between;
-
       align-items: center;
-
-      gap: 16px;
-
+      justify-content: space-between;
       flex-wrap: wrap;
-
+      gap: 18px;
     }
 
     .logo {
-
       font-size: 28px;
-
       font-weight: 900;
-
       letter-spacing: 1px;
-
     }
 
-    .logo span {
-
-      color: #DFFF00;
-
-    }
+    .logo span { color: #DFFF00; }
 
     nav {
-
       display: flex;
-
-      gap: 8px;
-
       flex-wrap: wrap;
-
+      gap: 8px;
     }
 
     button {
-
-      font: inherit;
-
       cursor: pointer;
-
+      font: inherit;
     }
 
     .nav-button {
-
       background: #242c39;
-
       color: white;
-
       border: 1px solid #394454;
-
-      border-radius: 9px;
-
       padding: 12px 15px;
-
-      font-size: 14px;
-
+      border-radius: 9px;
       font-weight: bold;
-
     }
 
-    .nav-button:hover,
-
-    .nav-button.active {
-
+    .nav-button.active,
+    .nav-button:hover {
       background: #DFFF00;
-
-      color: #0b0e14;
-
       border-color: #DFFF00;
-
+      color: #0b0e14;
     }
 
     .hero {
-
-      padding: 52px 20px;
-
+      padding: 48px 20px;
       text-align: center;
-
       background: linear-gradient(#202938, #0b0e14);
-
     }
 
     h1 {
-
       font-size: clamp(28px, 5vw, 40px);
-
       margin: 0 0 14px;
-
     }
 
     .hero p {
-
       color: #b7c0cd;
-
       line-height: 1.6;
-
     }
 
     main {
-
       max-width: 1100px;
-
       margin: auto;
-
       padding: 20px;
-
-      min-height: 350px;
-
+      min-height: 400px;
     }
 
-    .section-heading {
-
-      margin-bottom: 8px;
-
-    }
-
-    .section-description {
-
+    .description {
       color: #b7c0cd;
-
       line-height: 1.6;
-
     }
 
     input {
-
       width: 100%;
-
-      padding: 16px;
-
+      padding: 15px;
       border: 1px solid #394454;
-
-      border-radius: 10px;
-
+      border-radius: 9px;
       background: #171e29;
-
       color: white;
-
       font-size: 16px;
+      margin: 8px 0 18px;
+    }
 
-      margin: 15px 0 25px;
-
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 12px;
     }
 
     #events {
-
       display: grid;
-
       grid-template-columns:
-
         repeat(auto-fit, minmax(260px, 1fr));
-
       gap: 16px;
-
     }
 
-    .event {
-
+    .event, .panel {
       background: #171e29;
-
       border: 1px solid #303948;
-
       border-radius: 14px;
-
       padding: 22px;
-
     }
 
     .date {
-
       color: #DFFF00;
-
       font-size: 13px;
-
       font-weight: bold;
-
-      text-transform: uppercase;
-
     }
 
-    .event h3 {
+    .event h3 { margin: 12px 0; }
 
-      margin: 12px 0;
-
-    }
-
-    .event p {
-
+    .event p, .panel p {
       color: #b7c0cd;
-
-      line-height: 1.5;
-
+      line-height: 1.6;
     }
 
     .event-type {
-
       display: inline-block;
-
-      padding: 5px 9px;
-
-      border-radius: 6px;
-
+      margin-top: 10px;
+      padding: 6px 9px;
       background: #303948;
-
-      color: #dce5f0;
-
+      border-radius: 6px;
       font-size: 12px;
-
-      margin-top: 12px;
-
     }
 
-    .info-panel {
-
-      background: #171e29;
-
-      border: 1px solid #303948;
-
-      border-radius: 14px;
-
-      padding: 26px;
-
-      margin-top: 20px;
-
+    .panel {
+      max-width: 550px;
+      margin: 20px 0;
     }
 
-    .info-panel h3 {
-
-      margin-top: 0;
-
+    .action {
+      background: #DFFF00;
+      color: #0b0e14;
+      border: 0;
+      border-radius: 9px;
+      padding: 13px 18px;
+      font-weight: bold;
+      margin: 6px 8px 6px 0;
     }
 
-    .info-panel p {
+    .secondary {
+      background: #303948;
+      color: white;
+    }
 
+    .action:disabled {
+      opacity: 0.55;
+      cursor: wait;
+    }
+
+    .hidden { display: none !important; }
+
+    .message {
+      line-height: 1.6;
+      margin-top: 15px;
+      overflow-wrap: anywhere;
+    }
+
+    .success { color: #DFFF00; }
+    .error { color: #ff9999; }
+
+    .small {
       color: #b7c0cd;
-
-      line-height: 1.7;
-
-    }
-
-    .hidden {
-
-      display: none !important;
-
+      font-size: 14px;
     }
 
     footer {
-
       padding: 35px 20px;
-
       text-align: center;
-
       color: #8d98a8;
-
       border-top: 1px solid #242c39;
-
     }
 
     @media (max-width: 600px) {
-
-      .header-inner {
-
-        justify-content: center;
-
-      }
-
-      .logo {
-
-        text-align: center;
-
-      }
-
-      nav {
-
-        width: 100%;
-
-        justify-content: center;
-
-      }
-
-      .nav-button {
-
-        flex: 1 1 40%;
-
-      }
-
-      .hero {
-
-        padding: 36px 20px;
-
-      }
-
+      .header-inner { justify-content: center; }
+      nav { width: 100%; }
+      .nav-button { flex: 1 1 40%; }
     }
-
   </style>
-
 </head>
 
 <body>
-
   <header>
-
     <div class="header-inner">
-
-      <div class="logo">
-
-        PITLANE <span>UK</span>
-
-      </div>
+      <div class="logo">PITLANE <span>UK</span></div>
 
       <nav aria-label="Main navigation">
-
-        <button
-
-          class="nav-button active"
-
-          data-section="car"
-
-          type="button"
-
-        >
-
+        <button class="nav-button active"
+          data-section="car" type="button">
           Car Events
-
         </button>
 
-        <button
-
-          class="nav-button"
-
-          data-section="bike"
-
-          type="button"
-
-        >
-
+        <button class="nav-button"
+          data-section="bike" type="button">
           Bike Events
-
         </button>
 
-        <button
-
-          class="nav-button"
-
-          data-section="saved"
-
-          type="button"
-
-        >
-
+        <button class="nav-button"
+          data-section="saved" type="button">
           My Events
-
         </button>
 
-        <button
-
-          class="nav-button"
-
-          data-section="account"
-
-          type="button"
-
-        >
-
+        <button class="nav-button"
+          data-section="account" type="button">
           Sign In
-
         </button>
-
       </nav>
-
     </div>
-
   </header>
 
   <section class="hero">
-
-    <h1 id="hero-title">
-
-      FIND YOUR NEXT CAR EVENT.
-
-    </h1>
-
+    <h1 id="hero-title">FIND YOUR NEXT CAR EVENT.</h1>
     <p id="hero-description">
-
       UK car shows, modified car meets and motorsport.
-
-      All in one place.
-
     </p>
-
   </section>
 
   <main>
-
     <section id="browse-section">
+      <h2 id="section-heading">Upcoming Car Events</h2>
 
-      <h2
-
-        id="section-heading"
-
-        class="section-heading"
-
-      >
-
-        Upcoming Car Events
-
-      </h2>
-
-      <p
-
-        id="section-description"
-
-        class="section-description"
-
-      >
-
-        Discover upcoming car shows and motorsport events.
-
+      <p id="section-description" class="description">
+        Discover upcoming car shows and motorsport.
       </p>
 
       <input
-
         id="search"
-
         type="search"
-
         placeholder="Search events or venues..."
-
         aria-label="Search events"
-
       >
 
-      <div
-
-        id="events"
-
-        aria-live="polite"
-
-      >
-
+      <div id="events" aria-live="polite">
         Loading events...
-
       </div>
-
     </section>
 
-    <section
-
-      id="saved-section"
-
-      class="hidden"
-
-    >
-
+    <section id="saved-section" class="hidden">
       <h2>My Events</h2>
 
-      <div class="info-panel">
-
+      <div class="panel">
         <h3>Your saved events</h3>
 
-        <p>
-
-          Soon you'll be able to save car and bike
-
-          events you want to attend and see them here.
-
+        <p id="saved-message">
+          Sign in to manage your saved events.
         </p>
 
-        <p>
-
-          We're connecting PITLANE UK to Firebase
-
-          so your saved events can follow you
-
-          between devices.
-
+        <p class="small">
+          Event saving will be activated in the next update.
         </p>
 
+        <button id="saved-signin"
+          class="action" type="button">
+          Go to Sign In
+        </button>
       </div>
-
     </section>
 
-    <section
-
-      id="account-section"
-
-      class="hidden"
-
-    >
-
+    <section id="account-section" class="hidden">
       <h2>PITLANE UK Members</h2>
 
-      <div class="info-panel">
+      <div class="panel">
 
-        <h3>Member accounts coming soon</h3>
+        <div id="auth-loading">
+          Checking your account...
+        </div>
 
-        <p>
+        <div id="signed-out" class="hidden">
+          <h3 id="form-title">Sign In</h3>
 
-          Create an account, sign in and keep
+          <form id="auth-form">
+            <label for="email">Email address</label>
+            <input
+              id="email"
+              type="email"
+              autocomplete="email"
+              required
+            >
 
-          track of your favourite car and bike events.
+            <label for="password">Password</label>
+            <input
+              id="password"
+              type="password"
+              autocomplete="current-password"
+              minlength="6"
+              required
+            >
 
+            <button id="submit-auth"
+              class="action" type="submit">
+              Sign In
+            </button>
+          </form>
+
+          <button id="toggle-auth"
+            class="action secondary" type="button">
+            Create an Account
+          </button>
+
+          <button id="reset-password"
+            class="action secondary" type="button">
+            Forgot Password?
+          </button>
+
+          <p class="small">
+            Use an email address you can access.
+            New accounts must verify their email.
+          </p>
+        </div>
+
+        <div id="signed-in" class="hidden">
+          <h3>My Account</h3>
+
+          <p>
+            Signed in as:
+            <strong id="member-email"></strong>
+          </p>
+
+          <p id="verification-status"></p>
+
+          <button id="resend-verification"
+            class="action secondary hidden"
+            type="button">
+            Resend Verification Email
+          </button>
+
+          <button id="refresh-verification"
+            class="action secondary hidden"
+            type="button">
+            I've Verified My Email
+          </button>
+
+          <button id="sign-out"
+            class="action" type="button">
+            Sign Out
+          </button>
+        </div>
+
+        <p id="auth-message"
+          class="message"
+          role="status"
+          aria-live="polite">
         </p>
-
-        <p>
-
-          Secure member sign-in is being prepared.
-
-          Registration isn't available yet.
-
-        </p>
-
       </div>
-
     </section>
-
   </main>
 
   <footer>
-
     PITLANE UK — Built for car and bike enthusiasts.
-
   </footer>
 
-  <script>
+  <script type="module">
+    import { initializeApp }
+      from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
+
+    import {
+      getAuth,
+      createUserWithEmailAndPassword,
+      signInWithEmailAndPassword,
+      signOut,
+      onAuthStateChanged,
+      sendEmailVerification,
+      sendPasswordResetEmail,
+      reload
+    } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
+
+    // PITLANE UK Firebase web configuration.
+    const firebaseConfig = {
+      apiKey: "AIzaSyA0zDL9YmISb1_SXhkraLOaCnadrvp1hZs",
+      authDomain: "pitlane-uk.firebaseapp.com",
+      projectId: "pitlane-uk",
+      storageBucket: "pitlane-uk.firebasestorage.app",
+      messagingSenderId: "1079733097460",
+      appId: "1:1079733097460:web:5b0a769d28707e34c01fa1"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
 
     let allEvents = [];
-
-    let currentSection = "car";
-
     let eventsLoaded = false;
-
     let eventsError = false;
+    let currentSection = "car";
+    let creatingAccount = false;
+    let currentUser = null;
 
-    const container = document.getElementById("events");
-
-    const search = document.getElementById("search");
-
-    const browseSection =
-
-      document.getElementById("browse-section");
-
-    const savedSection =
-
-      document.getElementById("saved-section");
-
-    const accountSection =
-
-      document.getElementById("account-section");
+    const $ = id => document.getElementById(id);
 
     function isBikeEvent(event) {
+      const text = [
+        event.category,
+        event.type,
+        event.name,
+        event.title,
+        event.organiser
+      ].filter(Boolean).join(" ");
 
-      const category = String(
-
-        event.category || event.type || ""
-
-      ).toLowerCase();
-
-      const name = String(
-
-        event.name || event.title || ""
-
-      ).toLowerCase();
-
-      const organiser = String(
-
-        event.organiser || ""
-
-      ).toLowerCase();
-
-      const bikeWords =
-
-        /\b(motorcycle|motorbike|bike|bikes|superbike|motogp|bsb|british superbikes)\b/i;
-
-      return (
-
-        bikeWords.test(category) ||
-
-        bikeWords.test(name) ||
-
-        bikeWords.test(organiser)
-
-      );
-
-    }
-
-    function getVisibleEvents() {
-
-      const query = search.value.trim().toLowerCase();
-
-      return allEvents.filter(event => {
-
-        const bike = isBikeEvent(event);
-
-        if (currentSection === "car" && bike) {
-
-          return false;
-
-        }
-
-        if (currentSection === "bike" && !bike) {
-
-          return false;
-
-        }
-
-        const searchable = [
-
-          event.name,
-
-          event.title,
-
-          event.venue,
-
-          event.location,
-
-          event.region,
-
-          event.category,
-
-          event.organiser
-
-        ]
-
-          .filter(Boolean)
-
-          .join(" ")
-
-          .toLowerCase();
-
-        return searchable.includes(query);
-
-      });
-
+      return /\b(motorcycle|motorbike|bike|bikes|superbike|motogp|bsb)\b/i
+        .test(text);
     }
 
     function renderEvents() {
-
+      const container = $("events");
       container.replaceChildren();
 
       if (eventsError) {
-
         container.textContent =
-
           "Unable to load events right now.";
-
         return;
-
       }
 
       if (!eventsLoaded) {
-
         container.textContent = "Loading events...";
-
         return;
-
       }
 
-      const filtered = getVisibleEvents();
+      const query = $("search").value.trim().toLowerCase();
+
+      const filtered = allEvents.filter(event => {
+        const bike = isBikeEvent(event);
+
+        if (currentSection === "car" && bike) return false;
+        if (currentSection === "bike" && !bike) return false;
+
+        const text = [
+          event.name,
+          event.title,
+          event.venue,
+          event.location,
+          event.region,
+          event.category,
+          event.organiser
+        ].filter(Boolean).join(" ").toLowerCase();
+
+        return text.includes(query);
+      });
 
       if (!filtered.length) {
-
         container.textContent =
-
           currentSection === "bike"
-
-            ? "No upcoming bike events listed yet."
-
+            ? "No matching bike events listed yet."
             : "No matching car events found.";
-
         return;
-
       }
 
       filtered.forEach(event => {
-
         const card = document.createElement("article");
-
         card.className = "event";
 
-        const eventDate = document.createElement("div");
-
-        eventDate.className = "date";
-
-        eventDate.textContent =
-
+        const dateLabel = document.createElement("div");
+        dateLabel.className = "date";
+        dateLabel.textContent =
           event.start || event.date || "Date TBC";
 
         const title = document.createElement("h3");
-
         title.textContent =
-
           event.name || event.title || "Event";
 
         const venue = document.createElement("p");
-
         venue.textContent =
-
           event.venue || event.location || "UK";
 
-        const type = document.createElement("span");
-
-        type.className = "event-type";
-
-        type.textContent = isBikeEvent(event)
-
+        const category = document.createElement("span");
+        category.className = "event-type";
+        category.textContent = isBikeEvent(event)
           ? "Bike Event"
-
           : "Car Event";
 
-        card.append(eventDate, title, venue, type);
-
+        card.append(dateLabel, title, venue, category);
         container.append(card);
-
       });
+    }
 
+    function updateSavedSection() {
+      const verified =
+        currentUser && currentUser.emailVerified;
+
+      if (!currentUser) {
+        $("saved-message").textContent =
+          "Sign in to access your saved events.";
+      } else if (!verified) {
+        $("saved-message").textContent =
+          "Please verify your email before using My Events.";
+      } else {
+        $("saved-message").textContent =
+          "You're signed in! Saving events will be available in the next update.";
+      }
+
+      $("saved-signin").classList.toggle(
+        "hidden",
+        Boolean(verified)
+      );
     }
 
     function showSection(section) {
-
       currentSection = section;
 
-      browseSection.classList.toggle(
-
+      $("browse-section").classList.toggle(
         "hidden",
-
         section !== "car" && section !== "bike"
-
       );
 
-      savedSection.classList.toggle(
-
+      $("saved-section").classList.toggle(
         "hidden",
-
         section !== "saved"
-
       );
 
-      accountSection.classList.toggle(
-
+      $("account-section").classList.toggle(
         "hidden",
-
         section !== "account"
-
       );
 
-      document.querySelectorAll(
+      document.querySelectorAll(".nav-button")
+        .forEach(button => {
+          const active =
+            button.dataset.section === section;
 
-        ".nav-button"
+          button.classList.toggle("active", active);
+          button.setAttribute("aria-pressed", String(active));
+        });
 
-      ).forEach(button => {
+      const headings = {
+        car: [
+          "FIND YOUR NEXT CAR EVENT.",
+          "UK car shows, modified car meets and motorsport."
+        ],
+        bike: [
+          "FIND YOUR NEXT BIKE EVENT.",
+          "Motorcycle shows, bike meets and racing across the UK."
+        ],
+        saved: [
+          "YOUR EVENTS. YOUR PLANS.",
+          "Keep track of events you want to attend."
+        ],
+        account: [
+          "JOIN PITLANE UK.",
+          "Create an account and plan your next event."
+        ]
+      };
 
-        const active =
+      $("hero-title").textContent = headings[section][0];
+      $("hero-description").textContent = headings[section][1];
 
-          button.dataset.section === section;
+      if (section === "car" || section === "bike") {
+        $("section-heading").textContent =
+          section === "car"
+            ? "Upcoming Car Events"
+            : "Upcoming Bike Events";
 
-        button.classList.toggle("active", active);
-
-        button.setAttribute(
-
-          "aria-pressed",
-
-          String(active)
-
-        );
-
-      });
-
-      if (section === "car") {
-
-        document.getElementById(
-
-          "hero-title"
-
-        ).textContent =
-
-          "FIND YOUR NEXT CAR EVENT.";
-
-        document.getElementById(
-
-          "hero-description"
-
-        ).textContent =
-
-          "UK car shows, modified car meets and motorsport. All in one place.";
-
-        document.getElementById(
-
-          "section-heading"
-
-        ).textContent =
-
-          "Upcoming Car Events";
-
-        document.getElementById(
-
-          "section-description"
-
-        ).textContent =
-
-          "Discover upcoming car shows and motorsport events.";
+        $("section-description").textContent =
+          section === "car"
+            ? "Discover upcoming car shows and motorsport."
+            : "Discover motorcycle events across the UK.";
 
         renderEvents();
-
-      }
-
-      if (section === "bike") {
-
-        document.getElementById(
-
-          "hero-title"
-
-        ).textContent =
-
-          "FIND YOUR NEXT BIKE EVENT.";
-
-        document.getElementById(
-
-          "hero-description"
-
-        ).textContent =
-
-          "Motorcycle shows, bike meets and racing events across the UK.";
-
-        document.getElementById(
-
-          "section-heading"
-
-        ).textContent =
-
-          "Upcoming Bike Events";
-
-        document.getElementById(
-
-          "section-description"
-
-        ).textContent =
-
-          "Discover motorcycle events across the UK.";
-
-        renderEvents();
-
       }
 
       if (section === "saved") {
-
-        document.getElementById(
-
-          "hero-title"
-
-        ).textContent =
-
-          "YOUR EVENTS. YOUR PLANS.";
-
-        document.getElementById(
-
-          "hero-description"
-
-        ).textContent =
-
-          "Keep track of the events you want to attend.";
-
+        updateSavedSection();
       }
-
-      if (section === "account") {
-
-        document.getElementById(
-
-          "hero-title"
-
-        ).textContent =
-
-          "JOIN PITLANE UK.";
-
-        document.getElementById(
-
-          "hero-description"
-
-        ).textContent =
-
-          "Your own account for car and bike events.";
-
-      }
-
     }
 
-    document.querySelectorAll(
-
-      ".nav-button"
-
-    ).forEach(button => {
-
-      button.addEventListener("click", () => {
-
-        showSection(button.dataset.section);
-
+    document.querySelectorAll(".nav-button")
+      .forEach(button => {
+        button.addEventListener("click", () => {
+          showSection(button.dataset.section);
+        });
       });
 
+    $("saved-signin").addEventListener("click", () => {
+      showSection("account");
     });
 
-    search.addEventListener(
-
-      "input",
-
-      renderEvents
-
-    );
+    $("search").addEventListener("input", renderEvents);
 
     fetch("./data/events.json")
-
       .then(response => {
-
         if (!response.ok) {
-
           throw new Error("Events unavailable");
-
         }
-
         return response.json();
-
       })
-
       .then(data => {
-
         allEvents = Array.isArray(data)
-
           ? data
-
           : Array.isArray(data.events)
-
             ? data.events
-
             : [];
 
         eventsLoaded = true;
-
         renderEvents();
-
       })
-
       .catch(error => {
-
         console.error("Event loading error:", error);
-
         eventsError = true;
-
         renderEvents();
-
       });
 
+    function showMessage(message, error = false) {
+      $("auth-message").textContent = message;
+      $("auth-message").className =
+        "message " + (error ? "error" : "success");
+    }
+
+    function friendlyError(error) {
+      switch (error.code) {
+        case "auth/email-already-in-use":
+          return "An account already uses this email address.";
+        case "auth/invalid-email":
+          return "Please enter a valid email address.";
+        case "auth/weak-password":
+          return "Please choose a stronger password.";
+        case "auth/invalid-credential":
+          return "Incorrect email or password.";
+        case "auth/too-many-requests":
+          return "Too many attempts. Please try again later.";
+        case "auth/network-request-failed":
+          return "Network error. Check your internet connection.";
+        case "auth/unauthorized-domain":
+          return "This website domain is not authorised in Firebase.";
+        default:
+          console.error("Authentication error:", error);
+          return "Something went wrong. Please try again.";
+      }
+    }
+
+    function updateAccountUI(user) {
+      currentUser = user;
+
+      $("auth-loading").classList.add("hidden");
+
+      $("signed-out").classList.toggle(
+        "hidden",
+        Boolean(user)
+      );
+
+      $("signed-in").classList.toggle(
+        "hidden",
+        !user
+      );
+
+      if (user) {
+        $("member-email").textContent = user.email || "";
+
+        $("verification-status").textContent =
+          user.emailVerified
+            ? "Email verified. Your account is ready."
+            : "Please check your inbox and verify your email.";
+
+        $("resend-verification").classList.toggle(
+          "hidden",
+          user.emailVerified
+        );
+
+        $("refresh-verification").classList.toggle(
+          "hidden",
+          user.emailVerified
+        );
+      }
+
+      updateSavedSection();
+    }
+
+    onAuthStateChanged(auth, user => {
+      updateAccountUI(user);
+    });
+
+    $("toggle-auth").addEventListener("click", () => {
+      creatingAccount = !creatingAccount;
+
+      $("form-title").textContent =
+        creatingAccount ? "Create Account" : "Sign In";
+
+      $("submit-auth").textContent =
+        creatingAccount ? "Create Account" : "Sign In";
+
+      $("toggle-auth").textContent =
+        creatingAccount
+          ? "Already a member? Sign In"
+          : "Create an Account";
+
+      $("password").autocomplete =
+        creatingAccount
+          ? "new-password"
+          : "current-password";
+
+      showMessage("");
+    });
+
+    $("auth-form").addEventListener("submit", async event => {
+      event.preventDefault();
+
+      const email = $("email").value.trim();
+      const password = $("password").value;
+      const button = $("submit-auth");
+
+      button.disabled = true;
+      showMessage("");
+
+      try {
+        if (creatingAccount) {
+          const result =
+            await createUserWithEmailAndPassword(
+              auth,
+              email,
+              password
+            );
+
+          try {
+            await sendEmailVerification(result.user);
+
+            showMessage(
+              "Account created! Check your email for the verification link."
+            );
+          } catch (verificationError) {
+            console.error(
+              "Verification email error:",
+              verificationError
+            );
+
+            showMessage(
+              "Account created, but the verification email could not be sent. Use Resend Verification Email.",
+              true
+            );
+          }
+        } else {
+          await signInWithEmailAndPassword(
+            auth,
+            email,
+            password
+          );
+
+          showMessage("Signed in successfully.");
+        }
+
+        $("password").value = "";
+
+      } catch (error) {
+        showMessage(friendlyError(error), true);
+      } finally {
+        button.disabled = false;
+      }
+    });
+
+    $("sign-out").addEventListener("click", async () => {
+      try {
+        await signOut(auth);
+        showMessage("You have signed out.");
+      } catch (error) {
+        showMessage(friendlyError(error), true);
+      }
+    });
+
+    $("resend-verification").addEventListener(
+      "click",
+      async () => {
+        if (!auth.currentUser) return;
+
+        const button = $("resend-verification");
+        button.disabled = true;
+
+        try {
+          await sendEmailVerification(auth.currentUser);
+
+          showMessage(
+            "Verification email sent. Check your inbox."
+          );
+        } catch (error) {
+          showMessage(friendlyError(error), true);
+        } finally {
+          button.disabled = false;
+        }
+      }
+    );
+
+    $("refresh-verification").addEventListener(
+      "click",
+      async () => {
+        if (!auth.currentUser) return;
+
+        try {
+          await reload(auth.currentUser);
+          updateAccountUI(auth.currentUser);
+
+          if (auth.currentUser.emailVerified) {
+            showMessage("Your email is now verified!");
+          } else {
+            showMessage(
+              "Email not verified yet. Check your inbox."
+            );
+          }
+        } catch (error) {
+          showMessage(friendlyError(error), true);
+        }
+      }
+    );
+
+    $("reset-password").addEventListener(
+      "click",
+      async () => {
+        const email = $("email").value.trim();
+
+        if (!email) {
+          showMessage(
+            "Enter your email address first.",
+            true
+          );
+          return;
+        }
+
+        try {
+          await sendPasswordResetEmail(auth, email);
+
+          showMessage(
+            "If an account exists for that email, a reset message will be sent."
+          );
+        } catch (error) {
+          showMessage(friendlyError(error), true);
+        }
+      }
+    );
+
     showSection("car");
-
   </script>
-
 </body>
-
 </html>
+
