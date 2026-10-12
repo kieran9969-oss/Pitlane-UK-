@@ -12,7 +12,7 @@
     body {
       margin: 0;
       background: #0b0e14;
-      color: white;
+      color: #fff;
       font-family: Arial, sans-serif;
     }
 
@@ -26,10 +26,10 @@
       max-width: 1100px;
       margin: auto;
       display: flex;
-      align-items: center;
       justify-content: space-between;
+      align-items: center;
+      gap: 16px;
       flex-wrap: wrap;
-      gap: 18px;
     }
 
     .logo {
@@ -55,16 +55,16 @@
       background: #242c39;
       color: white;
       border: 1px solid #394454;
-      padding: 12px 15px;
       border-radius: 9px;
+      padding: 12px 15px;
       font-weight: bold;
     }
 
     .nav-button.active,
     .nav-button:hover {
       background: #DFFF00;
-      border-color: #DFFF00;
       color: #0b0e14;
+      border-color: #DFFF00;
     }
 
     .hero {
@@ -78,7 +78,8 @@
       margin: 0 0 14px;
     }
 
-    .hero p {
+    .hero p,
+    .description {
       color: #b7c0cd;
       line-height: 1.6;
     }
@@ -88,11 +89,6 @@
       margin: auto;
       padding: 20px;
       min-height: 400px;
-    }
-
-    .description {
-      color: #b7c0cd;
-      line-height: 1.6;
     }
 
     input {
@@ -112,18 +108,28 @@
       margin-top: 12px;
     }
 
-    #events {
+    #events,
+    #saved-events {
       display: grid;
       grid-template-columns:
         repeat(auto-fit, minmax(260px, 1fr));
       gap: 16px;
     }
 
-    .event, .panel {
+    .event,
+    .panel {
       background: #171e29;
       border: 1px solid #303948;
       border-radius: 14px;
       padding: 22px;
+    }
+
+    .event h3 { margin: 12px 0; }
+
+    .event p,
+    .panel p {
+      color: #b7c0cd;
+      line-height: 1.6;
     }
 
     .date {
@@ -132,24 +138,17 @@
       font-weight: bold;
     }
 
-    .event h3 { margin: 12px 0; }
-
-    .event p, .panel p {
-      color: #b7c0cd;
-      line-height: 1.6;
-    }
-
     .event-type {
       display: inline-block;
-      margin-top: 10px;
       padding: 6px 9px;
       background: #303948;
       border-radius: 6px;
       font-size: 12px;
+      margin-bottom: 14px;
     }
 
     .panel {
-      max-width: 550px;
+      max-width: 600px;
       margin: 20px 0;
     }
 
@@ -168,8 +167,27 @@
       color: white;
     }
 
+    .save-button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin-top: 14px;
+      background: #242c39;
+      border: 1px solid #394454;
+      color: white;
+      border-radius: 9px;
+      font-weight: bold;
+    }
+
+    .save-button.saved {
+      background: #DFFF00;
+      color: #0b0e14;
+      border-color: #DFFF00;
+    }
+
+    .save-button:disabled,
     .action:disabled {
-      opacity: 0.55;
+      opacity: 0.6;
       cursor: wait;
     }
 
@@ -177,7 +195,7 @@
 
     .message {
       line-height: 1.6;
-      margin-top: 15px;
+      margin: 15px 0;
       overflow-wrap: anywhere;
     }
 
@@ -187,6 +205,16 @@
     .small {
       color: #b7c0cd;
       font-size: 14px;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      color: #b7c0cd;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #DFFF00;
     }
 
     footer {
@@ -205,9 +233,12 @@
 </head>
 
 <body>
+
   <header>
     <div class="header-inner">
-      <div class="logo">PITLANE <span>UK</span></div>
+      <div class="logo">
+        PITLANE <span>UK</span>
+      </div>
 
       <nav aria-label="Main navigation">
         <button class="nav-button active"
@@ -234,17 +265,24 @@
   </header>
 
   <section class="hero">
-    <h1 id="hero-title">FIND YOUR NEXT CAR EVENT.</h1>
+    <h1 id="hero-title">
+      FIND YOUR NEXT CAR EVENT.
+    </h1>
+
     <p id="hero-description">
       UK car shows, modified car meets and motorsport.
     </p>
   </section>
 
   <main>
-    <section id="browse-section">
-      <h2 id="section-heading">Upcoming Car Events</h2>
 
-      <p id="section-description" class="description">
+    <section id="browse-section">
+      <h2 id="section-heading">
+        Upcoming Car Events
+      </h2>
+
+      <p id="section-description"
+        class="description">
         Discover upcoming car shows and motorsport.
       </p>
 
@@ -263,29 +301,30 @@
     <section id="saved-section" class="hidden">
       <h2>My Events</h2>
 
-      <div class="panel">
-        <h3>Your saved events</h3>
+      <p class="description">
+        Your personal list of car and bike events
+        you want to attend.
+      </p>
 
-        <p id="saved-message">
-          Sign in to manage your saved events.
-        </p>
+      <p id="saved-message"
+        class="message"
+        role="status"
+        aria-live="polite">
+      </p>
 
-        <p class="small">
-          Event saving will be activated in the next update.
-        </p>
+      <button id="saved-signin"
+        class="action hidden"
+        type="button">
+        Go to Sign In
+      </button>
 
-        <button id="saved-signin"
-          class="action" type="button">
-          Go to Sign In
-        </button>
-      </div>
+      <div id="saved-events"></div>
     </section>
 
     <section id="account-section" class="hidden">
       <h2>PITLANE UK Members</h2>
 
       <div class="panel">
-
         <div id="auth-loading">
           Checking your account...
         </div>
@@ -294,7 +333,10 @@
           <h3 id="form-title">Sign In</h3>
 
           <form id="auth-form">
-            <label for="email">Email address</label>
+            <label for="email">
+              Email address
+            </label>
+
             <input
               id="email"
               type="email"
@@ -302,7 +344,10 @@
               required
             >
 
-            <label for="password">Password</label>
+            <label for="password">
+              Password
+            </label>
+
             <input
               id="password"
               type="password"
@@ -318,12 +363,14 @@
           </form>
 
           <button id="toggle-auth"
-            class="action secondary" type="button">
+            class="action secondary"
+            type="button">
             Create an Account
           </button>
 
           <button id="reset-password"
-            class="action secondary" type="button">
+            class="action secondary"
+            type="button">
             Forgot Password?
           </button>
 
@@ -356,7 +403,8 @@
           </button>
 
           <button id="sign-out"
-            class="action" type="button">
+            class="action"
+            type="button">
             Sign Out
           </button>
         </div>
@@ -368,6 +416,7 @@
         </p>
       </div>
     </section>
+
   </main>
 
   <footer>
@@ -375,6 +424,7 @@
   </footer>
 
   <script type="module">
+
     import { initializeApp }
       from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
 
@@ -389,7 +439,16 @@
       reload
     } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
 
-    // PITLANE UK Firebase web configuration.
+    import {
+      getFirestore,
+      collection,
+      doc,
+      setDoc,
+      deleteDoc,
+      onSnapshot,
+      serverTimestamp
+    } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-firestore.js";
+
     const firebaseConfig = {
       apiKey: "AIzaSyA0zDL9YmISb1_SXhkraLOaCnadrvp1hZs",
       authDomain: "pitlane-uk.firebaseapp.com",
@@ -401,15 +460,24 @@
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
+    const db = getFirestore(app);
+
+    const $ = id => document.getElementById(id);
 
     let allEvents = [];
     let eventsLoaded = false;
     let eventsError = false;
+
     let currentSection = "car";
     let creatingAccount = false;
     let currentUser = null;
 
-    const $ = id => document.getElementById(id);
+    let savedIds = new Set();
+    let savedLoading = false;
+    let savedError = "";
+    let stopSavedListener = null;
+
+    const eventKeys = new WeakMap();
 
     function isBikeEvent(event) {
       const text = [
@@ -422,6 +490,219 @@
 
       return /\b(motorcycle|motorbike|bike|bikes|superbike|motogp|bsb)\b/i
         .test(text);
+    }
+
+    function eventKey(event) {
+      if (eventKeys.has(event)) {
+        return eventKeys.get(event);
+      }
+
+      // Use a deterministic ID from the event details.
+      // It must be stable across browser sessions.
+      const identity = [
+        String(event.name || event.title || "").trim(),
+        String(event.date || event.start || "").trim(),
+        String(event.venue || event.location || "").trim()
+      ].join("|").toLowerCase();
+
+      // Two independent 32-bit hashes reduce collisions.
+      function hash(seed) {
+        let value = seed >>> 0;
+
+        for (let i = 0; i < identity.length; i++) {
+          value ^= identity.charCodeAt(i);
+          value = Math.imul(value, 16777619);
+        }
+
+        return (value >>> 0)
+          .toString(16)
+          .padStart(8, "0");
+      }
+
+      const key =
+        "event-" +
+        hash(2166136261) +
+        hash(2246822519);
+
+      eventKeys.set(event, key);
+      return key;
+    }
+
+    function verifiedMember() {
+      return Boolean(
+        auth.currentUser &&
+        auth.currentUser.emailVerified
+      );
+    }
+
+    function showMessage(message, error = false) {
+      $("auth-message").textContent = message;
+      $("auth-message").className =
+        "message " + (error ? "error" : "success");
+    }
+
+    function friendlyError(error) {
+      switch (error.code) {
+        case "auth/email-already-in-use":
+          return "An account already uses this email.";
+        case "auth/invalid-email":
+          return "Please enter a valid email address.";
+        case "auth/weak-password":
+          return "Please choose a stronger password.";
+        case "auth/invalid-credential":
+          return "Incorrect email or password.";
+        case "auth/too-many-requests":
+          return "Too many attempts. Try again later.";
+        case "auth/network-request-failed":
+          return "Network error. Check your connection.";
+        case "auth/unauthorized-domain":
+          return "This domain is not authorised in Firebase.";
+        case "permission-denied":
+          return "Access denied. Check your Firestore rules.";
+        default:
+          console.error(error);
+          return "Something went wrong. Please try again.";
+      }
+    }
+
+    function makeText(tag, text, className = "") {
+      const element = document.createElement(tag);
+      element.textContent = text;
+
+      if (className) {
+        element.className = className;
+      }
+
+      return element;
+    }
+
+    function makeEventCard(event, savedView = false) {
+      const card = document.createElement("article");
+      card.className = "event";
+
+      const key = eventKey(event);
+      const saved = savedIds.has(key);
+
+      card.append(
+        makeText(
+          "div",
+          event.date || event.start || "Date TBC",
+          "date"
+        )
+      );
+
+      card.append(
+        makeText(
+          "h3",
+          event.name || event.title || "Event"
+        )
+      );
+
+      card.append(
+        makeText(
+          "p",
+          event.venue || event.location || "UK"
+        )
+      );
+
+      card.append(
+        makeText(
+          "span",
+          isBikeEvent(event) ? "Bike Event" : "Car Event",
+          "event-type"
+        )
+      );
+
+      const officialUrl =
+        event.official_url || event.url || "";
+
+      if (typeof officialUrl === "string") {
+        try {
+          const url = new URL(officialUrl);
+
+          if (
+            url.protocol === "https:" ||
+            url.protocol === "http:"
+          ) {
+            const link = makeText(
+              "a",
+              "Official event website"
+            );
+
+            link.href = url.href;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+
+            const wrapper = document.createElement("p");
+            wrapper.append(link);
+            card.append(wrapper);
+          }
+        } catch (_) {
+          // Ignore invalid event links.
+        }
+      }
+
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className =
+        "save-button" + (saved ? " saved" : "");
+
+      button.textContent = savedView
+        ? "Remove from My Events"
+        : saved
+          ? "♥ Saved to My Events"
+          : "♡ Save Event";
+
+      button.addEventListener("click", async () => {
+        if (!verifiedMember()) {
+          showSection("account");
+
+          showMessage(
+            "Please sign in and verify your email to save events.",
+            true
+          );
+
+          return;
+        }
+
+        button.disabled = true;
+
+        try {
+          const userId = auth.currentUser.uid;
+
+          const reference = doc(
+            db,
+            "users",
+            userId,
+            "savedEvents",
+            key
+          );
+
+          if (savedIds.has(key)) {
+            await deleteDoc(reference);
+          } else {
+            await setDoc(reference, {
+              eventId: key,
+              savedAt: serverTimestamp()
+            });
+          }
+
+        } catch (error) {
+          console.error("Save event failed:", error);
+
+          alert(
+            "Unable to update your saved events. " +
+            "Please try again."
+          );
+
+        } finally {
+          button.disabled = false;
+        }
+      });
+
+      card.append(button);
+
+      return card;
     }
 
     function renderEvents() {
@@ -439,13 +720,20 @@
         return;
       }
 
-      const query = $("search").value.trim().toLowerCase();
+      const query = $("search").value
+        .trim()
+        .toLowerCase();
 
       const filtered = allEvents.filter(event => {
         const bike = isBikeEvent(event);
 
-        if (currentSection === "car" && bike) return false;
-        if (currentSection === "bike" && !bike) return false;
+        if (currentSection === "car" && bike) {
+          return false;
+        }
+
+        if (currentSection === "bike" && !bike) {
+          return false;
+        }
 
         const text = [
           event.name,
@@ -461,60 +749,226 @@
       });
 
       if (!filtered.length) {
-        container.textContent =
-          currentSection === "bike"
-            ? "No matching bike events listed yet."
-            : "No matching car events found.";
+        container.append(
+          makeText(
+            "p",
+            currentSection === "bike"
+              ? "No matching bike events listed yet."
+              : "No matching car events found.",
+            "empty-state"
+          )
+        );
+
         return;
       }
 
       filtered.forEach(event => {
-        const card = document.createElement("article");
-        card.className = "event";
-
-        const dateLabel = document.createElement("div");
-        dateLabel.className = "date";
-        dateLabel.textContent =
-          event.start || event.date || "Date TBC";
-
-        const title = document.createElement("h3");
-        title.textContent =
-          event.name || event.title || "Event";
-
-        const venue = document.createElement("p");
-        venue.textContent =
-          event.venue || event.location || "UK";
-
-        const category = document.createElement("span");
-        category.className = "event-type";
-        category.textContent = isBikeEvent(event)
-          ? "Bike Event"
-          : "Car Event";
-
-        card.append(dateLabel, title, venue, category);
-        container.append(card);
+        container.append(makeEventCard(event));
       });
     }
 
-    function updateSavedSection() {
-      const verified =
-        currentUser && currentUser.emailVerified;
+    function renderSavedEvents() {
+      const container = $("saved-events");
+      container.replaceChildren();
 
-      if (!currentUser) {
-        $("saved-message").textContent =
-          "Sign in to access your saved events.";
-      } else if (!verified) {
-        $("saved-message").textContent =
-          "Please verify your email before using My Events.";
-      } else {
-        $("saved-message").textContent =
-          "You're signed in! Saving events will be available in the next update.";
-      }
+      const signedIn = verifiedMember();
 
       $("saved-signin").classList.toggle(
         "hidden",
-        Boolean(verified)
+        signedIn
       );
+
+      if (!currentUser) {
+        $("saved-message").textContent =
+          "Sign in to view your saved events.";
+        return;
+      }
+
+      if (!signedIn) {
+        $("saved-message").textContent =
+          "Please verify your email to use My Events.";
+        return;
+      }
+
+      if (savedError) {
+        $("saved-message").textContent = savedError;
+        return;
+      }
+
+      if (savedLoading || !eventsLoaded) {
+        $("saved-message").textContent =
+          "Loading your saved events...";
+        return;
+      }
+
+      if (eventsError) {
+        $("saved-message").textContent =
+          "Your event list could not be loaded.";
+        return;
+      }
+
+      const matches = allEvents.filter(event =>
+        savedIds.has(eventKey(event))
+      );
+
+      const foundIds = new Set(
+        matches.map(eventKey)
+      );
+
+      const missingCount = [...savedIds].filter(
+        id => !foundIds.has(id)
+      ).length;
+
+      if (!savedIds.size) {
+        $("saved-message").textContent =
+          "You haven't saved any events yet. " +
+          "Browse Car Events or Bike Events and tap Save Event.";
+        return;
+      }
+
+      $("saved-message").textContent =
+        "You have " + savedIds.size +
+        " saved event" +
+        (savedIds.size === 1 ? "." : "s.");
+
+      matches.forEach(event => {
+        container.append(
+          makeEventCard(event, true)
+        );
+      });
+
+      if (missingCount) {
+        const note = makeText(
+          "p",
+          missingCount +
+          " saved event(s) could not be matched to " +
+          "the current calendar. This can happen " +
+          "when an event's date or venue changes.",
+          "empty-state"
+        );
+
+        container.append(note);
+      }
+    }
+
+    function refreshEventDisplays() {
+      renderEvents();
+      renderSavedEvents();
+    }
+
+    function stopListeningToSavedEvents() {
+      if (stopSavedListener) {
+        stopSavedListener();
+        stopSavedListener = null;
+      }
+
+      savedIds = new Set();
+      savedLoading = false;
+      savedError = "";
+    }
+
+    function startListeningToSavedEvents(user) {
+      stopListeningToSavedEvents();
+
+      if (!user || !user.emailVerified) {
+        refreshEventDisplays();
+        return;
+      }
+
+      savedLoading = true;
+      refreshEventDisplays();
+
+      const reference = collection(
+        db,
+        "users",
+        user.uid,
+        "savedEvents"
+      );
+
+      stopSavedListener = onSnapshot(
+        reference,
+        snapshot => {
+          // Ignore callbacks from an old account session.
+          if (
+            !auth.currentUser ||
+            auth.currentUser.uid !== user.uid
+          ) {
+            return;
+          }
+
+          savedIds = new Set(
+            snapshot.docs.map(item => item.id)
+          );
+
+          savedLoading = false;
+          savedError = "";
+
+          refreshEventDisplays();
+        },
+        error => {
+          console.error("Saved events error:", error);
+
+          savedLoading = false;
+          savedError =
+            "Unable to load saved events. " +
+            "Check the database permissions.";
+
+          refreshEventDisplays();
+        }
+      );
+    }
+
+    function updateAccountUI(user) {
+      const previousUid = currentUser?.uid || null;
+      const previousVerified =
+        Boolean(currentUser?.emailVerified);
+
+      currentUser = user;
+
+      $("auth-loading").classList.add("hidden");
+
+      $("signed-out").classList.toggle(
+        "hidden",
+        Boolean(user)
+      );
+
+      $("signed-in").classList.toggle(
+        "hidden",
+        !user
+      );
+
+      if (user) {
+        $("member-email").textContent =
+          user.email || "";
+
+        $("verification-status").textContent =
+          user.emailVerified
+            ? "Email verified. Your account is ready."
+            : "Please verify your email address.";
+
+        $("resend-verification").classList.toggle(
+          "hidden",
+          user.emailVerified
+        );
+
+        $("refresh-verification").classList.toggle(
+          "hidden",
+          user.emailVerified
+        );
+      }
+
+      if (
+        previousUid !== (user?.uid || null) ||
+        previousVerified !== Boolean(user?.emailVerified)
+      ) {
+        startListeningToSavedEvents(user);
+      } else {
+        refreshEventDisplays();
+      }
+
+      document.querySelector(
+        '[data-section="account"]'
+      ).textContent = user ? "My Account" : "Sign In";
     }
 
     function showSection(section) {
@@ -541,7 +995,11 @@
             button.dataset.section === section;
 
           button.classList.toggle("active", active);
-          button.setAttribute("aria-pressed", String(active));
+
+          button.setAttribute(
+            "aria-pressed",
+            String(active)
+          );
         });
 
       const headings = {
@@ -555,16 +1013,19 @@
         ],
         saved: [
           "YOUR EVENTS. YOUR PLANS.",
-          "Keep track of events you want to attend."
+          "Keep track of the events you want to attend."
         ],
         account: [
           "JOIN PITLANE UK.",
-          "Create an account and plan your next event."
+          "Manage your PITLANE UK member account."
         ]
       };
 
-      $("hero-title").textContent = headings[section][0];
-      $("hero-description").textContent = headings[section][1];
+      $("hero-title").textContent =
+        headings[section][0];
+
+      $("hero-description").textContent =
+        headings[section][1];
 
       if (section === "car" || section === "bike") {
         $("section-heading").textContent =
@@ -581,7 +1042,7 @@
       }
 
       if (section === "saved") {
-        updateSavedSection();
+        renderSavedEvents();
       }
     }
 
@@ -596,13 +1057,17 @@
       showSection("account");
     });
 
-    $("search").addEventListener("input", renderEvents);
+    $("search").addEventListener(
+      "input",
+      renderEvents
+    );
 
     fetch("./data/events.json")
       .then(response => {
         if (!response.ok) {
           throw new Error("Events unavailable");
         }
+
         return response.json();
       })
       .then(data => {
@@ -613,78 +1078,13 @@
             : [];
 
         eventsLoaded = true;
-        renderEvents();
+        refreshEventDisplays();
       })
       .catch(error => {
         console.error("Event loading error:", error);
         eventsError = true;
-        renderEvents();
+        refreshEventDisplays();
       });
-
-    function showMessage(message, error = false) {
-      $("auth-message").textContent = message;
-      $("auth-message").className =
-        "message " + (error ? "error" : "success");
-    }
-
-    function friendlyError(error) {
-      switch (error.code) {
-        case "auth/email-already-in-use":
-          return "An account already uses this email address.";
-        case "auth/invalid-email":
-          return "Please enter a valid email address.";
-        case "auth/weak-password":
-          return "Please choose a stronger password.";
-        case "auth/invalid-credential":
-          return "Incorrect email or password.";
-        case "auth/too-many-requests":
-          return "Too many attempts. Please try again later.";
-        case "auth/network-request-failed":
-          return "Network error. Check your internet connection.";
-        case "auth/unauthorized-domain":
-          return "This website domain is not authorised in Firebase.";
-        default:
-          console.error("Authentication error:", error);
-          return "Something went wrong. Please try again.";
-      }
-    }
-
-    function updateAccountUI(user) {
-      currentUser = user;
-
-      $("auth-loading").classList.add("hidden");
-
-      $("signed-out").classList.toggle(
-        "hidden",
-        Boolean(user)
-      );
-
-      $("signed-in").classList.toggle(
-        "hidden",
-        !user
-      );
-
-      if (user) {
-        $("member-email").textContent = user.email || "";
-
-        $("verification-status").textContent =
-          user.emailVerified
-            ? "Email verified. Your account is ready."
-            : "Please check your inbox and verify your email.";
-
-        $("resend-verification").classList.toggle(
-          "hidden",
-          user.emailVerified
-        );
-
-        $("refresh-verification").classList.toggle(
-          "hidden",
-          user.emailVerified
-        );
-      }
-
-      updateSavedSection();
-    }
 
     onAuthStateChanged(auth, user => {
       updateAccountUI(user);
@@ -694,10 +1094,14 @@
       creatingAccount = !creatingAccount;
 
       $("form-title").textContent =
-        creatingAccount ? "Create Account" : "Sign In";
+        creatingAccount
+          ? "Create Account"
+          : "Sign In";
 
       $("submit-auth").textContent =
-        creatingAccount ? "Create Account" : "Sign In";
+        creatingAccount
+          ? "Create Account"
+          : "Sign In";
 
       $("toggle-auth").textContent =
         creatingAccount
@@ -712,69 +1116,81 @@
       showMessage("");
     });
 
-    $("auth-form").addEventListener("submit", async event => {
-      event.preventDefault();
+    $("auth-form").addEventListener(
+      "submit",
+      async event => {
+        event.preventDefault();
 
-      const email = $("email").value.trim();
-      const password = $("password").value;
-      const button = $("submit-auth");
+        const email = $("email").value.trim();
+        const password = $("password").value;
+        const button = $("submit-auth");
 
-      button.disabled = true;
-      showMessage("");
+        button.disabled = true;
+        showMessage("");
 
-      try {
-        if (creatingAccount) {
-          const result =
-            await createUserWithEmailAndPassword(
+        try {
+          if (creatingAccount) {
+            const result =
+              await createUserWithEmailAndPassword(
+                auth,
+                email,
+                password
+              );
+
+            try {
+              await sendEmailVerification(result.user);
+
+              showMessage(
+                "Account created! Check your email " +
+                "for the verification link."
+              );
+            } catch (error) {
+              console.error(error);
+
+              showMessage(
+                "Account created, but verification " +
+                "email failed. Please use Resend.",
+                true
+              );
+            }
+
+          } else {
+            await signInWithEmailAndPassword(
               auth,
               email,
               password
             );
 
-          try {
-            await sendEmailVerification(result.user);
+            // Refresh verification status on login.
+            if (auth.currentUser) {
+              await reload(auth.currentUser);
+              updateAccountUI(auth.currentUser);
+            }
 
-            showMessage(
-              "Account created! Check your email for the verification link."
-            );
-          } catch (verificationError) {
-            console.error(
-              "Verification email error:",
-              verificationError
-            );
-
-            showMessage(
-              "Account created, but the verification email could not be sent. Use Resend Verification Email.",
-              true
-            );
+            showMessage("Signed in successfully.");
           }
-        } else {
-          await signInWithEmailAndPassword(
-            auth,
-            email,
-            password
-          );
 
-          showMessage("Signed in successfully.");
+          $("password").value = "";
+
+        } catch (error) {
+          showMessage(friendlyError(error), true);
+        } finally {
+          button.disabled = false;
         }
-
-        $("password").value = "";
-
-      } catch (error) {
-        showMessage(friendlyError(error), true);
-      } finally {
-        button.disabled = false;
       }
-    });
+    );
 
-    $("sign-out").addEventListener("click", async () => {
-      try {
-        await signOut(auth);
-        showMessage("You have signed out.");
-      } catch (error) {
-        showMessage(friendlyError(error), true);
+    $("sign-out").addEventListener(
+      "click",
+      async () => {
+        try {
+          await signOut(auth);
+          showMessage("You have signed out.");
+        } catch (error) {
+          showMessage(friendlyError(error), true);
+        }
       }
-    });
+    );
 
     $("resend-verification").addEventListener(
       "click",
@@ -805,15 +1221,14 @@
 
         try {
           await reload(auth.currentUser);
+
           updateAccountUI(auth.currentUser);
 
-          if (auth.currentUser.emailVerified) {
-            showMessage("Your email is now verified!");
-          } else {
-            showMessage(
-              "Email not verified yet. Check your inbox."
-            );
-          }
+          showMessage(
+            auth.currentUser.emailVerified
+              ? "Your email is now verified!"
+              : "Email not verified yet."
+          );
         } catch (error) {
           showMessage(friendlyError(error), true);
         }
@@ -837,7 +1252,8 @@
           await sendPasswordResetEmail(auth, email);
 
           showMessage(
-            "If an account exists for that email, a reset message will be sent."
+            "If an account exists for that email, " +
+            "a reset message will be sent."
           );
         } catch (error) {
           showMessage(friendlyError(error), true);
@@ -846,6 +1262,7 @@
     );
 
     showSection("car");
+
   </script>
 </body>
 </html>
