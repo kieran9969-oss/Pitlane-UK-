@@ -52,6 +52,9 @@ jobs:
         
       - name: Remove past events
         run: python cleanup_events.py
+
+      - name: Import motorcycle events
+        run: python bike_events.py
      
       - name: Update event data
         run: python sync.py
