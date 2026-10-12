@@ -1,0 +1,33 @@
+
+name: Test Bike Events Importer
+
+'on':
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-bike-importer:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run motorcycle importer
+        run: python bike_events.py
+
+      - name: Show any newly discovered bike events
+        run: |
+          git diff -- data/manual-events.json
+
+      - name: Check event JSON is valid
+        run: |
+          python -m json.tool data/manual-events.json > /dev/null
+          echo "Event JSON is valid"
