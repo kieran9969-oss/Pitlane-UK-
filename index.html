@@ -38,7 +38,12 @@
       letter-spacing: 1px;
     }
 
-    .logo span { color: #DFFF00; }
+    .logo img {
+      display: block;
+      width: 240px;
+      max-width: 100%;
+      height: auto;
+    }
 
     nav {
       display: flex;
@@ -237,7 +242,10 @@
   <header>
     <div class="header-inner">
       <div class="logo">
-        PITLANE <span>UK</span>
+        <img
+          src="pitlane-events-logo.png"
+          alt="PITLANE EVENTS - Your next meet. Your next ride."
+        >
       </div>
 
       <nav aria-label="Main navigation">
@@ -497,15 +505,12 @@
         return eventKeys.get(event);
       }
 
-      // Use a deterministic ID from the event details.
-      // It must be stable across browser sessions.
       const identity = [
         String(event.name || event.title || "").trim(),
         String(event.date || event.start || "").trim(),
         String(event.venue || event.location || "").trim()
       ].join("|").toLowerCase();
 
-      // Two independent 32-bit hashes reduce collisions.
       function hash(seed) {
         let value = seed >>> 0;
 
@@ -888,7 +893,6 @@
       stopSavedListener = onSnapshot(
         reference,
         snapshot => {
-          // Ignore callbacks from an old account session.
           if (
             !auth.currentUser ||
             auth.currentUser.uid !== user.uid
@@ -1161,7 +1165,6 @@
               password
             );
 
-            // Refresh verification status on login.
             if (auth.currentUser) {
               await reload(auth.currentUser);
               updateAccountUI(auth.currentUser);
@@ -1266,4 +1269,5 @@
   </script>
 </body>
 </html>
+
 
