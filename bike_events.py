@@ -1,12 +1,6 @@
 
 #!/usr/bin/env python3
-"""PITLANE UK - UK motorcycle event importer.
-
-Checks published organiser calendars for future
-motorcycle races, shows and exhibitions.
-
-Does not delete or overwrite existing events.
-"""
+"""PITLANE UK - Automatic motorcycle event importer."""
 
 import json
 import re
@@ -19,6 +13,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent
 FILE = ROOT / "data/manual-events.json"
+
 TODAY = datetime.now(
     ZoneInfo("Europe/London")
 ).date()
@@ -31,15 +26,23 @@ MONTHS = {
     )
 }
 
+MONTH = (
+    r"Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|"
+    r"Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
+    r"Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|"
+    r"Nov(?:ember)?|Dec(?:ember)?"
+)
+
 SOURCES = {
     "bsb": "https://www.britishsuperbike.com/calendar",
     "crmc": "https://www.crmc.co.uk/",
     "mcl": "https://www.motorcyclelive.co.uk/",
-    "bemsee": "https://www.bemsee.net/info-centre/bmcrc-provisional-dates-2027",
+    "bemsee": (
+        "https://www.bemsee.net/info-centre/"
+        "bmcrc-provisional-dates-2027"
+    ),
 }
 
-# Recognised UK race circuits.
-# Excludes overseas championship rounds.
 CIRCUITS = {
     "brands hatch": "Brands Hatch",
     "donington park": "Donington Park",
@@ -57,13 +60,6 @@ CIRCUITS = {
     "darley moor": "Darley Moor",
 }
 
-MONTH = (
-    r"Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|"
-    r"Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
-    r"Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|"
-    r"Nov(?:ember)?|Dec(?:ember)?"
-)
-
 
 class TextParser(HTMLParser):
     def __init__(self):
@@ -75,16 +71,14 @@ class TextParser(HTMLParser):
         if tag in ("script", "style"):
             self.hidden += 1
         elif tag in (
-            "p", "div", "li", "br", "h1",
-            "h2", "h3", "h4", "tr"
+            "p", "div", "li", "br",
+            "h1", "h2", "h3", "h4", "tr"
         ):
             self.parts.append(" ")
 
     def handle_endtag(self, tag):
         if tag in ("script", "style"):
-            self.hidden = max(
-                0, self.hidden - 1
-            )
+            self.hidden = max(0, self.hidden - 1)
         elif tag in (
             "p", "div", "li", "h1",
             "h2", "h3", "h4", "tr"
@@ -121,9 +115,7 @@ def fetch(url):
 
     parser = TextParser()
     parser.feed(
-        raw.decode(
-            encoding, errors="replace"
-        )
+        raw.decode(encoding, errors="replace")
     )
     return parser.text()
 
@@ -152,7 +144,8 @@ def venue_from_text(text):
 
 def add_candidate(
     results, name, start, end,
-    venue, category, organiser, url
+    venue, category, organiser, url,
+    status="Listed by organiser"
 ):
     if not start or not venue:
         return
@@ -171,14 +164,17 @@ def add_candidate(
         "category": category,
         "organiser": organiser,
         "official_url": url,
-        "status": "Listed by organiser",
+        "status": status,
     })
 
+
+# ---------------------------------------
+# BRITISH SUPERBIKES
+# ---------------------------------------
 
 def import_bsb(text):
     results = []
 
-    # Require an explicitly published calendar year.
     heading = re.search(
         r"\b(20\d{2})\s+Calendar\b",
         text, re.I
@@ -190,8 +186,6 @@ def import_bsb(text):
 
     year = int(heading.group(1))
 
-    # Example:
-    # Round 11 16 - 18 Oct Brands Hatch GP
     pattern = (
         rf"\bRound\s+(\d{{1,2}})\s+"
         rf"(\d{{1,2}})\s*[-–]\s*"
@@ -215,12 +209,8 @@ def import_bsb(text):
             continue
 
         try:
-            start = make_date(
-                first, month, year
-            )
-            end = make_date(
-                last, month, year
-            )
+            start = make_date(first, month, year)
+            end = make_date(last, month, year)
         except ValueError:
             continue
 
@@ -237,11 +227,13 @@ def import_bsb(text):
     return results
 
 
+# ---------------------------------------
+# CLASSIC RACING MOTORCYCLE CLUB
+# ---------------------------------------
+
 def import_crmc(text):
     results = []
 
-    # Example:
-    # Round 2: 1-2 May 2027 - Anglesey Coastal
     pattern = (
         rf"\bRound\s+(\d{{1,2}})\s*:\s*"
         rf"(\d{{1,2}})\s*[-–]\s*"
@@ -265,12 +257,8 @@ def import_crmc(text):
             continue
 
         try:
-            start = make_date(
-                first, month, year
-            )
-            end = make_date(
-                last, month, year
-            )
+            start = make_date(first, month, year)
+            end = make_date(last, month, year)
         except ValueError:
             continue
 
@@ -287,11 +275,13 @@ def import_crmc(text):
     return results
 
 
+# ---------------------------------------
+# MOTORCYCLE LIVE
+# ---------------------------------------
+
 def import_motorcycle_live(text):
     results = []
 
-    # Requires a complete dated announcement
-    # and explicit venue confirmation.
     pattern = (
         rf"\b(\d{{1,2}})\s*[-–]\s*"
         rf"(\d{{1,2}})\s+({MONTH})"
@@ -299,8 +289,7 @@ def import_motorcycle_live(text):
     )
 
     if not re.search(
-        r"\b(?:NEC|National Exhibition Centre)"
-        r"\b",
+        r"\b(?:NEC|National Exhibition Centre)\b",
         text, re.I
     ):
         return results
@@ -312,8 +301,6 @@ def import_motorcycle_live(text):
             match.groups()
         )
 
-        # Avoid picking an unrelated date elsewhere
-        # on the homepage.
         nearby = text[
             max(0, match.start() - 160):
             min(len(text), match.end() + 160)
@@ -326,12 +313,8 @@ def import_motorcycle_live(text):
             continue
 
         try:
-            start = make_date(
-                first, month, year
-            )
-            end = make_date(
-                last, month, year
-            )
+            start = make_date(first, month, year)
+            end = make_date(last, month, year)
         except ValueError:
             continue
 
@@ -348,6 +331,114 @@ def import_motorcycle_live(text):
     return results
 
 
+# ---------------------------------------
+# BEMSEE / BMCRC 2027
+# ---------------------------------------
+
+def import_bemsee(text):
+    results = []
+    year = 2027
+
+    # Require the official page to identify
+    # the calendar as Bemsee/BMCRC 2027.
+    if not re.search(
+        r"\b(?:BMCRC|Bemsee)\b",
+        text, re.I
+    ):
+        print("Bemsee: organiser not found")
+        return results
+
+    # The known 2027 circuit names.
+    circuit_pattern = (
+        r"Oulton Park|Brands Hatch(?: Indy)?|"
+        r"Donington Park(?: GP)?|"
+        r"Snetterton(?: 300)?|Cadwell Park|"
+        r"Anglesey|Mallory Park"
+    )
+
+    # Supports:
+    # Oulton Park 25/27 March
+    # Oulton Park 25-27 March
+    # 25-27 March Oulton Park
+    # 25th - 27th March Oulton Park
+    day_range = (
+        r"(\d{1,2})(?:st|nd|rd|th)?"
+        r"\s*[/–-]\s*"
+        r"(\d{1,2})(?:st|nd|rd|th)?"
+    )
+
+    patterns = [
+        (
+            rf"\b({circuit_pattern})\s+"
+            rf"{day_range}\s+({MONTH})\b",
+            "venue_first"
+        ),
+        (
+            rf"\b{day_range}\s+({MONTH})"
+            rf"\s+({circuit_pattern})\b",
+            "date_first"
+        ),
+    ]
+
+    for pattern, order in patterns:
+        for match in re.finditer(
+            pattern, text, re.I
+        ):
+            if order == "venue_first":
+                circuit, first, last, month = (
+                    match.groups()
+                )
+            else:
+                first, last, month, circuit = (
+                    match.groups()
+                )
+
+            venue = venue_from_text(circuit)
+
+            if not venue:
+                continue
+
+            try:
+                start = make_date(
+                    first, month, year
+                )
+                end = make_date(
+                    last, month, year
+                )
+            except ValueError:
+                continue
+
+            add_candidate(
+                results,
+                f"Bemsee BMCRC {year} - {circuit}",
+                start, end, venue,
+                "Bike racing",
+                "British Motorcycle Racing Club",
+                SOURCES["bemsee"],
+                "Provisional dates"
+            )
+
+    # Deduplicate matches within the page.
+    unique = []
+    seen = set()
+
+    for event in results:
+        key = (
+            event["date"],
+            event["venue"].casefold()
+        )
+
+        if key not in seen:
+            seen.add(key)
+            unique.append(event)
+
+    return unique
+
+
+# ---------------------------------------
+# DUPLICATE PROTECTION
+# ---------------------------------------
+
 def event_key(event):
     return (
         str(event.get("name", ""))
@@ -357,6 +448,10 @@ def event_key(event):
         .strip().casefold(),
     )
 
+
+# ---------------------------------------
+# MAIN IMPORTER
+# ---------------------------------------
 
 def main():
     print("PITLANE UK - MOTORCYCLE IMPORT")
@@ -378,10 +473,26 @@ def main():
     }
 
     importers = [
-        ("British Superbikes", "bsb", import_bsb),
-        ("Classic Racing", "crmc", import_crmc),
-        ("Motorcycle Live", "mcl",
-         import_motorcycle_live),
+        (
+            "British Superbikes",
+            "bsb",
+            import_bsb
+        ),
+        (
+            "Classic Racing",
+            "crmc",
+            import_crmc
+        ),
+        (
+            "Motorcycle Live",
+            "mcl",
+            import_motorcycle_live
+        ),
+        (
+            "Bemsee BMCRC",
+            "bemsee",
+            import_bemsee
+        ),
     ]
 
     added = 0
@@ -447,4 +558,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
