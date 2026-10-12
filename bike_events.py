@@ -35,7 +35,7 @@ SOURCES = {
     "bsb": "https://www.britishsuperbike.com/calendar",
     "crmc": "https://www.crmc.co.uk/",
     "mcl": "https://www.motorcyclelive.co.uk/",
-    "bemsee": "https://www.bemsee.net/",
+    "bemsee": "https://www.bemsee.net/info-centre/bmcrc-provisional-dates-2027",
 }
 
 # Recognised UK race circuits.
