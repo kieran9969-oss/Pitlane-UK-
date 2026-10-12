@@ -430,5 +430,82 @@
     "organiser": "Rollhard",
     "official_url": "https://www.rollhard.co.uk/pages/bicester",
     "status": "confirmed"
+  },
+  {
+    "name": "British Superbikes Round 11 2026 - Brands Hatch",
+    "date": "2026-10-16",
+    "end_date": "2026-10-18",
+    "venue": "Brands Hatch",
+    "region": "",
+    "category": "Bike racing",
+    "organiser": "British Superbike Championship",
+    "official_url": "https://www.britishsuperbike.com/calendar",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "CRMC Classic Motorcycle Racing Round 1 2027 - Cadwell Park",
+    "date": "2027-04-03",
+    "end_date": "2027-04-04",
+    "venue": "Cadwell Park",
+    "region": "",
+    "category": "Bike racing",
+    "organiser": "Classic Racing Motorcycle Club",
+    "official_url": "https://www.crmc.co.uk/",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "CRMC Classic Motorcycle Racing Round 2 2027 - Anglesey Circuit",
+    "date": "2027-05-01",
+    "end_date": "2027-05-02",
+    "venue": "Anglesey Circuit",
+    "region": "",
+    "category": "Bike racing",
+    "organiser": "Classic Racing Motorcycle Club",
+    "official_url": "https://www.crmc.co.uk/",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "CRMC Classic Motorcycle Racing Round 3 2027 - Snetterton",
+    "date": "2027-06-05",
+    "end_date": "2027-06-06",
+    "venue": "Snetterton",
+    "region": "",
+    "category": "Bike racing",
+    "organiser": "Classic Racing Motorcycle Club",
+    "official_url": "https://www.crmc.co.uk/",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "CRMC Classic Motorcycle Racing Round 4 2027 - Knockhill",
+    "date": "2027-07-03",
+    "end_date": "2027-07-04",
+    "venue": "Knockhill",
+    "region": "",
+    "category": "Bike racing",
+    "organiser": "Classic Racing Motorcycle Club",
+    "official_url": "https://www.crmc.co.uk/",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "CRMC Classic Motorcycle Racing Round 6 2027 - Pembrey Circuit",
+    "date": "2027-09-04",
+    "end_date": "2027-09-05",
+    "venue": "Pembrey Circuit",
+    "region": "",
+    "category": "Bike racing",
+    "organiser": "Classic Racing Motorcycle Club",
+    "official_url": "https://www.crmc.co.uk/",
+    "status": "Listed by organiser"
+  },
+  {
+    "name": "Motorcycle Live 2026",
+    "date": "2026-11-21",
+    "end_date": "2026-11-29",
+    "venue": "NEC Birmingham",
+    "region": "",
+    "category": "Motorcycle Show",
+    "organiser": "Motorcycle Live",
+    "official_url": "https://www.motorcyclelive.co.uk/",
+    "status": "Listed by organiser"
   }
 ]
