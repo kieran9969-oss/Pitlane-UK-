@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python3
-"""PITLANE UK - Combined automatic event importer."""
+"""PITLANE UK - Automatic dates and venue checking."""
 
 import json
 import re
@@ -11,26 +11,17 @@ from html.parser import HTMLParser
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-ROOT = Path(__file__).resolve().parent
-EVENTS_FILE = ROOT / "data/manual-events.json"
+FILE = Path(__file__).resolve().parent / "data/manual-events.json"
 
 MONTHS = {
-    month.lower(): number
-    for number, month in enumerate(
-        [
-            "January", "February", "March", "April",
-            "May", "June", "July", "August",
-            "September", "October", "November",
-            "December",
-        ],
-        start=1,
+    m.lower(): i for i, m in enumerate(
+        "January February March April May June July August "
+        "September October November December".split(), 1
     )
 }
-
-MONTH_RE = "|".join(MONTHS)
-
+MONTH = "|".join(MONTHS)
 DAY = r"\d{1,2}(?:st|nd|rd|th)?"
-WEEKDAY = r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)(?:day)?"
+WD = r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)(?:day)?"
 
 SHOWS = [
     {
@@ -38,33 +29,51 @@ SHOWS = [
         "url": "https://www.thereunionshow.co.uk/",
         "venue": "Staffordshire Showground",
         "region": "West Midlands",
-        "type": "reunion",
+        "kind": "reunion",
     },
     {
         "name": "Ultimate Street Car",
         "url": "https://ultimatestreetcar.co.uk/",
         "venue": "Santa Pod Raceway",
         "region": "East of England",
-        "type": "usc",
+        "kind": "usc",
     },
     {
         "name": "Rollhard Bicester",
         "url": "https://www.rollhard.co.uk/pages/bicester",
         "venue": "Bicester Heritage",
         "region": "South East",
-        "type": "rollhard",
+        "kind": "rollhard",
     },
     {
         "name": "Isle of Wight Takeover",
         "url": "https://www.iowtakeover.co.uk/",
         "venue": "Royal Isle of Wight County Showground",
         "region": "Isle of Wight",
-        "type": "takeover",
+        "kind": "takeover",
     },
 ]
 
+VENUE_ALIASES = {
+    "Royal Isle of Wight County Showground": [
+        "Royal Isle of Wight County Showground",
+        "Royal Isle of Wight Agricultural Society County Show Ground",
+    ],
+    "Bicester Heritage": [
+        "Bicester Heritage",
+        "Bicester Motion",
+    ],
+    "Santa Pod Raceway": [
+        "Santa Pod Raceway",
+        "Santa Pod",
+    ],
+    "Staffordshire Showground": [
+        "Staffordshire Showground",
+    ],
+}
 
-class TextExtractor(HTMLParser):
+
+class PageParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.parts = []
@@ -80,250 +89,180 @@ class TextExtractor(HTMLParser):
 
     def handle_data(self, data):
         if not self.hidden:
-            self.parts.append(data)
+            value = data.strip()
+            if value:
+                self.parts.append(value)
 
     def text(self):
-        return re.sub(
-            r"\s+",
-            " ",
-            unescape(" ".join(self.parts)),
-        ).strip()
+        return unescape(" ".join(self.parts))
 
 
-def fetch_page(url):
+def fetch(url):
     request = urllib.request.Request(
         url,
-        headers={
-            "User-Agent": "Mozilla/5.0 PITLANE-UK"
-        },
+        headers={"User-Agent": "Mozilla/5.0 PITLANE-UK"},
     )
-
-    with urllib.request.urlopen(
-        request,
-        timeout=20,
-    ) as response:
+    with urllib.request.urlopen(request, timeout=20) as response:
         raw = response.read(2_000_000)
-        charset = response.headers.get_content_charset()
+        encoding = response.headers.get_content_charset()
 
-    parser = TextExtractor()
-
-    parser.feed(
-        raw.decode(
-            charset or "utf-8",
-            errors="replace",
-        )
-    )
-
-    return parser.text()
+    parser = PageParser()
+    parser.feed(raw.decode(encoding or "utf-8", errors="replace"))
+    return re.sub(r"\s+", " ", parser.text()).strip()
 
 
 def make_date(day, month, year):
-    day = int(
-        re.match(r"\d+", day).group()
-    )
-
-    month = MONTHS[month.lower()]
-
-    return date(
-        int(year),
-        month,
-        day,
-    )
+    number = int(re.match(r"\d+", day).group())
+    return date(int(year), MONTHS[month.lower()], number)
 
 
-def extract_reunion(text):
-    pattern = (
-        rf"\b({DAY})\s+"
-        rf"({MONTH_RE})\s+"
-        rf"(20\d{{2}})\b"
-    )
+def dates_for(show, text):
+    kind = show["kind"]
+    found = []
 
-    results = []
+    if kind == "reunion":
+        pattern = rf"\b({DAY})\s+({MONTH})\s+(20\d{{2}})\b"
+        for match in re.finditer(pattern, text, re.I):
+            try:
+                d = make_date(*match.groups())
+                found.append((d, d))
+            except ValueError:
+                pass
 
-    for match in re.finditer(
-        pattern,
-        text,
-        re.IGNORECASE,
-    ):
-        try:
-            d = make_date(*match.groups())
-            results.append((d, d))
-        except ValueError:
-            continue
-
-    return results
-
-
-def extract_usc(text):
-    pattern = (
-        rf"(?:{WEEKDAY}\s+)?"
-        rf"({DAY})\s+({MONTH_RE})\s+"
-        rf"(?:to|-|–)\s+"
-        rf"(?:{WEEKDAY}\s+)?"
-        rf"({DAY})\s+({MONTH_RE})\s+"
-        rf"(20\d{{2}})"
-    )
-
-    results = []
-
-    for match in re.finditer(
-        pattern,
-        text,
-        re.IGNORECASE,
-    ):
-        (
-            first_day,
-            first_month,
-            last_day,
-            last_month,
-            year,
-        ) = match.groups()
-
-        try:
-            start = make_date(
-                first_day,
-                first_month,
-                year,
-            )
-
-            end = make_date(
-                last_day,
-                last_month,
-                year,
-            )
-
-            if (
-                end >= start
-                and (end - start).days <= 7
-            ):
-                results.append((start, end))
-
-        except ValueError:
-            continue
-
-    return results
-
-
-def extract_rollhard(text):
-    pattern = (
-        r"\b(\d{2})\.(\d{2})\."
-        r"(20\d{2})\b"
-    )
-
-    results = []
-
-    for match in re.finditer(
-        pattern,
-        text,
-    ):
-        day, month, year = map(
-            int,
-            match.groups(),
+    elif kind == "usc":
+        pattern = (
+            rf"(?:{WD}\s+)?({DAY})\s+({MONTH})\s+"
+            rf"(?:to|-|–)\s+(?:{WD}\s+)?"
+            rf"({DAY})\s+({MONTH})\s+(20\d{{2}})"
         )
+        for match in re.finditer(pattern, text, re.I):
+            a, am, b, bm, year = match.groups()
+            try:
+                start = make_date(a, am, year)
+                end = make_date(b, bm, year)
+                if 0 <= (end - start).days <= 7:
+                    found.append((start, end))
+            except ValueError:
+                pass
 
-        try:
-            d = date(year, month, day)
-            results.append((d, d))
-        except ValueError:
-            continue
+    elif kind == "rollhard":
+        pattern = r"\b(\d{2})\.(\d{2})\.(20\d{2})\b"
+        for match in re.finditer(pattern, text):
+            day, month, year = map(int, match.groups())
+            try:
+                d = date(year, month, day)
+                found.append((d, d))
+            except ValueError:
+                pass
 
-    return results
+        # Also recognise written dates.
+        pattern = rf"\b({DAY})\s+({MONTH})\s+(20\d{{2}})\b"
+        for match in re.finditer(pattern, text, re.I):
+            try:
+                d = make_date(*match.groups())
+                found.append((d, d))
+            except ValueError:
+                pass
+
+    elif kind == "takeover":
+        pattern = (
+            rf"PARTY\s*[-–:]\s*({DAY})\s+({MONTH})"
+            rf".{{0,100}}?SHOW\s*DAY\s*[-–:]\s*"
+            rf"({DAY})\s+({MONTH})\s+(20\d{{2}})"
+        )
+        for match in re.finditer(pattern, text, re.I):
+            a, am, b, bm, year = match.groups()
+            try:
+                start = make_date(a, am, year)
+                end = make_date(b, bm, year)
+                if 0 <= (end - start).days <= 7:
+                    found.append((start, end))
+            except ValueError:
+                pass
+
+    return sorted(set(found))
 
 
-def extract_takeover(text):
-    pattern = (
-        rf"PARTY\s*[-–:]\s*"
-        rf"({DAY})\s+({MONTH_RE})"
-        rf".{{0,100}}?"
-        rf"SHOW\s*DAY\s*[-–:]\s*"
-        rf"({DAY})\s+({MONTH_RE})\s+"
-        rf"(20\d{{2}})"
+def canonical_venue(name):
+    """Treat known alternative venue names as equivalent."""
+    cleaned = re.sub(r"\s+", " ", name).strip().casefold()
+
+    for canonical, aliases in VENUE_ALIASES.items():
+        if cleaned in [alias.casefold() for alias in aliases]:
+            return canonical
+
+    return name.strip()
+
+
+def expected_venue_present(show, text):
+    aliases = VENUE_ALIASES.get(
+        show["venue"], [show["venue"]]
     )
-
-    results = []
-
-    for match in re.finditer(
-        pattern,
-        text,
-        re.IGNORECASE,
-    ):
-        (
-            first_day,
-            first_month,
-            last_day,
-            last_month,
-            year,
-        ) = match.groups()
-
-        try:
-            start = make_date(
-                first_day,
-                first_month,
-                year,
-            )
-
-            end = make_date(
-                last_day,
-                last_month,
-                year,
-            )
-
-            if (
-                end >= start
-                and (end - start).days <= 7
-            ):
-                results.append((start, end))
-
-        except ValueError:
-            continue
-
-    return results
+    lowered = text.casefold()
+    return any(alias.casefold() in lowered for alias in aliases)
 
 
-EXTRACTORS = {
-    "reunion": extract_reunion,
-    "usc": extract_usc,
-    "rollhard": extract_rollhard,
-    "takeover": extract_takeover,
-}
+def extract_labeled_venue(show, text):
+    """
+    Identify a venue only from a clear organiser location label.
+    Do not guess a venue from a town, map pin or general text.
+    """
+    kind = show["kind"]
+
+    if kind == "reunion":
+        pattern = (
+            r"\bLOCATION\s+"
+            r"(.{3,100}?)\s+"
+            r"(?:Weston Road|Stafford|ST18\b)"
+        )
+        match = re.search(pattern, text, re.I)
+        if match:
+            return match.group(1).strip(" :-,")
+
+    elif kind == "rollhard":
+        pattern = (
+            r"Where is Bicester Motion\?\s+"
+            r"(.{3,100}?)\s*,\s*Buckingham Road"
+        )
+        match = re.search(pattern, text, re.I)
+        if match:
+            return match.group(1).strip(" :-,")
+
+    return None
 
 
-def venue_confirmed(text, show):
-    """Check whether the expected venue is on the page."""
+def verify_venue(show, text, start, end):
+    """
+    Return (venue, confidence).
 
-    return (
-        show["venue"].casefold()
-        in text.casefold()
-    )
+    'known': expected venue appears on the page.
+    'labeled': a clearly labeled venue was extracted.
+    'confirmed-2027': previously confirmed Takeover edition.
+    'unknown': no reliable venue evidence.
+    """
+    if expected_venue_present(show, text):
+        return show["venue"], "known"
 
+    extracted = extract_labeled_venue(show, text)
+    if extracted:
+        return canonical_venue(extracted), "labeled"
 
-def venue_verified(text, show, start, end):
-    """Verify the venue, including the confirmed 2027 exception."""
-
-    if venue_confirmed(text, show):
-        return True
-
-    # The 2027 Isle of Wight Takeover venue was
-    # confirmed separately by the organiser's details.
-    # This exception applies only to that edition.
     if (
-        show["type"] == "takeover"
-        and start.isoformat() == "2027-05-15"
-        and end.isoformat() == "2027-05-16"
+        show["kind"] == "takeover"
+        and start == date(2027, 5, 15)
+        and end == date(2027, 5, 16)
     ):
-        return True
+        return show["venue"], "confirmed-2027"
 
-    return False
+    return None, "unknown"
 
 
-def make_event(show, start, end):
+def make_event(show, start, end, venue):
     return {
-        "name": (
-            f"{show['name']} {start.year}"
-        ),
+        "name": f"{show['name']} {start.year}",
         "date": start.isoformat(),
         "end_date": end.isoformat(),
-        "venue": show["venue"],
+        "venue": venue,
         "region": show["region"],
         "category": "Modified Car Show",
         "organiser": show["name"],
@@ -333,270 +272,153 @@ def make_event(show, start, end):
 
 
 def main():
-    today = datetime.now(
-        ZoneInfo("Europe/London")
-    ).date()
-
-    events = json.loads(
-        EVENTS_FILE.read_text(
-            encoding="utf-8"
-        )
-    )
+    today = datetime.now(ZoneInfo("Europe/London")).date()
+    events = json.loads(FILE.read_text(encoding="utf-8"))
 
     if not isinstance(events, list):
-        raise ValueError(
-            "manual-events.json must contain a list."
-        )
+        raise ValueError("manual-events.json must contain a list.")
 
-    added = 0
-    updated = 0
-    existing = 0
-    review = 0
-    failed = 0
+    added = updated = existing = review = failed = 0
 
-    print(
-        "PITLANE UK - AUTOMATIC COMBINED IMPORTER"
-    )
+    print("PITLANE UK - AUTOMATIC DATE AND VENUE CHECKER")
     print(f"Today's UK date: {today}")
 
     for show in SHOWS:
         print(f"\n--- {show['name']} ---")
 
         try:
-            page = fetch_page(show["url"])
-
+            page = fetch(show["url"])
         except Exception as error:
             failed += 1
-            print(
-                f"WEBSITE CHECK FAILED: {error}"
-            )
+            print(f"WEBSITE CHECK FAILED: {error}")
             continue
 
-        extractor = EXTRACTORS[
-            show["type"]
-        ]
-
-        candidates = extractor(page)
-
-        # Ignore editions that have finished.
         candidates = [
             (start, end)
-            for start, end in candidates
+            for start, end in dates_for(show, page)
             if end >= today
         ]
 
         if not candidates:
-            print(
-                "No complete upcoming date found."
-            )
+            print("No complete upcoming date found.")
             continue
 
-        # Group dates by event year.
         by_year = {}
-
         for start, end in candidates:
-            by_year.setdefault(
-                start.year,
-                set(),
-            ).add((start, end))
+            by_year.setdefault(start.year, set()).add((start, end))
 
-        for year, ranges in sorted(
-            by_year.items()
-        ):
-            name = (
-                f"{show['name']} {year}"
-            )
+        for year, ranges in sorted(by_year.items()):
+            name = f"{show['name']} {year}"
 
-            # Do not guess between different
-            # dates for the same edition.
             if len(ranges) != 1:
-                print(
-                    "REVIEW CONFLICTING DATES: "
-                    + name
-                )
                 review += 1
+                print(f"REVIEW CONFLICTING DATES: {name}")
                 continue
 
-            start, end = next(
-                iter(ranges)
+            start, end = next(iter(ranges))
+
+            venue, confidence = verify_venue(
+                show, page, start, end
             )
 
-            # Only use verified venues.
-            if not venue_verified(
-                page,
-                show,
-                start,
-                end,
-            ):
-                print(
-                    "REVIEW VENUE NOT VERIFIED: "
-                    + name
-                )
-                print(
-                    f"  Dates found: "
-                    f"{start} to {end}"
-                )
+            if venue is None:
                 review += 1
+                print(f"REVIEW VENUE NOT VERIFIED: {name}")
+                print(f"  Dates: {start} to {end}")
                 continue
 
-            proposed = make_event(
-                show,
-                start,
-                end,
-            )
-
-            # Find an existing edition.
             matches = [
-                event
-                for event in events
-                if (
-                    event.get(
-                        "name", ""
-                    ).strip().casefold()
-                    == name.casefold()
-                )
+                event for event in events
+                if event.get("name", "").strip().casefold()
+                == name.casefold()
             ]
 
             if len(matches) > 1:
-                print(
-                    "REVIEW DUPLICATE EXISTING EVENTS: "
-                    + name
-                )
                 review += 1
+                print(f"REVIEW DUPLICATE EVENTS: {name}")
                 continue
 
-            # Add a new confirmed edition.
+            # A newly extracted venue name is not automatically
+            # trusted if it differs from the established venue.
+            # It may be an address fragment or unrelated text.
+            if canonical_venue(venue) != canonical_venue(show["venue"]):
+                review += 1
+                print(f"REVIEW POSSIBLE VENUE MOVE: {name}")
+                print(f"  Previous venue: {show['venue']}")
+                print(f"  Website suggests: {venue}")
+                continue
+
+            proposed = make_event(show, start, end, venue)
+
             if not matches:
                 events.append(proposed)
                 added += 1
-
-                print(
-                    f"ADDED: {name} "
-                    f"({start} to {end})"
-                )
+                print(f"ADDED: {name} ({start} to {end})")
                 continue
 
             current = matches[0]
 
-            old_start = current.get(
-                "date"
+            old_start = current.get("date")
+            old_end = current.get("end_date") or old_start
+            old_venue = current.get("venue", "")
+
+            # Standardise known venue aliases automatically.
+            # This is a naming correction, not a venue move.
+            venue_changed = (
+                canonical_venue(old_venue)
+                != canonical_venue(proposed["venue"])
             )
 
-            old_end = current.get(
-                "end_date",
-                old_start,
-            )
-
-            old_venue = current.get(
-                "venue"
-            )
-
-            # Never silently overwrite a
-            # different existing venue.
-            if old_venue != proposed["venue"]:
-                print(
-                    "REVIEW VENUE CHANGE: "
-                    + name
-                )
-                print(
-                    f"  Current: {old_venue}"
-                )
-                print(
-                    "  Expected venue: "
-                    + proposed["venue"]
-                )
+            if venue_changed:
                 review += 1
+                print(f"REVIEW EXISTING VENUE: {name}")
+                print(f"  Saved: {old_venue}")
+                print(f"  Website: {proposed['venue']}")
                 continue
 
-            # No changes required.
+            changed = False
+
             if (
-                old_start == proposed["date"]
-                and old_end == proposed["end_date"]
+                old_start != proposed["date"]
+                or old_end != proposed["end_date"]
             ):
-                existing += 1
+                print(f"DATE CHANGE DETECTED: {name}")
+                print(f"  Old: {old_start} to {old_end}")
                 print(
-                    "ALREADY LISTED: "
-                    + name
+                    f"  New: {proposed['date']} "
+                    f"to {proposed['end_date']}"
                 )
-                continue
+                current["date"] = proposed["date"]
+                current["end_date"] = proposed["end_date"]
+                changed = True
 
-            # Update a clearly identified
-            # date change.
-            print(
-                "DATE CHANGE DETECTED: "
-                + name
-            )
+            if old_venue != proposed["venue"]:
+                current["venue"] = proposed["venue"]
+                print(f"STANDARDISED VENUE: {name}")
+                changed = True
 
-            print(
-                f"  Old: "
-                f"{old_start} to {old_end}"
-            )
+            if changed:
+                updated += 1
+                print(f"UPDATED: {name}")
+            else:
+                existing += 1
+                print(f"ALREADY LISTED: {name}")
 
-            print(
-                f"  New: "
-                f"{proposed['date']} "
-                f"to {proposed['end_date']}"
-            )
-
-            current["date"] = proposed[
-                "date"
-            ]
-
-            current["end_date"] = proposed[
-                "end_date"
-            ]
-
-            updated += 1
-
-            print(
-                "UPDATED: " + name
-            )
-
-    # Save only when events have changed.
     if added or updated:
-        EVENTS_FILE.write_text(
-            json.dumps(
-                events,
-                indent=2,
-                ensure_ascii=False,
-            ) + "\n",
+        FILE.write_text(
+            json.dumps(events, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
 
-    print(
-        "\n--- COMBINED IMPORT SUMMARY ---"
-    )
-
-    print(
-        f"Events added: {added}"
-    )
-
-    print(
-        f"Events updated: {updated}"
-    )
-
-    print(
-        f"Already listed: {existing}"
-    )
-
-    print(
-        f"Events needing review: {review}"
-    )
-
-    print(
-        f"Website checks failed: {failed}"
-    )
-
-    print(
-        f"Total manual events: {len(events)}"
-    )
-
-    print(
-        "Automatic import check complete."
-    )
+    print("\n--- COMBINED IMPORT SUMMARY ---")
+    print(f"Events added: {added}")
+    print(f"Events updated: {updated}")
+    print(f"Already listed: {existing}")
+    print(f"Events needing review: {review}")
+    print(f"Website checks failed: {failed}")
+    print(f"Total manual events: {len(events)}")
+    print("Automatic import check complete.")
 
 
 if __name__ == "__main__":
     main()
-
-
