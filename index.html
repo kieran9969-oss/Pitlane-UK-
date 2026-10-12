@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PITLANE EVENTS | Car & Bike Events</title>
+  <title>Find UK Car & Motorcycle Events | Pitlane Events</title>
+  <meta name="description" content="Find car shows, bike meets and motorsport events across the UK. Filter by date, region and category, save favourites and add events to your calendar.">
 
   <style>
     * { box-sizing: border-box; }
@@ -234,6 +235,34 @@
       nav { width: 100%; }
       .nav-button { flex: 1 1 40%; }
     }
+    :root { color-scheme: dark; --accent: #DFFF00; }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .header-inner { flex-wrap: nowrap; }
+    header { padding: 12px 16px; }
+    .logo img { width: 170px; }
+    .hero { padding: 25px 16px 12px; }
+    .hero h1 { max-width: 900px; margin: auto; font-size: clamp(25px, 4vw, 38px); }
+    .hero p { margin: 10px auto; }
+    main { padding: 14px 16px; }
+    .filters { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; margin: 14px 0; }
+    .filter-field { min-width: 0; }
+    .filter-field label { font-size: 13px; margin: 0 0 6px; }
+    .filters input, .filters select, #search { width: 100%; margin: 0; padding: 12px; min-height: 46px; background: #171e29; border: 1px solid #667488; border-radius: 9px; color: white; font: inherit; }
+    .filter-actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+    .filter-actions button { min-height: 44px; padding: 10px 14px; }
+    .results-line { color: #cdd6e0; margin: 14px 0; }
+    .event { display: flex; flex-direction: column; gap: 8px; }
+    .event h3 { margin: 0; line-height: 1.3; }
+    .event p { margin: 0; }
+    .event-meta { font-size: 14px; }
+    .event-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 12px; }
+    .event-actions a, .event-actions button { min-height: 44px; border-radius: 8px; padding: 11px 12px; font-size: 14px; text-decoration: none; font-weight: bold; background: #2c3544; color: #fff; border: 1px solid #657083; }
+    .event-actions .save-button { width: auto; margin: 0; }
+    .event-actions .saved { background: #DFFF00; color: #0b0e14; }
+    .status { font-size: 13px; color: #d1d9e3; }
+    @media(max-width:800px) { .header-inner { flex-wrap: wrap; justify-content: center; } .filters { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+    @media(max-width:520px) { nav { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:5px; } .nav-button { padding: 10px 3px; font-size: 12px; min-height:44px; } .logo img { width: 150px; } .filters { grid-template-columns:1fr 1fr; } .filter-search { grid-column:1/-1; } .hero { padding-top:20px; } }
+    @media(prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto !important; transition:none !important; animation:none !important; } }
   </style>
 </head>
 
@@ -274,33 +303,32 @@
 
   <section class="hero">
     <h1 id="hero-title">
-      FIND YOUR NEXT CAR EVENT.
+      Find car and bike events across the UK.
     </h1>
 
     <p id="hero-description">
-      UK car shows, modified car meets and motorsport.
+      Your next meet. Your next ride.
     </p>
   </section>
 
   <main>
 
     <section id="browse-section">
-      <h2 id="section-heading">
-        Upcoming Car Events
-      </h2>
-
-      <p id="section-description"
-        class="description">
-        Discover upcoming car shows and motorsport.
-      </p>
-
-      <input
-        id="search"
-        type="search"
-        placeholder="Search events or venues..."
-        aria-label="Search events"
-      >
-
+      <h2 id="section-heading">Explore upcoming events</h2>
+      <p id="section-description" class="description">Search car shows, bike meets and motorsport events.</p>
+      <div class="filters" role="group" aria-label="Event filters">
+        <div class="filter-field filter-search"><label for="search">Search events or venues</label><input id="search" type="search" placeholder="Name, venue or organiser"></div>
+        <div class="filter-field"><label for="vehicle-filter">Events for</label><select id="vehicle-filter"><option value="both">Cars and bikes</option><option value="car">Cars</option><option value="bike">Bikes</option></select></div>
+        <div class="filter-field"><label for="date-filter">Date</label><input id="date-filter" type="date"></div>
+        <div class="filter-field"><label for="region-filter">Region</label><select id="region-filter"><option value="">All regions</option></select></div>
+        <div class="filter-field"><label for="category-filter">Category</label><select id="category-filter"><option value="">All categories</option></select></div>
+      </div>
+      <div class="filter-actions">
+        <button type="button" class="action secondary" id="weekend-filter">This weekend</button>
+        <button type="button" class="action secondary" id="month-filter">Next 30 days</button>
+        <button type="button" class="action secondary" id="reset-filters">Reset filters</button>
+      </div>
+      <p id="result-count" class="results-line" role="status" aria-live="polite">Loading events…</p>
       <div id="events" aria-live="polite">
         Loading events...
       </div>
@@ -500,7 +528,7 @@
         .test(text);
     }
 
-    function eventKey(event) {
+    function legacyEventKey(event) {
       if (eventKeys.has(event)) {
         return eventKeys.get(event);
       }
@@ -531,6 +559,60 @@
 
       eventKeys.set(event, key);
       return key;
+    }
+
+    function eventKey(event) {
+      const id = String(event.id || "").trim();
+      return id ? "feed-" + id : legacyEventKey(event);
+    }
+
+    function eventSaved(event) {
+      return savedIds.has(eventKey(event)) || savedIds.has(legacyEventKey(event));
+    }
+
+    function ukToday() {
+      const parts = Object.fromEntries(new Intl.DateTimeFormat("en-GB", {timeZone:"Europe/London",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date()).map(p=>[p.type,p.value])); return `${parts.year}-${parts.month}-${parts.day}`;
+    }
+
+    function isoDate(value) {
+      const v = String(value || "").slice(0,10);
+      return /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v+"T12:00:00Z")) ? v : "";
+    }
+
+    function formatEventDate(event) {
+      const start = isoDate(event.date || event.start);
+      const end = isoDate(event.end_date) || start;
+      if (!start) return "Date to be confirmed";
+      const fmt = d => new Intl.DateTimeFormat("en-GB", {day:"numeric",month:"short",year:"numeric",timeZone:"UTC"}).format(new Date(d+"T12:00:00Z"));
+      return start === end ? fmt(start) : fmt(start)+" – "+fmt(end);
+    }
+
+    function safeUrl(value) {
+      try { const u = new URL(String(value || "")); return ["https:","http:"].includes(u.protocol) ? u.href : ""; } catch { return ""; }
+    }
+
+    function vehicleType(event) {
+      const explicit = String(event.vehicle_type || event.vehicle || event.audience || "").toLowerCase().trim();
+      if (["both","cars and bikes","car and bike"].includes(explicit)) return "both";
+      if (["bike","bikes","motorcycle","motorcycles"].includes(explicit)) return "bike";
+      if (["car","cars"].includes(explicit)) return "car";
+      const cat = String(event.category || "").toLowerCase();
+      if (/bike|motorcycle|superbike|motocross|motogp/.test(cat)) return "bike";
+      if (/car|drift|drag|modified|tuning|auto|motorsport/.test(cat)) return "car";
+      return "unknown";
+    }
+
+    function calendarFile(event) {
+      const start = isoDate(event.date || event.start);
+      if (!start) return;
+      const end = isoDate(event.end_date) || start;
+      const next = new Date(end+"T12:00:00Z"); next.setUTCDate(next.getUTCDate()+1);
+      const compact = s => s.replaceAll("-","");
+      const esc = v => String(v || "").replace(/\\/g,"\\\\").replace(/\n/g," ").replace(/,/g,"\\,").replace(/;/g,"\\;");
+      const title = String(event.name || event.title || "Event");
+      const content = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Pitlane Events//UK Events//EN","BEGIN:VEVENT", "UID:"+encodeURIComponent(eventKey(event))+"@pitlane-events.local", "DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,""), "DTSTART;VALUE=DATE:"+compact(start), "DTEND;VALUE=DATE:"+compact(next.toISOString().slice(0,10)), "SUMMARY:"+esc(title),"LOCATION:"+esc(event.venue || event.location),"DESCRIPTION:"+esc(event.description || ""),"END:VEVENT","END:VCALENDAR",""].join("\r\n");
+      const url = URL.createObjectURL(new Blob([content],{type:"text/calendar;charset=utf-8"}));
+      const a = document.createElement("a"); a.href=url; a.download="event-"+start+".ics"; a.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);
     }
 
     function verifiedMember() {
@@ -582,194 +664,75 @@
     }
 
     function makeEventCard(event, savedView = false) {
-      const card = document.createElement("article");
-      card.className = "event";
-
-      const key = eventKey(event);
-      const saved = savedIds.has(key);
-
-      card.append(
-        makeText(
-          "div",
-          event.date || event.start || "Date TBC",
-          "date"
-        )
-      );
-
-      card.append(
-        makeText(
-          "h3",
-          event.name || event.title || "Event"
-        )
-      );
-
-      card.append(
-        makeText(
-          "p",
-          event.venue || event.location || "UK"
-        )
-      );
-
-      card.append(
-        makeText(
-          "span",
-          isBikeEvent(event) ? "Bike Event" : "Car Event",
-          "event-type"
-        )
-      );
-
-      const officialUrl =
-        event.official_url || event.url || "";
-
-      if (typeof officialUrl === "string") {
+      const card = document.createElement("article"); card.className="event";
+      const key=eventKey(event), legacy=legacyEventKey(event), saved=eventSaved(event);
+      card.append(makeText("div",formatEventDate(event),"date"));
+      card.append(makeText("h3",event.name || event.title || "Event"));
+      const meta=[event.venue || event.location, event.region].filter(Boolean).join(" · ");
+      if(meta) card.append(makeText("p",meta,"event-meta"));
+      card.append(makeText("span",event.category || "Category not supplied","event-type"));
+      if(event.organiser) card.append(makeText("p","Organiser: "+event.organiser,"event-meta"));
+      if(event.description) { const plain=String(event.description).replace(/<[^>]*>/g," ").replace(/&amp;/g,"&").replace(/&nbsp;/g," ").trim(); if(plain) card.append(makeText("p",plain.slice(0,220)+(plain.length>220?"…":""))); }
+      const status=String(event.status || "Details awaiting confirmation");
+      card.append(makeText("p","Listing: "+(status.toLowerCase()==="unverified"?"Details awaiting confirmation":status),"status"));
+      const source=(Array.isArray(event.source_names)?event.source_names.join(", "):event.source_name || "Source not supplied");
+      card.append(makeText("p","Source: "+source,"status"));
+      const actions=document.createElement("div");actions.className="event-actions";
+      const link=(label,url)=>{const href=safeUrl(url);if(!href)return;const a=makeText("a",label);a.href=href;a.target="_blank";a.rel="noopener noreferrer";actions.append(a);};
+      link("View event",event.official_url || event.url);
+      link("Tickets",event.ticket_url);
+      if(isoDate(event.date || event.start)){const cal=makeText("button","Add to calendar");cal.type="button";cal.addEventListener("click",()=>calendarFile(event));actions.append(cal);}
+      const button=makeText("button",savedView?"Remove saved event":saved?"♥ Saved":"♡ Save");
+      button.type="button";button.className="save-button"+(saved?" saved":"");
+      button.addEventListener("click",async()=>{
+        if(!verifiedMember()){showSection("account");showMessage("Sign in and verify your email to save events. Guest saving is planned for the next stage.",true);return;}
+        button.disabled=true;
         try {
-          const url = new URL(officialUrl);
-
-          if (
-            url.protocol === "https:" ||
-            url.protocol === "http:"
-          ) {
-            const link = makeText(
-              "a",
-              "Official event website"
-            );
-
-            link.href = url.href;
-            link.target = "_blank";
-            link.rel = "noopener noreferrer";
-
-            const wrapper = document.createElement("p");
-            wrapper.append(link);
-            card.append(wrapper);
-          }
-        } catch (_) {
-          // Ignore invalid event links.
-        }
-      }
-
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className =
-        "save-button" + (saved ? " saved" : "");
-
-      button.textContent = savedView
-        ? "Remove from My Events"
-        : saved
-          ? "♥ Saved to My Events"
-          : "♡ Save Event";
-
-      button.addEventListener("click", async () => {
-        if (!verifiedMember()) {
-          showSection("account");
-
-          showMessage(
-            "Please sign in and verify your email to save events.",
-            true
-          );
-
-          return;
-        }
-
-        button.disabled = true;
-
-        try {
-          const userId = auth.currentUser.uid;
-
-          const reference = doc(
-            db,
-            "users",
-            userId,
-            "savedEvents",
-            key
-          );
-
-          if (savedIds.has(key)) {
-            await deleteDoc(reference);
-          } else {
-            await setDoc(reference, {
-              eventId: key,
-              savedAt: serverTimestamp()
-            });
-          }
-
-        } catch (error) {
-          console.error("Save event failed:", error);
-
-          alert(
-            "Unable to update your saved events. " +
-            "Please try again."
-          );
-
-        } finally {
-          button.disabled = false;
-        }
+          const base=[db,"users",auth.currentUser.uid,"savedEvents"];
+          if(saved){await Promise.all([...new Set([key,legacy])].filter(id=>savedIds.has(id)).map(id=>deleteDoc(doc(...base,id))));}
+          else await setDoc(doc(...base,key),{eventId:key,savedAt:serverTimestamp()});
+        }catch(error){console.error(error);alert("Unable to update saved events. Please try again.");}
+        finally{button.disabled=false;}
       });
+      actions.append(button);card.append(actions);return card;
+    }
 
-      card.append(button);
+    let dateShortcut="";
+    function filterRange() {
+      if(dateShortcut==="month") { const d=new Date(ukToday()+"T12:00:00Z");d.setUTCDate(d.getUTCDate()+30);return [ukToday(),d.toISOString().slice(0,10)]; }
+      if(dateShortcut==="weekend") { const today=ukToday(),d=new Date(today+"T12:00:00Z");const day=d.getUTCDay();d.setUTCDate(d.getUTCDate()+((6-day+7)%7));const sat=d.toISOString().slice(0,10);d.setUTCDate(d.getUTCDate()+1);return [sat,d.toISOString().slice(0,10)]; }
+      const date=$("date-filter").value;return date?[date,date]:null;
+    }
 
-      return card;
+    function populateFilters() {
+      for(const [id,field] of [["region-filter","region"],["category-filter","category"]]){
+        const select=$(id),selected=select.value;
+        const values=[...new Set(allEvents.map(e=>String(e[field]||"").trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"en-GB"));
+        select.replaceChildren(new Option(id==="region-filter"?"All regions":"All categories",""));
+        for(const value of values)select.add(new Option(value,value));
+        select.value=values.includes(selected)?selected:"";
+      }
     }
 
     function renderEvents() {
-      const container = $("events");
-      container.replaceChildren();
-
-      if (eventsError) {
-        container.textContent =
-          "Unable to load events right now.";
-        return;
-      }
-
-      if (!eventsLoaded) {
-        container.textContent = "Loading events...";
-        return;
-      }
-
-      const query = $("search").value
-        .trim()
-        .toLowerCase();
-
-      const filtered = allEvents.filter(event => {
-        const bike = isBikeEvent(event);
-
-        if (currentSection === "car" && bike) {
-          return false;
-        }
-
-        if (currentSection === "bike" && !bike) {
-          return false;
-        }
-
-        const text = [
-          event.name,
-          event.title,
-          event.venue,
-          event.location,
-          event.region,
-          event.category,
-          event.organiser
-        ].filter(Boolean).join(" ").toLowerCase();
-
-        return text.includes(query);
-      });
-
-      if (!filtered.length) {
-        container.append(
-          makeText(
-            "p",
-            currentSection === "bike"
-              ? "No matching bike events listed yet."
-              : "No matching car events found.",
-            "empty-state"
-          )
-        );
-
-        return;
-      }
-
-      filtered.forEach(event => {
-        container.append(makeEventCard(event));
-      });
+      const container=$("events");container.replaceChildren();
+      if(eventsError){container.append(makeText("p","Events couldn't be loaded. Check your connection and try refreshing.","empty-state"));$("result-count").textContent="Events unavailable";return;}
+      if(!eventsLoaded){container.textContent="Loading events…";return;}
+      const query=$("search").value.trim().toLowerCase(), vehicle=$("vehicle-filter").value, region=$("region-filter").value, category=$("category-filter").value, range=filterRange(), today=ukToday();
+      const filtered=allEvents.filter(event=>{
+        const start=isoDate(event.date || event.start),end=isoDate(event.end_date)||start;
+        if(!start || end<today)return false;
+        const kind=vehicleType(event);
+        if(vehicle!=="both" && kind!==vehicle && kind!=="both")return false;
+        if(region && String(event.region||"")!==region)return false;
+        if(category && String(event.category||"")!==category)return false;
+        if(range && (start>range[1] || end<range[0]))return false;
+        const haystack=[event.name,event.title,event.venue,event.location,event.region,event.category,event.organiser].filter(Boolean).join(" ").toLowerCase();
+        return haystack.includes(query);
+      }).sort((a,b)=>String(a.date||a.start||"").localeCompare(String(b.date||b.start||"")));
+      $("result-count").textContent=filtered.length+" upcoming event"+(filtered.length===1?"":"s")+" found";
+      if(!filtered.length){container.append(makeText("p","No matching events. Try changing the date, region or category, or reset the filters.","empty-state"));return;}
+      filtered.forEach(e=>container.append(makeEventCard(e)));
     }
 
     function renderSavedEvents() {
@@ -813,11 +776,11 @@
       }
 
       const matches = allEvents.filter(event =>
-        savedIds.has(eventKey(event))
+        eventSaved(event)
       );
 
       const foundIds = new Set(
-        matches.map(eventKey)
+        matches.flatMap(event => [eventKey(event),legacyEventKey(event)])
       );
 
       const missingCount = [...savedIds].filter(
@@ -977,6 +940,7 @@
 
     function showSection(section) {
       currentSection = section;
+      if(section==="car" || section==="bike") $("vehicle-filter").value=section;
 
       $("browse-section").classList.toggle(
         "hidden",
@@ -1008,12 +972,12 @@
 
       const headings = {
         car: [
-          "FIND YOUR NEXT CAR EVENT.",
-          "UK car shows, modified car meets and motorsport."
+          "Find car and bike events across the UK.",
+          "Your next meet. Your next ride."
         ],
         bike: [
-          "FIND YOUR NEXT BIKE EVENT.",
-          "Motorcycle shows, bike meets and racing across the UK."
+          "Find car and bike events across the UK.",
+          "Your next meet. Your next ride."
         ],
         saved: [
           "YOUR EVENTS. YOUR PLANS.",
@@ -1061,10 +1025,11 @@
       showSection("account");
     });
 
-    $("search").addEventListener(
-      "input",
-      renderEvents
-    );
+    $("search").addEventListener("input",renderEvents);
+    for(const id of ["vehicle-filter","region-filter","category-filter","date-filter"]){$(id).addEventListener("change",()=>{dateShortcut="";renderEvents();});}
+    $("weekend-filter").addEventListener("click",()=>{dateShortcut="weekend";$("date-filter").value="";renderEvents();});
+    $("month-filter").addEventListener("click",()=>{dateShortcut="month";$("date-filter").value="";renderEvents();});
+    $("reset-filters").addEventListener("click",()=>{dateShortcut="";$("search").value="";$("date-filter").value="";$("region-filter").value="";$("category-filter").value="";$("vehicle-filter").value="both";renderEvents();});
 
     fetch("./data/events.json")
       .then(response => {
@@ -1082,6 +1047,7 @@
             : [];
 
         eventsLoaded = true;
+        populateFilters();
         refreshEventDisplays();
       })
       .catch(error => {
@@ -1265,6 +1231,8 @@
     );
 
     showSection("car");
+    $("vehicle-filter").value="both";
+    renderEvents();
 
   </script>
 </body>
