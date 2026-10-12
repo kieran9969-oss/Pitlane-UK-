@@ -41,6 +41,9 @@ jobs:
       - name: Import combined car events
         run: python combined_events.py
 
+      - name: Test combined event importer
+        run: python test_combined_events.py
+
       - name: Check all event announcements
         run: python event_checker.py
 
