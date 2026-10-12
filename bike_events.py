@@ -339,8 +339,6 @@ def import_bemsee(text):
     results = []
     year = 2027
 
-    # Require the official page to identify
-    # the calendar as Bemsee/BMCRC 2027.
     if not re.search(
         r"\b(?:BMCRC|Bemsee)\b",
         text, re.I
@@ -348,7 +346,6 @@ def import_bemsee(text):
         print("Bemsee: organiser not found")
         return results
 
-    # The known 2027 circuit names.
     circuit_pattern = (
         r"Oulton Park|Brands Hatch(?: Indy)?|"
         r"Donington Park(?: GP)?|"
@@ -356,11 +353,6 @@ def import_bemsee(text):
         r"Anglesey|Mallory Park"
     )
 
-    # Supports:
-    # Oulton Park 25/27 March
-    # Oulton Park 25-27 March
-    # 25-27 March Oulton Park
-    # 25th - 27th March Oulton Park
     day_range = (
         r"(\d{1,2})(?:st|nd|rd|th)?"
         r"\s*[/–-]\s*"
@@ -418,7 +410,6 @@ def import_bemsee(text):
                 "Provisional dates"
             )
 
-    # Deduplicate matches within the page.
     unique = []
     seen = set()
 
@@ -504,7 +495,17 @@ def main():
 
         try:
             text = fetch(SOURCES[source])
+
+            # Diagnostic: show what GitHub receives
+            # from Bemsee's website.
+            if source == "bemsee":
+                print(
+                    "Bemsee page preview:",
+                    repr(text[:500])
+                )
+
             candidates = importer(text)
+
         except Exception as error:
             failures += 1
             print(
@@ -558,5 +559,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
