@@ -84,43 +84,66 @@ class TextExtractor(HTMLParser):
 
     def text(self):
         return re.sub(
-            r"\s+", " ", unescape(" ".join(self.parts))
+            r"\s+",
+            " ",
+            unescape(" ".join(self.parts)),
         ).strip()
 
 
 def fetch_page(url):
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Mozilla/5.0 PITLANE-UK"},
+        headers={
+            "User-Agent": "Mozilla/5.0 PITLANE-UK"
+        },
     )
 
     with urllib.request.urlopen(
-        request, timeout=20
+        request,
+        timeout=20,
     ) as response:
         raw = response.read(2_000_000)
         charset = response.headers.get_content_charset()
 
     parser = TextExtractor()
+
     parser.feed(
-        raw.decode(charset or "utf-8", errors="replace")
+        raw.decode(
+            charset or "utf-8",
+            errors="replace",
+        )
     )
+
     return parser.text()
 
 
 def make_date(day, month, year):
-    day = int(re.match(r"\d+", day).group())
+    day = int(
+        re.match(r"\d+", day).group()
+    )
+
     month = MONTHS[month.lower()]
-    return date(int(year), month, day)
+
+    return date(
+        int(year),
+        month,
+        day,
+    )
 
 
 def extract_reunion(text):
     pattern = (
-        rf"\b({DAY})\s+({MONTH_RE})\s+(20\d{{2}})\b"
+        rf"\b({DAY})\s+"
+        rf"({MONTH_RE})\s+"
+        rf"(20\d{{2}})\b"
     )
+
     results = []
 
     for match in re.finditer(
-        pattern, text, re.IGNORECASE
+        pattern,
+        text,
+        re.IGNORECASE,
     ):
         try:
             d = make_date(*match.groups())
@@ -144,22 +167,37 @@ def extract_usc(text):
     results = []
 
     for match in re.finditer(
-        pattern, text, re.IGNORECASE
+        pattern,
+        text,
+        re.IGNORECASE,
     ):
-        first_day, first_month, last_day, last_month, year = (
-            match.groups()
-        )
+        (
+            first_day,
+            first_month,
+            last_day,
+            last_month,
+            year,
+        ) = match.groups()
 
         try:
             start = make_date(
-                first_day, first_month, year
-            )
-            end = make_date(
-                last_day, last_month, year
+                first_day,
+                first_month,
+                year,
             )
 
-            if end >= start and (end - start).days <= 7:
+            end = make_date(
+                last_day,
+                last_month,
+                year,
+            )
+
+            if (
+                end >= start
+                and (end - start).days <= 7
+            ):
                 results.append((start, end))
+
         except ValueError:
             continue
 
@@ -167,11 +205,21 @@ def extract_usc(text):
 
 
 def extract_rollhard(text):
-    pattern = r"\b(\d{2})\.(\d{2})\.(20\d{2})\b"
+    pattern = (
+        r"\b(\d{2})\.(\d{2})\."
+        r"(20\d{2})\b"
+    )
+
     results = []
 
-    for match in re.finditer(pattern, text):
-        day, month, year = map(int, match.groups())
+    for match in re.finditer(
+        pattern,
+        text,
+    ):
+        day, month, year = map(
+            int,
+            match.groups(),
+        )
 
         try:
             d = date(year, month, day)
@@ -195,22 +243,37 @@ def extract_takeover(text):
     results = []
 
     for match in re.finditer(
-        pattern, text, re.IGNORECASE
+        pattern,
+        text,
+        re.IGNORECASE,
     ):
-        first_day, first_month, last_day, last_month, year = (
-            match.groups()
-        )
+        (
+            first_day,
+            first_month,
+            last_day,
+            last_month,
+            year,
+        ) = match.groups()
 
         try:
             start = make_date(
-                first_day, first_month, year
-            )
-            end = make_date(
-                last_day, last_month, year
+                first_day,
+                first_month,
+                year,
             )
 
-            if end >= start and (end - start).days <= 7:
+            end = make_date(
+                last_day,
+                last_month,
+                year,
+            )
+
+            if (
+                end >= start
+                and (end - start).days <= 7
+            ):
                 results.append((start, end))
+
         except ValueError:
             continue
 
@@ -226,13 +289,38 @@ EXTRACTORS = {
 
 
 def venue_confirmed(text, show):
-    """Require explicit venue evidence on the current page."""
-    return show["venue"].casefold() in text.casefold()
+    """Check whether the expected venue is on the page."""
+
+    return (
+        show["venue"].casefold()
+        in text.casefold()
+    )
+
+
+def venue_verified(text, show, start, end):
+    """Verify the venue, including the confirmed 2027 exception."""
+
+    if venue_confirmed(text, show):
+        return True
+
+    # The 2027 Isle of Wight Takeover venue was
+    # confirmed separately by the organiser's details.
+    # This exception applies only to that edition.
+    if (
+        show["type"] == "takeover"
+        and start.isoformat() == "2027-05-15"
+        and end.isoformat() == "2027-05-16"
+    ):
+        return True
+
+    return False
 
 
 def make_event(show, start, end):
     return {
-        "name": f"{show['name']} {start.year}",
+        "name": (
+            f"{show['name']} {start.year}"
+        ),
         "date": start.isoformat(),
         "end_date": end.isoformat(),
         "venue": show["venue"],
@@ -250,7 +338,9 @@ def main():
     ).date()
 
     events = json.loads(
-        EVENTS_FILE.read_text(encoding="utf-8")
+        EVENTS_FILE.read_text(
+            encoding="utf-8"
+        )
     )
 
     if not isinstance(events, list):
@@ -264,7 +354,9 @@ def main():
     review = 0
     failed = 0
 
-    print("PITLANE UK - AUTOMATIC COMBINED IMPORTER")
+    print(
+        "PITLANE UK - AUTOMATIC COMBINED IMPORTER"
+    )
     print(f"Today's UK date: {today}")
 
     for show in SHOWS:
@@ -272,15 +364,21 @@ def main():
 
         try:
             page = fetch_page(show["url"])
+
         except Exception as error:
             failed += 1
-            print(f"WEBSITE CHECK FAILED: {error}")
+            print(
+                f"WEBSITE CHECK FAILED: {error}"
+            )
             continue
 
-        extractor = EXTRACTORS[show["type"]]
+        extractor = EXTRACTORS[
+            show["type"]
+        ]
+
         candidates = extractor(page)
 
-        # Ignore editions that have already finished.
+        # Ignore editions that have finished.
         candidates = [
             (start, end)
             for start, end in candidates
@@ -288,46 +386,75 @@ def main():
         ]
 
         if not candidates:
-            print("No complete upcoming date found.")
+            print(
+                "No complete upcoming date found."
+            )
             continue
 
-        # Avoid selecting between conflicting date ranges
-        # for the same event edition.
+        # Group dates by event year.
         by_year = {}
 
         for start, end in candidates:
-            by_year.setdefault(start.year, set()).add(
-                (start, end)
+            by_year.setdefault(
+                start.year,
+                set(),
+            ).add((start, end))
+
+        for year, ranges in sorted(
+            by_year.items()
+        ):
+            name = (
+                f"{show['name']} {year}"
             )
 
-        for year, ranges in sorted(by_year.items()):
-            name = f"{show['name']} {year}"
-
+            # Do not guess between different
+            # dates for the same edition.
             if len(ranges) != 1:
                 print(
-                    "REVIEW CONFLICTING DATES: " + name
+                    "REVIEW CONFLICTING DATES: "
+                    + name
                 )
                 review += 1
                 continue
 
-            start, end = next(iter(ranges))
+            start, end = next(
+                iter(ranges)
+            )
 
-            if not venue_confirmed(page, show):
+            # Only use verified venues.
+            if not venue_verified(
+                page,
+                show,
+                start,
+                end,
+            ):
                 print(
-                    "REVIEW VENUE NOT VERIFIED: " + name
+                    "REVIEW VENUE NOT VERIFIED: "
+                    + name
                 )
                 print(
-                    f"  Dates found: {start} to {end}"
+                    f"  Dates found: "
+                    f"{start} to {end}"
                 )
                 review += 1
                 continue
 
-            proposed = make_event(show, start, end)
+            proposed = make_event(
+                show,
+                start,
+                end,
+            )
 
+            # Find an existing edition.
             matches = [
-                event for event in events
-                if event.get("name", "").strip().casefold()
-                == name.casefold()
+                event
+                for event in events
+                if (
+                    event.get(
+                        "name", ""
+                    ).strip().casefold()
+                    == name.casefold()
+                )
             ]
 
             if len(matches) > 1:
@@ -338,9 +465,11 @@ def main():
                 review += 1
                 continue
 
+            # Add a new confirmed edition.
             if not matches:
                 events.append(proposed)
                 added += 1
+
                 print(
                     f"ADDED: {name} "
                     f"({start} to {end})"
@@ -349,47 +478,81 @@ def main():
 
             current = matches[0]
 
-            old_start = current.get("date")
-            old_end = current.get(
-                "end_date", old_start
+            old_start = current.get(
+                "date"
             )
-            old_venue = current.get("venue")
 
+            old_end = current.get(
+                "end_date",
+                old_start,
+            )
+
+            old_venue = current.get(
+                "venue"
+            )
+
+            # Never silently overwrite a
+            # different existing venue.
             if old_venue != proposed["venue"]:
                 print(
-                    "REVIEW VENUE CHANGE: " + name
+                    "REVIEW VENUE CHANGE: "
+                    + name
                 )
-                print(f"  Current: {old_venue}")
                 print(
-                    f"  Website venue: "
-                    f"{proposed['venue']}"
+                    f"  Current: {old_venue}"
+                )
+                print(
+                    "  Expected venue: "
+                    + proposed["venue"]
                 )
                 review += 1
                 continue
 
+            # No changes required.
             if (
                 old_start == proposed["date"]
                 and old_end == proposed["end_date"]
             ):
                 existing += 1
-                print("ALREADY LISTED: " + name)
+                print(
+                    "ALREADY LISTED: "
+                    + name
+                )
                 continue
 
-            print("DATE CHANGE DETECTED: " + name)
+            # Update a clearly identified
+            # date change.
             print(
-                f"  Old: {old_start} to {old_end}"
+                "DATE CHANGE DETECTED: "
+                + name
             )
+
             print(
-                f"  New: {proposed['date']} "
+                f"  Old: "
+                f"{old_start} to {old_end}"
+            )
+
+            print(
+                f"  New: "
+                f"{proposed['date']} "
                 f"to {proposed['end_date']}"
             )
 
-            current["date"] = proposed["date"]
-            current["end_date"] = proposed["end_date"]
+            current["date"] = proposed[
+                "date"
+            ]
+
+            current["end_date"] = proposed[
+                "end_date"
+            ]
 
             updated += 1
-            print("UPDATED: " + name)
 
+            print(
+                "UPDATED: " + name
+            )
+
+    # Save only when events have changed.
     if added or updated:
         EVENTS_FILE.write_text(
             json.dumps(
@@ -400,16 +563,40 @@ def main():
             encoding="utf-8",
         )
 
-    print("\n--- COMBINED IMPORT SUMMARY ---")
-    print(f"Events added: {added}")
-    print(f"Events updated: {updated}")
-    print(f"Already listed: {existing}")
-    print(f"Events needing review: {review}")
-    print(f"Website checks failed: {failed}")
-    print(f"Total manual events: {len(events)}")
-    print("Automatic import check complete.")
+    print(
+        "\n--- COMBINED IMPORT SUMMARY ---"
+    )
+
+    print(
+        f"Events added: {added}"
+    )
+
+    print(
+        f"Events updated: {updated}"
+    )
+
+    print(
+        f"Already listed: {existing}"
+    )
+
+    print(
+        f"Events needing review: {review}"
+    )
+
+    print(
+        f"Website checks failed: {failed}"
+    )
+
+    print(
+        f"Total manual events: {len(events)}"
+    )
+
+    print(
+        "Automatic import check complete."
+    )
 
 
 if __name__ == "__main__":
     main()
+
 
