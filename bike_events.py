@@ -35,6 +35,7 @@ SOURCES = {
     "bsb": "https://www.britishsuperbike.com/calendar",
     "crmc": "https://www.crmc.co.uk/",
     "mcl": "https://www.motorcyclelive.co.uk/",
+    "bemsee": "https://www.bemsee.net/",
 }
 
 # Recognised UK race circuits.
