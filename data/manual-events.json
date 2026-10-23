@@ -453,5 +453,49 @@
     "organiser": "Motorcycle Live",
     "official_url": "https://www.motorcyclelive.co.uk/",
     "status": "Listed by organiser"
+  },
+  {
+    "name": "Road House V-Power – Horsham",
+    "date": "2026-11-01",
+    "end_date": "2026-11-01",
+    "venue": "Fuel Road House",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/road-house-v-power-horsham/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Ardingly Auto Jumble – Haywards Heath",
+    "date": "2026-11-01",
+    "end_date": "2026-11-01",
+    "venue": "Ardingly South Of England Showground",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/ardingly-auto-jumble-haywards-heath/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Classics By The River – Arundel",
+    "date": "2026-11-07",
+    "end_date": "2026-11-07",
+    "venue": "Ship & Anchor Pub",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/classics-by-the-river-arundel-2/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Annual Hibernation Meet – Eastbourne",
+    "date": "2026-11-08",
+    "end_date": "2026-11-08",
+    "venue": "Sovereign Harbour South",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/annual-hibernation-meet-eastbourne/",
+    "status": "Unverified"
   }
 ]
