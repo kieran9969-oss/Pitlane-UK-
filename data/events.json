@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T05:53:42+00:00",
-  "event_count": 52,
+  "generated_at": "2026-10-24T05:52:00+00:00",
+  "event_count": 75,
   "source_errors": [],
   "events": [
     {
@@ -13,7 +13,7 @@
       "official_url": "https://www.silverstone.co.uk/news/whats-silverstone-2026-ultimate-event-calendar",
       "status": "Listed by organiser",
       "id": "5de385c9c265678b",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -29,7 +29,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "dee20796457e7cd9",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -45,7 +45,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "d6a33ce7073cf7ce",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -61,7 +61,7 @@
       "official_url": "https://www.gr8ultimatestance.co.uk/",
       "status": "Unverified",
       "id": "ebee848073b13d49",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -84,7 +84,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
     },
     {
@@ -98,7 +98,23 @@
       "official_url": "https://carmeetsuk.com/event/east-coast-japanese-season-finale-kersey-mill/",
       "status": "Unverified",
       "id": "bace169aaea0071e",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Port Solent Car Meet – Portsmouth",
+      "date": "2026-10-25",
+      "end_date": "2026-10-25",
+      "venue": "Port Solent",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/port-solent-car-meet-portsmouth/",
+      "status": "Unverified",
+      "id": "b72ef3702155e8f5",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -121,8 +137,72 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "description": "<br><br><br><a href=\"https://www.google.com/url?q=https://straightliners.events/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1s7kzxcnOIKJ7Go-qSg77u\" target=\"_blank\">RWYB open to bikes and cars, including Round One of the Straightliners championships.</a>"
+    },
+    {
+      "name": "Car Meet – Lyndhurst",
+      "date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "venue": "The Sir Walter Tyrrell",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst/",
+      "status": "Unverified",
+      "id": "3b4275078863cb9d",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "OMG & TWC Halloween Car Meet! – Middlehaven",
+      "date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "venue": "Middlehaven",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/omg-twc-halloween-car-meet-middlehaven/",
+      "status": "Unverified",
+      "id": "656b3887ca2732c0",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Halloween Meet 2026 – Ashford",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "venue": "Civic Centre and Stour Centre Car Park",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/halloween-meet-2026-ashford/",
+      "status": "Unverified",
+      "id": "4b0e75e72f41faec",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Car Event – Daventry",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "venue": "Piston & Rings",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/car-event-daventry/",
+      "status": "Unverified",
+      "id": "7de5b55f152e7eb0",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
     },
     {
       "id": "89824f1a41542c6b",
@@ -142,8 +222,72 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/flame-and-thunder.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0I2KaXtotDs0RToWWlAgzx\" target=\"_blank\">An action-packed day for all the family with Jet Cars, Monster Trucks, fireworks and more!</a>"
+    },
+    {
+      "name": "NES & S2M Halloween Meet – Cleethorpes",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "venue": "Oriental Express",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/nes-s2m-halloween-meet-cleethorpes/",
+      "status": "Unverified",
+      "id": "4e74ae86f7c854c0",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Riverside Performance Spooktacular Halloween Meet – Sheffield",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "venue": "The Waverly Pub",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/riverside-performance-spooktacular-halloween-meet-sheffield/",
+      "status": "Unverified",
+      "id": "7e3ba59eecacfd20",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "SCC’s Horror & Horsepower Meet – Westwood Cross",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "venue": "Matalan Car Park",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/sccs-horror-horsepower-meet-westwood-cross/",
+      "status": "Unverified",
+      "id": "7a988181c271f163",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Saddlebrook Clubhouse Carshow – Leysdown-on-Sea",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "venue": "Saddlesbrook Clubhouse",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/saddlebrook-clubhouse-carshow-leysdown-on-sea/",
+      "status": "Unverified",
+      "id": "a444477bc5235a1f",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
     },
     {
       "name": "Santa Pod Flame & Thunder 2026",
@@ -155,7 +299,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "281fd40f4e0623c1",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -171,7 +315,7 @@
       "official_url": "https://www.silverstone.co.uk/news/whats-silverstone-2026-ultimate-event-calendar",
       "status": "Listed by organiser",
       "id": "8a3e95d953d06db5",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -187,7 +331,7 @@
       "official_url": "https://carmeetsuk.com/event/ardingly-auto-jumble-haywards-heath/",
       "status": "Unverified",
       "id": "f69895527e8cdd13",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -203,7 +347,7 @@
       "official_url": "https://carmeetsuk.com/event/haynes-breakfast-club-80s-vs-90s-sparkford/",
       "status": "Unverified",
       "id": "2f000a92403281a7",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -226,7 +370,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/rwyb-run-what-ya-brung.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw37VbpOzYKAFLnzuC4UT3vL\" target=\"_blank\">At Run What Ya Brung days you can take your car or motorcycle out on the famous quarter-mile dragstrip and test it&#39;s performance limits in a safe and legal environment.</a>"
     },
     {
@@ -240,7 +384,39 @@
       "official_url": "https://carmeetsuk.com/event/road-house-v-power-horsham/",
       "status": "Unverified",
       "id": "589199c79fef83b9",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Wheels & Coffee Halloween Special! – Keswick",
+      "date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "venue": "Thirlmere Reservoir Swirls South",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/wheels-coffee-halloween-special-keswick/",
+      "status": "Unverified",
+      "id": "28051ed69c0a6fde",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Bonfire and Fireworks Spectacular 2026! – Dunfermline",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "venue": "Knockhill Racing Circuit",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/bonfire-and-fireworks-spectacular-2026/",
+      "status": "Unverified",
+      "id": "749f54f8ddcb6dc5",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -255,7 +431,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "58a6ebb482113ec0",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -271,7 +447,7 @@
       "official_url": "https://carmeetsuk.com/event/classics-by-the-river-arundel-2/",
       "status": "Unverified",
       "id": "fd69542caef632f9",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -287,7 +463,7 @@
       "official_url": "https://carmeetsuk.com/event/lakeland-motor-museums-monthly-morning-meet-ulverston-4/",
       "status": "Unverified",
       "id": "9992ef4479a00b34",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -303,7 +479,7 @@
       "official_url": "https://carmeetsuk.com/event/annual-hibernation-meet-eastbourne/",
       "status": "Unverified",
       "id": "581a3b248491663a",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -319,7 +495,7 @@
       "official_url": "https://carmeetsuk.com/event/retro-coffees-cars-4/",
       "status": "Unverified",
       "id": "1070ea2413b20644",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -342,7 +518,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -355,7 +531,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "41fc45c8c1b44cd8",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -371,7 +547,23 @@
       "official_url": "https://carmeetsuk.com/event/november-meet-blandford-st-mary/",
       "status": "Unverified",
       "id": "86e34c99639e483e",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Tinsel and Turbos – Barrow – in – Furness",
+      "date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "venue": "Will be published",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/tinsel-and-turbos-barrow-in-furness/",
+      "status": "Unverified",
+      "id": "9eed1a95d0b1be01",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -387,7 +579,23 @@
       "official_url": "https://www.motorcyclelive.co.uk/",
       "status": "Listed by organiser",
       "id": "a43200075087b55c",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Cars Coffee – Royal Wootton Basset",
+      "date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "venue": "Sustain Farm Shop & Cafe",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/cars-coffee-royal-wootton-basset/",
+      "status": "Unverified",
+      "id": "29b73a2e5d55e387",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -410,7 +618,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -424,7 +632,7 @@
       "official_url": "https://carmeetsuk.com/event/lakeland-motor-museums-monthly-morning-meet-ulverston-5/",
       "status": "Unverified",
       "id": "fd95ed84a919b03e",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -440,7 +648,7 @@
       "official_url": "https://carmeetsuk.com/event/retro-coffees-cars-5/",
       "status": "Unverified",
       "id": "8c66a550d204a885",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -463,8 +671,24 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
+    },
+    {
+      "name": "Cars & Coffee & Breakfast – Buxton",
+      "date": "2027-01-24",
+      "end_date": "2027-01-24",
+      "venue": "Full Throttle Café",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/cars-coffee-breakfast-buxton/",
+      "status": "Unverified",
+      "id": "f53eb3ac703af800",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
     },
     {
       "name": "Race Retro The Motorsport Show 2027 – Stoneleigh Park",
@@ -477,7 +701,23 @@
       "official_url": "https://carmeetsuk.com/event/race-retro-the-motorsport-show-2027-stoneleigh-park/",
       "status": "Unverified",
       "id": "cbf229fedc14e078",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Falkirk Smasher No. 1 – Falkirk",
+      "date": "2027-02-20",
+      "end_date": "2027-02-20",
+      "venue": "Millennium wheel drive",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/falkirk-smasher-no-1-falkirk/",
+      "status": "Unverified",
+      "id": "8cd59804e860c4c4",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -493,7 +733,23 @@
       "official_url": "https://carmeetsuk.com/event/london-international-motor-show-2027-excel-london/",
       "status": "Unverified",
       "id": "13bfffd15a7e7106",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Autofest 2027 – Aberdeen",
+      "date": "2027-03-21",
+      "end_date": "2027-03-21",
+      "venue": "P&J Live",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/1410/",
+      "status": "Unverified",
+      "id": "c7efcaf7a78190ed",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -509,7 +765,7 @@
       "official_url": "https://south.tunerfest.co.uk/",
       "status": "Unverified",
       "id": "9fee62240b0fb0a7",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -524,7 +780,7 @@
       "official_url": "https://www.tunerfest.co.uk/",
       "status": "Listed by organiser",
       "id": "4cd230ea5f8e3c26",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -540,7 +796,23 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "3b06c83dce99f039",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Secret Society – Blackpool",
+      "date": "2027-04-03",
+      "end_date": "2027-04-03",
+      "venue": "Blackpool Promenade",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/secret-society-blackpool/",
+      "status": "Unverified",
+      "id": "03284aa5925a3cf1",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -556,7 +828,23 @@
       "official_url": "https://www.goodwood.com/motorsport/members-meeting/",
       "status": "Unverified",
       "id": "570ffe81fdd7f642",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Ultimate BMW Meet 2027 – Gaydon",
+      "date": "2027-04-25",
+      "end_date": "2027-04-25",
+      "venue": "British Motor Museum",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/ultimate-bmw-meet-2027/",
+      "status": "Unverified",
+      "id": "4dd615b2f5b9f5eb",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -572,7 +860,7 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "67e708cc000d0b0f",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -588,7 +876,7 @@
       "official_url": "https://modifiedlive.co.uk/",
       "status": "Unverified",
       "id": "a9f923b583367c17",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -604,7 +892,7 @@
       "official_url": "https://www.iowtakeover.co.uk/",
       "status": "Listed by organiser",
       "id": "500b42795e2c6377",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -620,7 +908,7 @@
       "official_url": "https://carmeetsuk.com/event/rewind-tour-britain-2027/",
       "status": "Unverified",
       "id": "0afc6951efbec48d",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -636,7 +924,7 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "48f70510dfa1bcd7",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -652,7 +940,7 @@
       "official_url": "https://carmeetsuk.com/event/salisbury-motor-show-salisbury/",
       "status": "Unverified",
       "id": "73aff8422d4f23e7",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -668,7 +956,23 @@
       "official_url": "https://modifiedlive.co.uk/",
       "status": "Unverified",
       "id": "a7694414e00f191f",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Honda Day Scotland 2027 – Falkirk",
+      "date": "2027-06-27",
+      "end_date": "2027-06-27",
+      "venue": "Millennium wheel drive",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/honda-day-scotland-2027-falkirk/",
+      "status": "Unverified",
+      "id": "c2c42ed1e34a98fa",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -684,7 +988,23 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "4240f191b86f7dd9",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Lakes Classic Car Tour 2027 – Ulverston",
+      "date": "2027-07-10",
+      "end_date": "2027-07-10",
+      "venue": "Lakeland Motor Museum",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/lakes-classic-car-tour-2027-ulverston/",
+      "status": "Unverified",
+      "id": "086ef678e3caaca6",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -700,7 +1020,7 @@
       "official_url": "https://www.thereunionshow.co.uk/",
       "status": "confirmed",
       "id": "e6d131c25ff830aa",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -716,7 +1036,7 @@
       "official_url": "https://www.goodwood.com/motorsport/festival-of-speed/",
       "status": "Unverified",
       "id": "2688695069eff96f",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -732,7 +1052,23 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "00ff5d391f557b80",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Tando Naturist Car Rally – Newcastle upon Tyne",
+      "date": "2027-07-24",
+      "end_date": "2027-07-25",
+      "venue": "Tando Pineglades",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/tando-naturist-car-rally-newcastle-upon-tyne/",
+      "status": "Unverified",
+      "id": "8e453a703836738a",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -748,7 +1084,7 @@
       "official_url": "https://north.tunerfest.co.uk/",
       "status": "Unverified",
       "id": "e44cda3bb96693cb",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -763,7 +1099,23 @@
       "official_url": "https://www.tunerfest.co.uk/",
       "status": "Listed by organiser",
       "id": "bd411c8399c88012",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Extremebhp Car And Family Festival – Southport",
+      "date": "2027-07-25",
+      "end_date": "2027-07-25",
+      "venue": "Victoria Park",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/extremebhp-car-and-family-festival-southport/",
+      "status": "Unverified",
+      "id": "9d92c03643dbedc9",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -779,7 +1131,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "e94d71fa6950cc00",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -795,7 +1147,23 @@
       "official_url": "https://www.rollhard.co.uk/pages/bicester",
       "status": "confirmed",
       "id": "4bdd79768a9fd217",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Classics at the Oval – Margate",
+      "date": "2027-08-08",
+      "end_date": "2027-08-08",
+      "venue": "The Oval Bandstand and Lawns",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/classics-at-the-oval-margate-2/",
+      "status": "Unverified",
+      "id": "f776700a68ddce26",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -811,7 +1179,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "64b2cd43b7393a4f",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -827,7 +1195,7 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "1f31a01eeaecf065",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -843,7 +1211,7 @@
       "official_url": "https://www.goodwood.com/motorsport/goodwood-revival/",
       "status": "Unverified",
       "id": "a7f7e8a78794c454",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -859,7 +1227,7 @@
       "official_url": "https://modifiedlive.co.uk/",
       "status": "Unverified",
       "id": "5f8cfa188dc4322d",
-      "last_checked": "2026-10-23T05:53:42+00:00",
+      "last_checked": "2026-10-24T05:52:00+00:00",
       "source_names": [
         "Manual review"
       ]
