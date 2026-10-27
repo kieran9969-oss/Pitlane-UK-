@@ -435,17 +435,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Car Meet – Lyndhurst",
-    "date": "2026-10-26",
-    "end_date": "2026-10-26",
-    "venue": "The Sir Walter Tyrrell",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst/",
-    "status": "Unverified"
-  },
-  {
     "name": "OMG & TWC Halloween Car Meet! – Middlehaven",
     "date": "2026-10-28",
     "end_date": "2026-10-28",
@@ -1422,6 +1411,83 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-35/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Cars coffee and Halloween – Holywell",
+    "date": "2026-10-31",
+    "end_date": "2026-10-31",
+    "venue": "The Duke of Lancaster (The Fun Ship)",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/cars-coffee-and-halloween-holywell/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Broken Beauties Monthly Meet – Kirkham",
+    "date": "2026-11-07",
+    "end_date": "2026-11-07",
+    "venue": "Bell & Bottle",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/broken-beauties-monthly-meet-kirkham/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Classic Motor Show 2026 – NEC Birmingham",
+    "date": "2026-11-13",
+    "end_date": "2026-11-15",
+    "venue": "NEC Birmingham",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/classic-motor-show-2026-nec-birmingham/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Blackpool Illuminations – Blackpool",
+    "date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "venue": "Halfords – Blackpool",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/blackpool-illuminations-blackpool/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Scottish Banger Rally – Gretna Green",
+    "date": "2027-04-05",
+    "end_date": "2027-04-10",
+    "venue": "Gretna Green",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/scottish-banger-rally-gretna-green/",
+    "status": "Unverified"
+  },
+  {
+    "name": "The Lakeland Weekender – Kendal",
+    "date": "2027-06-11",
+    "end_date": "2027-06-13",
+    "venue": "Kendal",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/the-lakeland-weekender-kendal/",
+    "status": "Unverified"
+  },
+  {
+    "name": "The Gibraltar Run – Newhaven",
+    "date": "2027-09-13",
+    "end_date": "2027-09-19",
+    "venue": "Newhaven",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/the-gibraltar-run-newhaven/",
     "status": "Unverified"
   }
 ]
