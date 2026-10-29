@@ -435,17 +435,6 @@
     "status": "Unverified"
   },
   {
-    "name": "OMG & TWC Halloween Car Meet! – Middlehaven",
-    "date": "2026-10-28",
-    "end_date": "2026-10-28",
-    "venue": "Middlehaven",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/omg-twc-halloween-car-meet-middlehaven/",
-    "status": "Unverified"
-  },
-  {
     "name": "Halloween Meet 2026 – Ashford",
     "date": "2026-10-30",
     "end_date": "2026-10-30",
@@ -1491,17 +1480,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Mid-Week Motor Meet – Leeds",
-    "date": "2026-10-28",
-    "end_date": "2026-10-28",
-    "venue": "The Motorist",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds/",
-    "status": "Unverified"
-  },
-  {
     "name": "Trick or Torque 2026 – Stratford-upon-Avon",
     "date": "2026-10-31",
     "end_date": "2026-10-31",
@@ -2104,6 +2082,17 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-17/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Jaguar Day 2027 – Pickering",
+    "date": "2027-06-19",
+    "end_date": "2027-06-19",
+    "venue": "Galtres Retreat & Lodge Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/jaguar-day-2027-pickering/",
     "status": "Unverified"
   }
 ]
