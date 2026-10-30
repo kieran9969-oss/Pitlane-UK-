@@ -2094,5 +2094,38 @@
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/jaguar-day-2027-pickering/",
     "status": "Unverified"
+  },
+  {
+    "name": "Cars and Coffee Brogdale Halloween – Faversham",
+    "date": "2026-10-31",
+    "end_date": "2026-10-31",
+    "venue": "The Courtyard Restaurant & Coffee Shop",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/cars-and-coffee-brogdale-halloween-faversham/",
+    "status": "Unverified"
+  },
+  {
+    "name": "ST / RS Breakfast Meet – Hatfield",
+    "date": "2026-11-15",
+    "end_date": "2026-11-15",
+    "venue": "Rookery Cafe",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/st-rs-breakfast-meet-hatfield/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Classic Car & Restoration Show – Birmingham",
+    "date": "2027-03-19",
+    "end_date": "2027-03-21",
+    "venue": "NEC Birmingham",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/classic-car-restoration-show-birmingham/",
+    "status": "Unverified"
   }
 ]
