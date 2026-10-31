@@ -435,17 +435,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Halloween Meet 2026 – Ashford",
-    "date": "2026-10-30",
-    "end_date": "2026-10-30",
-    "venue": "Civic Centre and Stour Centre Car Park",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/halloween-meet-2026-ashford/",
-    "status": "Unverified"
-  },
-  {
     "name": "NES & S2M Halloween Meet – Cleethorpes",
     "date": "2026-10-31",
     "end_date": "2026-10-31",
@@ -652,50 +641,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/classics-at-the-oval-margate-2/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Fright Night: Great British Car Meet – Belper",
-    "date": "2026-10-30",
-    "end_date": "2026-10-30",
-    "venue": "Great British Car Journeys",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/fright-night-great-british-car-meet/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Social Get-Together – Boston",
-    "date": "2026-10-30",
-    "end_date": "2026-10-30",
-    "venue": "Boston Bowl",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/social-get-together-boston/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Halloween Spooktacular Car Meet – Swindon",
-    "date": "2026-10-30",
-    "end_date": "2026-10-30",
-    "venue": "The Ridge Bar & Grill",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/halloween-spooktacular-car-meet-swindon/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Halloween Cars & Coffee – Nuneaton",
-    "date": "2026-10-30",
-    "end_date": "2026-10-30",
-    "venue": "Research Garage Fiat & Abarth",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/halloween-cars-coffee-nuneaton/",
     "status": "Unverified"
   },
   {
@@ -949,17 +894,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/pageant-of-transport-weston-super-mare/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Freaky Friday Halloween Car Meet! – Hatfield",
-    "date": "2026-10-30",
-    "end_date": "2026-10-30",
-    "venue": "Oldings Corner Retail Park",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/freaky-friday-halloween-car-meet/",
     "status": "Unverified"
   },
   {
@@ -2126,6 +2060,94 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/classic-car-restoration-show-birmingham/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Wharfedale 70 – Colne",
+    "date": "2026-11-01",
+    "end_date": "2026-11-01",
+    "venue": "COGS Automotive",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/wharfedale-70-colne/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Friday Night Static – Grays",
+    "date": "2026-11-06",
+    "end_date": "2026-11-06",
+    "venue": "Thurrock Services",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/friday-night-static-grays/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Brew and Horsepower – Rayleigh",
+    "date": "2026-11-15",
+    "end_date": "2026-11-15",
+    "venue": "Cafe 401",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/brew-and-horsepower-rayleigh/",
+    "status": "Unverified"
+  },
+  {
+    "name": "The Ultimate Car Meet – Ipswich",
+    "date": "2026-11-22",
+    "end_date": "2026-11-22",
+    "venue": "Suffolk Water Park Cafe",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/the-ultimate-car-meet-ipswich/",
+    "status": "Unverified"
+  },
+  {
+    "name": "British Classic Car Club – Stratford upon Avon",
+    "date": "2026-11-22",
+    "end_date": "2026-11-22",
+    "venue": "Binton Social Club",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/british-classic-car-club/",
+    "status": "Unverified"
+  },
+  {
+    "name": "The Redditch Motor Show – Redditch",
+    "date": "2027-05-15",
+    "end_date": "2027-05-16",
+    "venue": "Redditch Town Centre",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/the-redditch-motor-show-redditch/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Bo’ness Car Show 2027 – Bo’ness",
+    "date": "2027-06-06",
+    "end_date": "2027-06-06",
+    "venue": "Kinneil Estate",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/boness-car-show-2027-boness/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Stance Fever The Show – Thatcham",
+    "date": "2027-08-08",
+    "end_date": "2027-08-08",
+    "venue": "Newbury Showground",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/stance-fever-the-show-thatcham/",
     "status": "Unverified"
   }
 ]
