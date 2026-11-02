@@ -1,16 +1,5 @@
 [
   {
-    "name": "Walter Hayes Trophy 2026",
-    "date": "2026-10-31",
-    "end_date": "2026-11-01",
-    "venue": "Silverstone",
-    "region": "Northamptonshire",
-    "category": "Motorsport",
-    "organiser": "Silverstone",
-    "official_url": "https://www.silverstone.co.uk/news/whats-silverstone-2026-ultimate-event-calendar",
-    "status": "Listed by organiser"
-  },
-  {
     "name": "Britcar into the Night 2026",
     "date": "2026-11-07",
     "venue": "Brands Hatch",
@@ -125,17 +114,6 @@
     "category": "Classic cars",
     "organiser": "Goodwood",
     "official_url": "https://www.goodwood.com/motorsport/goodwood-revival/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Haynes Breakfast Club 80s vs 90s – Sparkford",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "Haynes Motor Museum",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/haynes-breakfast-club-80s-vs-90s-sparkford/",
     "status": "Unverified"
   },
   {
@@ -381,28 +359,6 @@
     "status": "Listed by organiser"
   },
   {
-    "name": "Road House V-Power – Horsham",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "Fuel Road House",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/road-house-v-power-horsham/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Ardingly Auto Jumble – Haywards Heath",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "Ardingly South Of England Showground",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/ardingly-auto-jumble-haywards-heath/",
-    "status": "Unverified"
-  },
-  {
     "name": "Classics By The River – Arundel",
     "date": "2026-11-07",
     "end_date": "2026-11-07",
@@ -422,17 +378,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/annual-hibernation-meet-eastbourne/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Wheels & Coffee Halloween Special! – Keswick",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "Thirlmere Reservoir Swirls South",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/wheels-coffee-halloween-special-keswick/",
     "status": "Unverified"
   },
   {
@@ -576,28 +521,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/classics-at-the-oval-margate-2/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Watford Cars & Coffee Breakfast meet – Moor Mill",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "Moor Mill",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/watford-cars-coffee-breakfast-meet-moor-mill/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Driven. Cars and Coffee – Concours House",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "Concours House",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/driven-cars-and-coffee-concours-house/",
     "status": "Unverified"
   },
   {
@@ -1283,17 +1206,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Mobo Group Super Sundays – Hereford",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "Mobo Group",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford/",
-    "status": "Unverified"
-  },
-  {
     "name": "Mid-Week Motor Meet – Leeds",
     "date": "2026-11-04",
     "end_date": "2026-11-04",
@@ -1910,17 +1822,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Wharfedale 70 – Colne",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "COGS Automotive",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/wharfedale-70-colne/",
-    "status": "Unverified"
-  },
-  {
     "name": "Friday Night Static – Grays",
     "date": "2026-11-06",
     "end_date": "2026-11-06",
@@ -1995,28 +1896,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/stance-fever-the-show-thatcham/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Classic Car Club Sunday – Shrewley",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "The Durham Ox",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Classic Car Sunday – Bordon",
-    "date": "2026-11-01",
-    "end_date": "2026-11-01",
-    "venue": "Country Market",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/classic-car-sunday-bordon/",
     "status": "Unverified"
   },
   {
@@ -2589,6 +2468,248 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-14/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Bonfire Burnout – Holsworthy",
+    "date": "2026-11-06",
+    "end_date": "2026-11-06",
+    "venue": "Stadson Grange Farm",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/bonfire-burnout-holsworthy/",
+    "status": "Unverified"
+  },
+  {
+    "name": "First Friday Motor Social – Bristol",
+    "date": "2026-11-06",
+    "end_date": "2026-11-06",
+    "venue": "Toby Carvery Almondsbury",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/first-friday-motor-social-bristol/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Motors & Munch – Bridgnorth",
+    "date": "2026-11-07",
+    "end_date": "2026-11-07",
+    "venue": "Poolehall Cafe",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/motors-munch-bridgnorth/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Rixton Auto Jumble – Warrington",
+    "date": "2026-11-08",
+    "end_date": "2026-11-08",
+    "venue": "Moat Lane",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/rixton-auto-jumble-warrington/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Breakfast with Vintage Tyres – Beaulieu",
+    "date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "venue": "Beaulieu National Motor Museum",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/breakfast-with-vintage-tyres-beaulieu/",
+    "status": "Unverified"
+  },
+  {
+    "name": "November Meet Final Event of the Year – Blandford St Mary",
+    "date": "2026-11-15",
+    "end_date": "2026-11-15",
+    "venue": "The Hall & Woodhouse Brewery Tap & Shop",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/november-meet-final-event-of-the-year-blandford-st-mary/",
+    "status": "Unverified"
+  },
+  {
+    "name": "The Outcasts Monthly Big Meet – Cardiff",
+    "date": "2026-11-15",
+    "end_date": "2026-11-15",
+    "venue": "Llanishen Industrial Estate",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/the-outcasts-monthly-big-meet/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Monthly Brunch Meet – Holme Grange Craft Village",
+    "date": "2026-11-17",
+    "end_date": "2026-11-17",
+    "venue": "Holme Grange Craft Village",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/monthly-brunch-meet-holme-grange-craft-village/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Ball & Wicket Classic Car Breakfast Meet – Farnham",
+    "date": "2026-11-20",
+    "end_date": "2026-11-20",
+    "venue": "The Ball and Wicket",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/ball-wicket-classic-car-breakfast-meet-farnham/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Poole Classic Cars Pre ’86 Breakfast Meet – Hamworthy",
+    "date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "venue": "The Yachtsman Pub in Hamworthy",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/poole-classic-cars-pre-86-breakfast-meet-hamworthy-2/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Pistonheads Sunday Service – Thruxton Race Circuit",
+    "date": "2026-12-06",
+    "end_date": "2026-12-06",
+    "venue": "Thruxton Circuit",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/pistonheads-sunday-service-thruxton-race-circuit/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Tinsel & Turbos Christmas Cars & Coffee Event! – The Barley Mow",
+    "date": "2026-12-13",
+    "end_date": "2026-12-13",
+    "venue": "The Hurst",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/tinsel-turbos-christmas-cars-coffee-event-the-barley-mow/",
+    "status": "Unverified"
+  },
+  {
+    "name": "HRCR Open Day 2027 – Gaydon",
+    "date": "2027-01-09",
+    "end_date": "2027-01-09",
+    "venue": "British Motor Museum",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/hrcr-open-day-2027-gaydon/",
+    "status": "Unverified"
+  },
+  {
+    "name": "International MG and Triumph Spares Day – Stoneleigh Park",
+    "date": "2027-02-07",
+    "end_date": "2027-02-07",
+    "venue": "Stoneleigh Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/international-mg-and-triumph-spares-day-stoneleigh-park/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Pride of Longbridge 2027 – Cofton Park, Birmingham",
+    "date": "2027-04-17",
+    "end_date": "2027-04-17",
+    "venue": "Cofton Park, Birmingham",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/pride-of-longbridge-2027-cofton-park-birmingham/",
+    "status": "Unverified"
+  },
+  {
+    "name": "TF25 Southern Social Day – Beaulieu",
+    "date": "2027-05-08",
+    "end_date": "2027-05-08",
+    "venue": "Beaulieu National Motor Museum",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/tf25-southern-social-day-beaulieu/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Duchy Show Weekend in 2027! – Newquay",
+    "date": "2027-05-15",
+    "end_date": "2027-05-16",
+    "venue": "Watergate Bay Touring Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/duchy-show-weekend-in-2027-newquay/",
+    "status": "Unverified"
+  },
+  {
+    "name": "The Dorset Blind Association Motor Show 2027 – Lulworth Castle",
+    "date": "2027-05-16",
+    "end_date": "2027-05-16",
+    "venue": "Lulworth Castle & Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/the-dorset-blind-association-motor-show-2027-lulworth-castle/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Classic Vehicle Day 2027 – Yattendon",
+    "date": "2027-06-27",
+    "end_date": "2027-06-27",
+    "venue": "Yattendon",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/classic-vehicle-day-2027-yattendon/",
+    "status": "Unverified"
+  },
+  {
+    "name": "MGs in the Park 2027 – Kingston Bagpuize House",
+    "date": "2027-07-11",
+    "end_date": "2027-07-11",
+    "venue": "Kingston Bagpuize House & Garden",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/mgs-in-the-park-2027-kingston-bagpuize-house/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Gang Warily car meet – Southampton",
+    "date": "2027-07-30",
+    "end_date": "2027-08-01",
+    "venue": "Gang Warily Recreation Centre",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/gang-warily-car-meet-southampton/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Full Send car show! – Thruxton Race Circuit",
+    "date": "2027-08-21",
+    "end_date": "2027-08-21",
+    "venue": "Thruxton Circuit",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/full-send-car-show-thruxton-race-circuit/",
     "status": "Unverified"
   }
 ]
