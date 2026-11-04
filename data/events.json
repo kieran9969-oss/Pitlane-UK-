@@ -1,40 +1,8 @@
 {
-  "generated_at": "2026-11-03T06:13:57+00:00",
-  "event_count": 275,
+  "generated_at": "2026-11-04T06:18:01+00:00",
+  "event_count": 281,
   "source_errors": [],
   "events": [
-    {
-      "name": "Millets Classic and Sports Car Breakfast Meet – Abingdon",
-      "date": "2026-11-03",
-      "end_date": "2026-11-03",
-      "venue": "Millets Farm",
-      "region": "",
-      "category": "Car show",
-      "organiser": "Carmeets UK",
-      "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet/",
-      "status": "Unverified",
-      "id": "037ff7e9c798f095",
-      "last_checked": "2026-11-03T06:13:57+00:00",
-      "source_names": [
-        "Manual review"
-      ]
-    },
-    {
-      "name": "TIPEC Shropshire and Mid Wales Meet – Shawbury",
-      "date": "2026-11-03",
-      "end_date": "2026-11-03",
-      "venue": "The Fox and Hounds",
-      "region": "",
-      "category": "Car show",
-      "organiser": "Carmeets UK",
-      "official_url": "https://carmeetsuk.com/event/tipec-shropshire-and-mid-wales-meet-shawbury/",
-      "status": "Unverified",
-      "id": "ec9a6a259d1ebdf8",
-      "last_checked": "2026-11-03T06:13:57+00:00",
-      "source_names": [
-        "Manual review"
-      ]
-    },
     {
       "name": "Mid-Week Motor Meet – Leeds",
       "date": "2026-11-04",
@@ -46,7 +14,7 @@
       "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds-2/",
       "status": "Unverified",
       "id": "f6b73fee234f2835",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -62,7 +30,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-yorkshire-sherburn-in-elmet/",
       "status": "Unverified",
       "id": "79dfd8a3f4939b21",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -78,7 +46,7 @@
       "official_url": "https://carmeetsuk.com/event/bonfire-burnout-holsworthy/",
       "status": "Unverified",
       "id": "583068c2661efe22",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -94,7 +62,7 @@
       "official_url": "https://carmeetsuk.com/event/first-friday-motor-social-bristol/",
       "status": "Unverified",
       "id": "d9c21eac0f64bdbd",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -110,7 +78,7 @@
       "official_url": "https://carmeetsuk.com/event/friday-night-static-grays/",
       "status": "Unverified",
       "id": "a13318d848dbd24f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -126,7 +94,7 @@
       "official_url": "https://carmeetsuk.com/event/bonfire-and-fireworks-spectacular-2026/",
       "status": "Unverified",
       "id": "749f54f8ddcb6dc5",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -141,7 +109,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "58a6ebb482113ec0",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -157,7 +125,7 @@
       "official_url": "https://carmeetsuk.com/event/broken-beauties-monthly-meet-kirkham/",
       "status": "Unverified",
       "id": "8a6d349774b436bb",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -173,7 +141,7 @@
       "official_url": "https://carmeetsuk.com/event/classics-by-the-river-arundel-2/",
       "status": "Unverified",
       "id": "fd69542caef632f9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -189,7 +157,7 @@
       "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts-wakefield/",
       "status": "Unverified",
       "id": "d16d745140fe6415",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -205,7 +173,7 @@
       "official_url": "https://carmeetsuk.com/event/lakeland-motor-museums-monthly-morning-meet-ulverston-4/",
       "status": "Unverified",
       "id": "9992ef4479a00b34",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -221,7 +189,7 @@
       "official_url": "https://carmeetsuk.com/event/motors-munch-bridgnorth/",
       "status": "Unverified",
       "id": "e6221fda6a3bc9a0",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -237,7 +205,7 @@
       "official_url": "https://carmeetsuk.com/event/renegades-car-meet-sheffield/",
       "status": "Unverified",
       "id": "4c81b1e8fc24878c",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -253,7 +221,7 @@
       "official_url": "https://carmeetsuk.com/event/stage-rally-and-fireworks-oulton-park-circuit/",
       "status": "Unverified",
       "id": "4577fe369fb46386",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -269,7 +237,7 @@
       "official_url": "https://carmeetsuk.com/event/annual-hibernation-meet-eastbourne/",
       "status": "Unverified",
       "id": "581a3b248491663a",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -285,7 +253,7 @@
       "official_url": "https://carmeetsuk.com/event/cars-coffee-swindon/",
       "status": "Unverified",
       "id": "4a8ee8dfa24ce32f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -301,7 +269,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-and-bike-meet-north-weald-airfield/",
       "status": "Unverified",
       "id": "00561cafa13a110f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -317,7 +285,7 @@
       "official_url": "https://carmeetsuk.com/event/lancashire-hotrods-monthly-meetup-preston/",
       "status": "Unverified",
       "id": "8764a21ee0576001",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -333,7 +301,7 @@
       "official_url": "https://carmeetsuk.com/event/poppy-remembrance-road-run-2026-weston-super-mare/",
       "status": "Unverified",
       "id": "b2e763ea3433f300",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -349,7 +317,7 @@
       "official_url": "https://carmeetsuk.com/event/port-solent-car-meet-portsmouth-2/",
       "status": "Unverified",
       "id": "4ab4c0ad12fa976c",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -365,7 +333,7 @@
       "official_url": "https://carmeetsuk.com/event/retro-coffees-cars-4/",
       "status": "Unverified",
       "id": "1070ea2413b20644",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -381,7 +349,7 @@
       "official_url": "https://carmeetsuk.com/event/rixton-auto-jumble-warrington/",
       "status": "Unverified",
       "id": "20564e90f934aa58",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -397,7 +365,7 @@
       "official_url": "https://carmeetsuk.com/event/we-stand-together-supercars-and-classic-cars-the-riverview/",
       "status": "Unverified",
       "id": "3c31c38e39322e8d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -413,7 +381,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-3/",
       "status": "Unverified",
       "id": "69d780773973914e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -429,7 +397,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-sussex-and-surrey-meet-bolney/",
       "status": "Unverified",
       "id": "0a8fd612642cbd5b",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -445,7 +413,7 @@
       "official_url": "https://carmeetsuk.com/event/the-ind-porsche-enthusiasts-club-central-meet-lichfield/",
       "status": "Unverified",
       "id": "c24152ad1196da8e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -461,7 +429,7 @@
       "official_url": "https://carmeetsuk.com/event/the-ind-porsche-enthusiasts-club-north-west-meet-chorley/",
       "status": "Unverified",
       "id": "400115b0d6696b4e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -477,7 +445,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-london/",
       "status": "Unverified",
       "id": "2ff01251358024cc",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -493,7 +461,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-thames-valley-meet-reading/",
       "status": "Unverified",
       "id": "19591e5238302981",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -516,7 +484,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -530,7 +498,23 @@
       "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds-3/",
       "status": "Unverified",
       "id": "072327303adc5200",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "The Final Motors at Madjeston – Madjeston Animal Park",
+      "date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "venue": "Madjeston Animal Park",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/the-final-motors-at-madjeston-madjeston-animal-park/",
+      "status": "Unverified",
+      "id": "d63a3ba67fc40d82",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -546,7 +530,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-motor-show-2026-nec-birmingham/",
       "status": "Unverified",
       "id": "e1f3fda8680122b3",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -562,7 +546,7 @@
       "official_url": "https://carmeetsuk.com/event/blackpool-illuminations-blackpool/",
       "status": "Unverified",
       "id": "9b8029ce0baa5fbd",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -578,7 +562,7 @@
       "official_url": "https://carmeetsuk.com/event/breakfast-with-vintage-tyres-beaulieu/",
       "status": "Unverified",
       "id": "d94618d98b3c5664",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -594,7 +578,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meets-bromsgrove/",
       "status": "Unverified",
       "id": "620b489c198793d1",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -609,7 +593,7 @@
       "official_url": "https://www.msv.com/calendar",
       "status": "Listed by organiser",
       "id": "41fc45c8c1b44cd8",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -625,7 +609,7 @@
       "official_url": "https://carmeetsuk.com/event/brew-and-horsepower-rayleigh/",
       "status": "Unverified",
       "id": "50d3921e2d6a5b1a",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -641,7 +625,7 @@
       "official_url": "https://carmeetsuk.com/event/limitless-meet-at-kingsley-witney/",
       "status": "Unverified",
       "id": "d1614a6ceac85cda",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -657,7 +641,7 @@
       "official_url": "https://carmeetsuk.com/event/november-meet-final-event-of-the-year-blandford-st-mary/",
       "status": "Unverified",
       "id": "7a8ff2132d5b8e29",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -673,7 +657,7 @@
       "official_url": "https://carmeetsuk.com/event/november-meet-blandford-st-mary/",
       "status": "Unverified",
       "id": "86e34c99639e483e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -689,7 +673,7 @@
       "official_url": "https://carmeetsuk.com/event/off-the-clocks-car-meet-redruth/",
       "status": "Unverified",
       "id": "9616509f005a9612",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -705,7 +689,7 @@
       "official_url": "https://carmeetsuk.com/event/st-rs-breakfast-meet-hatfield/",
       "status": "Unverified",
       "id": "9725914a970b6a40",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -721,7 +705,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-east-midlands-meet-hoton/",
       "status": "Unverified",
       "id": "4950234864c0daef",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -737,7 +721,7 @@
       "official_url": "https://carmeetsuk.com/event/the-outcasts-monthly-big-meet/",
       "status": "Unverified",
       "id": "67e009afe1bdc9af",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -753,7 +737,7 @@
       "official_url": "https://carmeetsuk.com/event/tinsel-and-turbos-barrow-in-furness/",
       "status": "Unverified",
       "id": "9eed1a95d0b1be01",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -769,7 +753,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-4/",
       "status": "Unverified",
       "id": "774e784aa226118a",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -785,7 +769,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-shropshire-and-mid-wales-meet-berriew/",
       "status": "Unverified",
       "id": "c936f7799f1c2d98",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -801,7 +785,7 @@
       "official_url": "https://carmeetsuk.com/event/monthly-brunch-meet-holme-grange-craft-village/",
       "status": "Unverified",
       "id": "236fc6ee5a28d6bf",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -817,7 +801,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-cheshire-staffs-meet-knutsford/",
       "status": "Unverified",
       "id": "b5145ca27391b44d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -833,7 +817,7 @@
       "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds-4/",
       "status": "Unverified",
       "id": "6d6a71907d56339d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -849,7 +833,7 @@
       "official_url": "https://carmeetsuk.com/event/ball-wicket-classic-car-breakfast-meet-farnham/",
       "status": "Unverified",
       "id": "f59c2964f0f25fb0",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -865,7 +849,7 @@
       "official_url": "https://carmeetsuk.com/event/illumination-run-blackpool/",
       "status": "Unverified",
       "id": "8176f210a14ff478",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -881,7 +865,7 @@
       "official_url": "https://carmeetsuk.com/event/mini-meet-friends-illuminations-run-blackpool/",
       "status": "Unverified",
       "id": "8a92fbe57f661bd5",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -897,7 +881,7 @@
       "official_url": "https://www.motorcyclelive.co.uk/",
       "status": "Listed by organiser",
       "id": "a43200075087b55c",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -913,7 +897,7 @@
       "official_url": "https://carmeetsuk.com/event/poole-classic-cars-pre-86-breakfast-meet-hamworthy-2/",
       "status": "Unverified",
       "id": "6e896dc6f5fc2b12",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -929,7 +913,7 @@
       "official_url": "https://carmeetsuk.com/event/british-classic-car-club/",
       "status": "Unverified",
       "id": "022e224c71adb0a6",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -945,7 +929,7 @@
       "official_url": "https://carmeetsuk.com/event/cars-coffee-royal-wootton-basset/",
       "status": "Unverified",
       "id": "29b73a2e5d55e387",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -961,7 +945,7 @@
       "official_url": "https://carmeetsuk.com/event/supercar-meet-preston/",
       "status": "Unverified",
       "id": "11aebc74fbd4d161",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -977,7 +961,7 @@
       "official_url": "https://carmeetsuk.com/event/the-ultimate-car-meet-ipswich/",
       "status": "Unverified",
       "id": "ecfeb10690504d8d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -993,7 +977,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-5/",
       "status": "Unverified",
       "id": "d76e73dde712a0bb",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1009,7 +993,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-anglia-north-essex-meet-barham/",
       "status": "Unverified",
       "id": "87da4579f55ff6a0",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1025,7 +1009,7 @@
       "official_url": "https://carmeetsuk.com/event/the-hotrod-classic-car-meet-weeley-2/",
       "status": "Unverified",
       "id": "f7c3eb2225686228",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1048,7 +1032,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -1062,7 +1046,7 @@
       "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds-5/",
       "status": "Unverified",
       "id": "a4a9064c5f0afc26",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1078,7 +1062,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-south-lakes-and-cumbria-meet-carnforth/",
       "status": "Unverified",
       "id": "73617533f863ded7",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1094,7 +1078,7 @@
       "official_url": "https://carmeetsuk.com/event/forced-induction-day-cullompton/",
       "status": "Unverified",
       "id": "2ad4d9087765c719",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1110,7 +1094,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-sunday-harrogate/",
       "status": "Unverified",
       "id": "568bc9fbf9fda6f6",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1126,7 +1110,7 @@
       "official_url": "https://carmeetsuk.com/event/hot-rod-illuminations-run-blackpool/",
       "status": "Unverified",
       "id": "5c18dff71533008a",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1142,7 +1126,7 @@
       "official_url": "https://carmeetsuk.com/event/monthly-breakfast-meet/",
       "status": "Unverified",
       "id": "398b0d958e10f433",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1158,7 +1142,7 @@
       "official_url": "https://carmeetsuk.com/event/port-solent-car-meet-portsmouth-3/",
       "status": "Unverified",
       "id": "17cf2a1fa6e622b9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1174,7 +1158,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-6/",
       "status": "Unverified",
       "id": "0684d814692354a2",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1190,7 +1174,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-2/",
       "status": "Unverified",
       "id": "caf7f749ae72ddab",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1206,7 +1190,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-north-east-meet-sunderland/",
       "status": "Unverified",
       "id": "f92c740b1181a106",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1222,7 +1206,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-scotland-meet-cumbernauld/",
       "status": "Unverified",
       "id": "4478d1f42404c937",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1238,7 +1222,7 @@
       "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds-6/",
       "status": "Unverified",
       "id": "027d10de9fa91db2",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1254,7 +1238,7 @@
       "official_url": "https://carmeetsuk.com/event/christmas-toy-collection-and-meet-blackpool/",
       "status": "Unverified",
       "id": "ab2bd470ebbe884f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1270,7 +1254,7 @@
       "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts/",
       "status": "Unverified",
       "id": "26520a182abed6b8",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1286,7 +1270,7 @@
       "official_url": "https://carmeetsuk.com/event/lakeland-motor-museums-monthly-morning-meet-ulverston-5/",
       "status": "Unverified",
       "id": "fd95ed84a919b03e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1302,7 +1286,23 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-2/",
       "status": "Unverified",
       "id": "fbf1819073233c82",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Hazzard Breakfast Meet – Ashford",
+      "date": "2026-12-06",
+      "end_date": "2026-12-06",
+      "venue": "The Doghouse Micropub and Vinyl Bar",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/hazzard-breakfast-meet-ashford/",
+      "status": "Unverified",
+      "id": "07d3f4e47a3b53f2",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1318,7 +1318,7 @@
       "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford-2/",
       "status": "Unverified",
       "id": "413c22d64b591a14",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1334,7 +1334,7 @@
       "official_url": "https://carmeetsuk.com/event/pistonheads-sunday-service-thruxton-race-circuit/",
       "status": "Unverified",
       "id": "6e61b2b712bae06b",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1350,7 +1350,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-south-yorkshire-north-notts-meet-retford/",
       "status": "Unverified",
       "id": "4bb976c13643ab98",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1366,7 +1366,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-7/",
       "status": "Unverified",
       "id": "6285b3b9441d2ad7",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1382,7 +1382,7 @@
       "official_url": "https://carmeetsuk.com/event/tipec-kent-and-south-east-london-meet-sevenoaks/",
       "status": "Unverified",
       "id": "7e9afe369dcd630a",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1398,7 +1398,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night/",
       "status": "Unverified",
       "id": "b3f0575a17099bc0",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1414,7 +1414,7 @@
       "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds-7/",
       "status": "Unverified",
       "id": "e2e1644e1de8c818",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1430,7 +1430,7 @@
       "official_url": "https://carmeetsuk.com/event/christmas-charity-convoy-2026-aldermaston/",
       "status": "Unverified",
       "id": "9130cfec1f227ec8",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1446,7 +1446,7 @@
       "official_url": "https://carmeetsuk.com/event/port-solent-car-meet-portsmouth-4/",
       "status": "Unverified",
       "id": "4b0abf881c87c069",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1462,7 +1462,7 @@
       "official_url": "https://carmeetsuk.com/event/retro-coffees-cars-5/",
       "status": "Unverified",
       "id": "8c66a550d204a885",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1478,7 +1478,7 @@
       "official_url": "https://carmeetsuk.com/event/tinsel-turbos-christmas-cars-coffee-event-the-barley-mow/",
       "status": "Unverified",
       "id": "78e8372fc33ecf19",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1494,7 +1494,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-8/",
       "status": "Unverified",
       "id": "e3202eaa37b19cb9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1517,7 +1517,7 @@
       "source_urls": [
         "https://calendar.google.com/calendar/ical/2etsvqiqhisjbb965mkpjpsubk%40group.calendar.google.com/public/basic.ics"
       ],
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "description": "<a href=\"https://www.google.com/url?q=https://santapod.co.uk/calendar-dwyb.php&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw3wiMu0oqeV1kHn3lgZpqod\" target=\"_blank\">Learn or practice drifting in safe and legal conditions. Beginners to advanced tracks.</a>"
     },
     {
@@ -1531,7 +1531,7 @@
       "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds-8/",
       "status": "Unverified",
       "id": "791978015ce7edea",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1547,7 +1547,7 @@
       "official_url": "https://carmeetsuk.com/event/wonderful-wheels-christmas-meet-wigan/",
       "status": "Unverified",
       "id": "a03ddc5b0095527e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1563,7 +1563,23 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-9/",
       "status": "Unverified",
       "id": "9e75875507653247",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Annual Boxingday Meet Up – Brighton",
+      "date": "2026-12-26",
+      "end_date": "2026-12-26",
+      "venue": "Madeira Drive",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/annual-boxingday-meet-up-brighton/",
+      "status": "Unverified",
+      "id": "7c67261aa2609d70",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1579,7 +1595,7 @@
       "official_url": "https://carmeetsuk.com/event/port-solent-car-meet-portsmouth-5/",
       "status": "Unverified",
       "id": "5e068f21bfce33d1",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1595,7 +1611,7 @@
       "official_url": "https://carmeetsuk.com/event/monthly-breakfast-meet-2/",
       "status": "Unverified",
       "id": "a4043cf3704bc75d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1611,7 +1627,7 @@
       "official_url": "https://carmeetsuk.com/event/port-solent-car-meet-portsmouth-6/",
       "status": "Unverified",
       "id": "ba06097c676cff6d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1627,7 +1643,23 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-10/",
       "status": "Unverified",
       "id": "f479184644f00978",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Drag The Halls – Derby",
+      "date": "2026-12-28",
+      "end_date": "2026-12-29",
+      "venue": "Great Northern Classics Derby",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/drag-the-halls-derby/",
+      "status": "Unverified",
+      "id": "da0e09a3f13bb9e4",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1643,7 +1675,7 @@
       "official_url": "https://carmeetsuk.com/event/festive-charity-christmas-tractor-run-2026-edenbridge/",
       "status": "Unverified",
       "id": "793540bb0710c5fb",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1659,7 +1691,7 @@
       "official_url": "https://carmeetsuk.com/event/the-hotrod-classic-car-meet-weeley-3/",
       "status": "Unverified",
       "id": "d04448df8295d7be",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1675,7 +1707,7 @@
       "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts-2/",
       "status": "Unverified",
       "id": "46d109f0cf1b2448",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1691,7 +1723,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-3/",
       "status": "Unverified",
       "id": "a063f50ed423a9b1",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1707,7 +1739,7 @@
       "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford-3/",
       "status": "Unverified",
       "id": "7bb36fdbd7fc2b32",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1723,7 +1755,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-11/",
       "status": "Unverified",
       "id": "3e5d1da0bab29312",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1739,7 +1771,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-3/",
       "status": "Unverified",
       "id": "2553b44f11fe0691",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1755,7 +1787,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meets-bromsgrove-2/",
       "status": "Unverified",
       "id": "19cddf8148d191a3",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1771,7 +1803,7 @@
       "official_url": "https://carmeetsuk.com/event/hrcr-open-day-2027-gaydon/",
       "status": "Unverified",
       "id": "15d884d47be8cf9e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1787,7 +1819,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-12/",
       "status": "Unverified",
       "id": "4f343dc45ad15b89",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1803,7 +1835,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-2/",
       "status": "Unverified",
       "id": "db8f18a16a0baf72",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1819,7 +1851,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-13/",
       "status": "Unverified",
       "id": "4e80afa191a626c1",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1835,7 +1867,7 @@
       "official_url": "https://carmeetsuk.com/event/cars-coffee-breakfast-buxton/",
       "status": "Unverified",
       "id": "f53eb3ac703af800",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1851,7 +1883,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-14/",
       "status": "Unverified",
       "id": "b9b940792205b808",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1867,7 +1899,7 @@
       "official_url": "https://carmeetsuk.com/event/the-hotrod-classic-car-meet-weeley-4/",
       "status": "Unverified",
       "id": "644d9698dbd8b35a",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1883,7 +1915,7 @@
       "official_url": "https://carmeetsuk.com/event/all-club-takeover-is-back-southend-on-sea/",
       "status": "Unverified",
       "id": "c1e709ac4017a7ad",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1899,7 +1931,7 @@
       "official_url": "https://carmeetsuk.com/event/monthly-breakfast-meet-3/",
       "status": "Unverified",
       "id": "1dcd75b719aafbe1",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1915,7 +1947,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-15/",
       "status": "Unverified",
       "id": "a7263fbbff81ee35",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1931,7 +1963,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-4/",
       "status": "Unverified",
       "id": "26935aa5869df743",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1947,7 +1979,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-4/",
       "status": "Unverified",
       "id": "f62957aa55dd5487",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1963,7 +1995,7 @@
       "official_url": "https://carmeetsuk.com/event/international-mg-and-triumph-spares-day-stoneleigh-park/",
       "status": "Unverified",
       "id": "5863292f00fea54b",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1979,7 +2011,7 @@
       "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford-4/",
       "status": "Unverified",
       "id": "5b9c2bfc66163cd2",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -1995,7 +2027,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-16/",
       "status": "Unverified",
       "id": "005a9316034431d3",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2011,7 +2043,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-3/",
       "status": "Unverified",
       "id": "0a81e492f5ce58b5",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2027,7 +2059,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meets-bromsgrove-3/",
       "status": "Unverified",
       "id": "08f83edc5d0331ed",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2043,7 +2075,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-17/",
       "status": "Unverified",
       "id": "8c360530ca5dff40",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2059,7 +2091,7 @@
       "official_url": "https://carmeetsuk.com/event/race-retro-the-motorsport-show-2027-stoneleigh-park/",
       "status": "Unverified",
       "id": "cbf229fedc14e078",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2075,7 +2107,7 @@
       "official_url": "https://carmeetsuk.com/event/falkirk-smasher-no-1-falkirk/",
       "status": "Unverified",
       "id": "8cd59804e860c4c4",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2091,7 +2123,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-18/",
       "status": "Unverified",
       "id": "923778b58f04d220",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2107,7 +2139,7 @@
       "official_url": "https://carmeetsuk.com/event/the-hotrod-classic-car-meet-weeley-5/",
       "status": "Unverified",
       "id": "493f20944014a4e9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2123,7 +2155,7 @@
       "official_url": "https://carmeetsuk.com/event/london-international-motor-show-2027-excel-london/",
       "status": "Unverified",
       "id": "13bfffd15a7e7106",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2139,7 +2171,7 @@
       "official_url": "https://carmeetsuk.com/event/monthly-breakfast-meet-4/",
       "status": "Unverified",
       "id": "79b9dcd391654c8f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2155,7 +2187,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-19/",
       "status": "Unverified",
       "id": "14b5e527b6f5325e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2171,7 +2203,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-5/",
       "status": "Unverified",
       "id": "b03bbdc0fc7740b8",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2187,7 +2219,7 @@
       "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts-4/",
       "status": "Unverified",
       "id": "21bef13c1e677dbb",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2203,7 +2235,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-5/",
       "status": "Unverified",
       "id": "36f8923da66ae8b5",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2219,7 +2251,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-sunday-bordon-2/",
       "status": "Unverified",
       "id": "031b47b9b06da4d2",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2235,7 +2267,7 @@
       "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford-5/",
       "status": "Unverified",
       "id": "acd86e95cea12390",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2251,7 +2283,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-20/",
       "status": "Unverified",
       "id": "e2fe80e282618764",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2267,7 +2299,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-4/",
       "status": "Unverified",
       "id": "f199f0a87eee3d55",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2283,7 +2315,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meets-bromsgrove-4/",
       "status": "Unverified",
       "id": "0b91e57d58b05e90",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2299,7 +2331,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-21/",
       "status": "Unverified",
       "id": "93cf6c15211e92bb",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2315,7 +2347,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-restoration-show-birmingham/",
       "status": "Unverified",
       "id": "9e18652764232846",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2331,7 +2363,7 @@
       "official_url": "https://carmeetsuk.com/event/1410/",
       "status": "Unverified",
       "id": "c7efcaf7a78190ed",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2347,7 +2379,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-22/",
       "status": "Unverified",
       "id": "81d0d9ed7bec317e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2363,7 +2395,7 @@
       "official_url": "https://carmeetsuk.com/event/monthly-breakfast-meet-5/",
       "status": "Unverified",
       "id": "3e30795887d3bc93",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2379,7 +2411,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-23/",
       "status": "Unverified",
       "id": "f7a785916777ed80",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2395,7 +2427,7 @@
       "official_url": "https://south.tunerfest.co.uk/",
       "status": "Unverified",
       "id": "9fee62240b0fb0a7",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2410,7 +2442,7 @@
       "official_url": "https://www.tunerfest.co.uk/",
       "status": "Listed by organiser",
       "id": "4cd230ea5f8e3c26",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2426,7 +2458,7 @@
       "official_url": "https://carmeetsuk.com/event/the-hotrod-classic-car-meet-weeley-6/",
       "status": "Unverified",
       "id": "85d34ef6ed8a766d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2442,7 +2474,7 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "3b06c83dce99f039",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2458,7 +2490,7 @@
       "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts-5/",
       "status": "Unverified",
       "id": "c04a5cfd5cc3472d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2474,7 +2506,7 @@
       "official_url": "https://carmeetsuk.com/event/secret-society-blackpool/",
       "status": "Unverified",
       "id": "03284aa5925a3cf1",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2490,7 +2522,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-6/",
       "status": "Unverified",
       "id": "6888b08d86d19ec0",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2506,7 +2538,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-sunday-bordon-3/",
       "status": "Unverified",
       "id": "0e1ddabce78e4afc",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2522,7 +2554,7 @@
       "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford-6/",
       "status": "Unverified",
       "id": "84c342cb2fb3c972",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2538,7 +2570,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-24/",
       "status": "Unverified",
       "id": "4099c7a58eac2e02",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2554,7 +2586,7 @@
       "official_url": "https://carmeetsuk.com/event/scottish-banger-rally-gretna-green/",
       "status": "Unverified",
       "id": "b83f8443cb20d076",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2570,7 +2602,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-6/",
       "status": "Unverified",
       "id": "031b1349c7f8a92d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2586,7 +2618,7 @@
       "official_url": "https://www.goodwood.com/motorsport/members-meeting/",
       "status": "Unverified",
       "id": "570ffe81fdd7f642",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2602,7 +2634,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-25/",
       "status": "Unverified",
       "id": "8d081ee0845f8e90",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2618,7 +2650,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-5/",
       "status": "Unverified",
       "id": "4d47e943e5e0c3ab",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2634,7 +2666,7 @@
       "official_url": "https://carmeetsuk.com/event/pride-of-longbridge-2027-cofton-park-birmingham/",
       "status": "Unverified",
       "id": "bc385f937fd83e93",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2650,7 +2682,7 @@
       "official_url": "https://carmeetsuk.com/event/marque-in-the-park-top-100-2027-bath/",
       "status": "Unverified",
       "id": "4e6ed83a367e1be6",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2666,7 +2698,7 @@
       "official_url": "https://carmeetsuk.com/event/volvo-100-years-celebration-british-motor-museum/",
       "status": "Unverified",
       "id": "2e3b4122f485a1cb",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2682,7 +2714,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-26/",
       "status": "Unverified",
       "id": "19fc9c503e950186",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2698,7 +2730,23 @@
       "official_url": "https://carmeetsuk.com/event/1421/",
       "status": "Unverified",
       "id": "13ba577b4709625e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "VW Spring Social 2027 – Thoresby Park, Newark",
+      "date": "2027-04-23",
+      "end_date": "2027-04-25",
+      "venue": "Thoresby Park",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/vw-spring-social-2027-thoresby-park-newark/",
+      "status": "Unverified",
+      "id": "9a73c5555a42cc80",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2714,7 +2762,7 @@
       "official_url": "https://carmeetsuk.com/event/monthly-breakfast-meet-6/",
       "status": "Unverified",
       "id": "1d7594e6b0ca32e2",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2730,7 +2778,7 @@
       "official_url": "https://carmeetsuk.com/event/ultimate-bmw-meet-2027/",
       "status": "Unverified",
       "id": "4dd615b2f5b9f5eb",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2746,7 +2794,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-27/",
       "status": "Unverified",
       "id": "7a1bc65f6e057d79",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2762,7 +2810,7 @@
       "official_url": "https://carmeetsuk.com/event/the-hotrod-classic-car-meet-weeley-7/",
       "status": "Unverified",
       "id": "8ac1513eec6c31a9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2778,7 +2826,7 @@
       "official_url": "https://www.britishsuperbike.com/calendar",
       "status": "Listed by organiser",
       "id": "072cf7382d26c6e8",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2794,7 +2842,7 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "67e708cc000d0b0f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2810,7 +2858,7 @@
       "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts-6/",
       "status": "Unverified",
       "id": "2c3f969b58f605cf",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2826,7 +2874,7 @@
       "official_url": "https://carmeetsuk.com/event/pageant-of-transport-weston-super-mare/",
       "status": "Unverified",
       "id": "eeee53a429247e3d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2842,7 +2890,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-7/",
       "status": "Unverified",
       "id": "53b90e8b1e914727",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2858,7 +2906,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-sunday-bordon-4/",
       "status": "Unverified",
       "id": "7a776d9e01587c42",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2874,7 +2922,7 @@
       "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford-7/",
       "status": "Unverified",
       "id": "5ee7d03aabcba6b1",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2890,7 +2938,7 @@
       "official_url": "https://carmeetsuk.com/event/south-west-wales-car-festival-chepstow/",
       "status": "Unverified",
       "id": "f4b1d4a512bd3ebc",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2906,7 +2954,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-28/",
       "status": "Unverified",
       "id": "d573da941e3bd6d6",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2922,7 +2970,7 @@
       "official_url": "https://modifiedlive.co.uk/",
       "status": "Unverified",
       "id": "a9f923b583367c17",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2938,7 +2986,23 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-7/",
       "status": "Unverified",
       "id": "14ed18292c934391",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "Retro Rides Weekender 2027 – Goodwood Motor Circuit",
+      "date": "2027-05-08",
+      "end_date": "2027-05-09",
+      "venue": "Goodwood Motor Circuit",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/retro-rides-weekender-2027-goodwood-motor-circuit/",
+      "status": "Unverified",
+      "id": "290ec791e1fa0bdb",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2954,7 +3018,7 @@
       "official_url": "https://carmeetsuk.com/event/tf25-southern-social-day-beaulieu/",
       "status": "Unverified",
       "id": "f2a8b31695a5ee48",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2970,7 +3034,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-29/",
       "status": "Unverified",
       "id": "e758682a8f68e1b9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -2986,7 +3050,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-6/",
       "status": "Unverified",
       "id": "f22d4bcdb9370363",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3002,7 +3066,7 @@
       "official_url": "https://carmeetsuk.com/event/duchy-show-weekend-in-2027-newquay/",
       "status": "Unverified",
       "id": "87e6f1ce8914f0aa",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3018,7 +3082,7 @@
       "official_url": "https://www.iowtakeover.co.uk/",
       "status": "Listed by organiser",
       "id": "500b42795e2c6377",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3034,7 +3098,7 @@
       "official_url": "https://carmeetsuk.com/event/the-redditch-motor-show-redditch/",
       "status": "Unverified",
       "id": "4948469bd8d40a9f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3050,7 +3114,7 @@
       "official_url": "https://carmeetsuk.com/event/the-dorset-blind-association-motor-show-2027-lulworth-castle/",
       "status": "Unverified",
       "id": "f78e92ff339f2492",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3066,7 +3130,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-30/",
       "status": "Unverified",
       "id": "1e4d2f6bec12f612",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3082,7 +3146,7 @@
       "official_url": "https://www.britishsuperbike.com/calendar",
       "status": "Listed by organiser",
       "id": "3df9c728f69d456f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3098,7 +3162,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-31/",
       "status": "Unverified",
       "id": "caf896bc2c82e7f4",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3114,7 +3178,7 @@
       "official_url": "https://carmeetsuk.com/event/the-hotrod-classic-car-meet-weeley-8/",
       "status": "Unverified",
       "id": "ebfdf3eb29dedb3f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3130,7 +3194,7 @@
       "official_url": "https://carmeetsuk.com/event/rewind-tour-britain-2027/",
       "status": "Unverified",
       "id": "0afc6951efbec48d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3146,7 +3210,7 @@
       "official_url": "https://carmeetsuk.com/event/monthly-breakfast-meet-7/",
       "status": "Unverified",
       "id": "a6105c51fdb62067",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3162,7 +3226,7 @@
       "official_url": "https://carmeetsuk.com/event/the-mania-show-cotswold-airport/",
       "status": "Unverified",
       "id": "6a3da4fcac112858",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3178,7 +3242,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-32/",
       "status": "Unverified",
       "id": "45f786951e5e6b34",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3194,7 +3258,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-8/",
       "status": "Unverified",
       "id": "fd1d3e016931b628",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3210,7 +3274,7 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "48f70510dfa1bcd7",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3226,7 +3290,7 @@
       "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts-7/",
       "status": "Unverified",
       "id": "a18cf96eb6a218a9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3242,7 +3306,7 @@
       "official_url": "https://carmeetsuk.com/event/boness-car-show-2027-boness/",
       "status": "Unverified",
       "id": "315693bd216676aa",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3258,7 +3322,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-8/",
       "status": "Unverified",
       "id": "667ded9364df36d8",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3274,7 +3338,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-sunday-bordon-5/",
       "status": "Unverified",
       "id": "8abc39e98f98cc77",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3290,7 +3354,7 @@
       "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford-8/",
       "status": "Unverified",
       "id": "b5e0edde1ac8e83c",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3306,7 +3370,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-33/",
       "status": "Unverified",
       "id": "f2e1d048021fdc10",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3322,7 +3386,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-7/",
       "status": "Unverified",
       "id": "1dd73106fac28664",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3338,7 +3402,7 @@
       "official_url": "https://carmeetsuk.com/event/the-lakeland-weekender-kendal/",
       "status": "Unverified",
       "id": "20aeb03cc0fecc86",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3354,7 +3418,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-34/",
       "status": "Unverified",
       "id": "026f28c163f156d3",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3370,7 +3434,7 @@
       "official_url": "https://www.britishsuperbike.com/calendar",
       "status": "Listed by organiser",
       "id": "3442b3add9ed60b9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3386,7 +3450,7 @@
       "official_url": "https://carmeetsuk.com/event/jaguar-day-2027-pickering/",
       "status": "Unverified",
       "id": "710d471a75e2a9d6",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3402,7 +3466,7 @@
       "official_url": "https://carmeetsuk.com/event/axminster-vehicle-extravaganza-2027-axminster-showground/",
       "status": "Unverified",
       "id": "fd4d530c6519bbc7",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3418,7 +3482,7 @@
       "official_url": "https://carmeetsuk.com/event/salisbury-motor-show-salisbury/",
       "status": "Unverified",
       "id": "73aff8422d4f23e7",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3434,7 +3498,7 @@
       "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-35/",
       "status": "Unverified",
       "id": "af9da29d30895f6f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3450,7 +3514,7 @@
       "official_url": "https://modifiedlive.co.uk/",
       "status": "Unverified",
       "id": "a7694414e00f191f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3466,7 +3530,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-vehicle-day-2027-yattendon/",
       "status": "Unverified",
       "id": "b1f0e0e83894e459",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3482,7 +3546,7 @@
       "official_url": "https://carmeetsuk.com/event/honda-day-scotland-2027-falkirk/",
       "status": "Unverified",
       "id": "c2c42ed1e34a98fa",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3498,7 +3562,7 @@
       "official_url": "https://carmeetsuk.com/event/monthly-breakfast-meet-8/",
       "status": "Unverified",
       "id": "ba87f6a54e6770d5",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3514,7 +3578,7 @@
       "official_url": "https://carmeetsuk.com/event/the-hotrod-classic-car-meet-weeley-9/",
       "status": "Unverified",
       "id": "9cd993fc4976e7fa",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3530,7 +3594,7 @@
       "official_url": "https://www.britishsuperbike.com/calendar",
       "status": "Listed by organiser",
       "id": "90b2b0a82baea3bc",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3546,7 +3610,7 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "4240f191b86f7dd9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3562,7 +3626,7 @@
       "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts-8/",
       "status": "Unverified",
       "id": "79b7539e93b256aa",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3578,7 +3642,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-9/",
       "status": "Unverified",
       "id": "8f304275c911ee35",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3594,7 +3658,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-sunday-bordon-6/",
       "status": "Unverified",
       "id": "3189a66dffba5321",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3610,7 +3674,7 @@
       "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford-9/",
       "status": "Unverified",
       "id": "1b8fd2c10bcf6589",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3626,7 +3690,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-9/",
       "status": "Unverified",
       "id": "a647f2d742f404df",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3642,7 +3706,23 @@
       "official_url": "https://carmeetsuk.com/event/lakes-classic-car-tour-2027-ulverston/",
       "status": "Unverified",
       "id": "086ef678e3caaca6",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "The Weekender 2027 – Westmoreland County Showground",
+      "date": "2027-07-10",
+      "end_date": "2027-07-11",
+      "venue": "Westmorland County Showground",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/the-weekender-2027-westmoreland-county-showground/",
+      "status": "Unverified",
+      "id": "8ed3074e46660a2d",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3658,7 +3738,7 @@
       "official_url": "https://carmeetsuk.com/event/mgs-in-the-park-2027-kingston-bagpuize-house/",
       "status": "Unverified",
       "id": "7c6456055c249faa",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3674,7 +3754,7 @@
       "official_url": "https://www.thereunionshow.co.uk/",
       "status": "confirmed",
       "id": "e6d131c25ff830aa",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3690,7 +3770,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-8/",
       "status": "Unverified",
       "id": "2c89eb99cbbd2a9c",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3706,7 +3786,7 @@
       "official_url": "https://www.goodwood.com/motorsport/festival-of-speed/",
       "status": "Unverified",
       "id": "2688695069eff96f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3722,7 +3802,7 @@
       "official_url": "https://www.britishsuperbike.com/calendar",
       "status": "Listed by organiser",
       "id": "e2e0ac4ddbec7416",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3738,7 +3818,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "00ff5d391f557b80",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3754,7 +3834,7 @@
       "official_url": "https://carmeetsuk.com/event/tando-naturist-car-rally-newcastle-upon-tyne/",
       "status": "Unverified",
       "id": "8e453a703836738a",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3770,7 +3850,7 @@
       "official_url": "https://north.tunerfest.co.uk/",
       "status": "Unverified",
       "id": "e44cda3bb96693cb",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3785,7 +3865,7 @@
       "official_url": "https://www.tunerfest.co.uk/",
       "status": "Listed by organiser",
       "id": "bd411c8399c88012",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3801,7 +3881,7 @@
       "official_url": "https://carmeetsuk.com/event/extremebhp-car-and-family-festival-southport/",
       "status": "Unverified",
       "id": "9d92c03643dbedc9",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3817,7 +3897,7 @@
       "official_url": "https://carmeetsuk.com/event/the-hotrod-classic-car-meet-weeley-10/",
       "status": "Unverified",
       "id": "aeb2ecf549500249",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3833,7 +3913,7 @@
       "official_url": "https://carmeetsuk.com/event/gang-warily-car-meet-southampton/",
       "status": "Unverified",
       "id": "9881983b86cf8c59",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3849,7 +3929,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "e94d71fa6950cc00",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3865,7 +3945,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-sunday-bordon-7/",
       "status": "Unverified",
       "id": "985014972c8fc526",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3881,7 +3961,7 @@
       "official_url": "https://carmeetsuk.com/event/mobo-group-super-sundays-hereford-10/",
       "status": "Unverified",
       "id": "2ff9571b6b71c9a3",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3897,7 +3977,7 @@
       "official_url": "https://www.rollhard.co.uk/pages/bicester",
       "status": "confirmed",
       "id": "4bdd79768a9fd217",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3913,7 +3993,23 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-10/",
       "status": "Unverified",
       "id": "82c899567c021a63",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
+      "source_names": [
+        "Manual review"
+      ]
+    },
+    {
+      "name": "VWFestival 2027 – Newby Hall Ripon",
+      "date": "2027-08-05",
+      "end_date": "2027-08-08",
+      "venue": "Newby Hall",
+      "region": "",
+      "category": "Car show",
+      "organiser": "Carmeets UK",
+      "official_url": "https://carmeetsuk.com/event/vwfestival-2027-newby-hall-ripon/",
+      "status": "Unverified",
+      "id": "02a42bfce3f4942d",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3929,7 +4025,7 @@
       "official_url": "https://www.britishsuperbike.com/calendar",
       "status": "Listed by organiser",
       "id": "48f0d466cce1a93d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3945,7 +4041,7 @@
       "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts-9/",
       "status": "Unverified",
       "id": "873ab76c364a4043",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3961,7 +4057,7 @@
       "official_url": "https://carmeetsuk.com/event/classics-at-the-oval-margate-2/",
       "status": "Unverified",
       "id": "f776700a68ddce26",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3977,7 +4073,7 @@
       "official_url": "https://carmeetsuk.com/event/stance-fever-the-show-thatcham/",
       "status": "Unverified",
       "id": "80f076bd002bcdc8",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -3993,7 +4089,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-9/",
       "status": "Unverified",
       "id": "f33ec81a7e17039f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4009,7 +4105,7 @@
       "official_url": "https://carmeetsuk.com/event/full-send-car-show-thruxton-race-circuit/",
       "status": "Unverified",
       "id": "6c87940270350e63",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4025,7 +4121,7 @@
       "official_url": "https://www.britishsuperbike.com/calendar",
       "status": "Listed by organiser",
       "id": "51749703c703a673",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4041,7 +4137,7 @@
       "official_url": "https://carmeetsuk.com/event/west-somerset-modified-car-show-minehead/",
       "status": "Unverified",
       "id": "31bbd3db240de0c1",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4057,7 +4153,7 @@
       "official_url": "https://santapod.co.uk/events/",
       "status": "Listed by organiser",
       "id": "64b2cd43b7393a4f",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4073,7 +4169,7 @@
       "official_url": "https://www.crmc.co.uk/",
       "status": "Listed by organiser",
       "id": "1f31a01eeaecf065",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4089,7 +4185,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-11/",
       "status": "Unverified",
       "id": "59fc5ada5a2c80bd",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4105,7 +4201,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-sunday-bordon-8/",
       "status": "Unverified",
       "id": "0cf51177cb3047b2",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4121,7 +4217,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-11/",
       "status": "Unverified",
       "id": "6f0cf69f48dbb9fc",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4137,7 +4233,7 @@
       "official_url": "https://carmeetsuk.com/event/the-gibraltar-run-newhaven/",
       "status": "Unverified",
       "id": "e2f9aafbc449eff1",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4153,7 +4249,7 @@
       "official_url": "https://www.goodwood.com/motorsport/goodwood-revival/",
       "status": "Unverified",
       "id": "a7f7e8a78794c454",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4169,7 +4265,7 @@
       "official_url": "https://modifiedlive.co.uk/",
       "status": "Unverified",
       "id": "5f8cfa188dc4322d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4185,7 +4281,7 @@
       "official_url": "https://www.britishsuperbike.com/calendar",
       "status": "Listed by organiser",
       "id": "2dcb3c687deea2ac",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4201,7 +4297,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-club-sunday-shrewley-12/",
       "status": "Unverified",
       "id": "a74eab6dc9525514",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4217,7 +4313,7 @@
       "official_url": "https://carmeetsuk.com/event/classic-car-sunday-bordon-9/",
       "status": "Unverified",
       "id": "a6b88f58c2fe5995",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4233,7 +4329,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-12/",
       "status": "Unverified",
       "id": "0812d4bf1ea487eb",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4249,7 +4345,7 @@
       "official_url": "https://www.britishsuperbike.com/calendar",
       "status": "Listed by organiser",
       "id": "249ad5e08f79df76",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4265,7 +4361,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-13/",
       "status": "Unverified",
       "id": "b99de19f2db58487",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4281,7 +4377,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-10/",
       "status": "Unverified",
       "id": "46b6869e62e2c4f4",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4297,7 +4393,7 @@
       "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-14/",
       "status": "Unverified",
       "id": "e7b68b02eafb9afc",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4313,7 +4409,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-11/",
       "status": "Unverified",
       "id": "f4e64c433d31ad42",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4329,7 +4425,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-12/",
       "status": "Unverified",
       "id": "b22699226fd7c776",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4345,7 +4441,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-13/",
       "status": "Unverified",
       "id": "dff39cfccac8b1b2",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4361,7 +4457,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-14/",
       "status": "Unverified",
       "id": "bd9dd45b007bce4d",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4377,7 +4473,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-15/",
       "status": "Unverified",
       "id": "2d3cc8e55f111231",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4393,7 +4489,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-16/",
       "status": "Unverified",
       "id": "4e8a62ce19e43a39",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]
@@ -4409,7 +4505,7 @@
       "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-17/",
       "status": "Unverified",
       "id": "a02a8e9a49b5013e",
-      "last_checked": "2026-11-03T06:13:57+00:00",
+      "last_checked": "2026-11-04T06:18:01+00:00",
       "source_names": [
         "Manual review"
       ]

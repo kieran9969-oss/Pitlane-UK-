@@ -1888,17 +1888,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Millets Classic and Sports Car Breakfast Meet – Abingdon",
-    "date": "2026-11-03",
-    "end_date": "2026-11-03",
-    "venue": "Millets Farm",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet/",
-    "status": "Unverified"
-  },
-  {
     "name": "Renegades Car Meet – Sheffield",
     "date": "2026-11-07",
     "end_date": "2026-11-07",
@@ -2702,17 +2691,6 @@
     "status": "Unverified"
   },
   {
-    "name": "TIPEC Shropshire and Mid Wales Meet – Shawbury",
-    "date": "2026-11-03",
-    "end_date": "2026-11-03",
-    "venue": "The Fox and Hounds",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/tipec-shropshire-and-mid-wales-meet-shawbury/",
-    "status": "Unverified"
-  },
-  {
     "name": "TIPEC Yorkshire – Sherburn in Elmet",
     "date": "2026-11-04",
     "end_date": "2026-11-04",
@@ -2986,5 +2964,93 @@
     "organiser": "British Superbike Championship",
     "official_url": "https://www.britishsuperbike.com/calendar",
     "status": "Listed by organiser"
+  },
+  {
+    "name": "The Final Motors at Madjeston – Madjeston Animal Park",
+    "date": "2026-11-12",
+    "end_date": "2026-11-12",
+    "venue": "Madjeston Animal Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/the-final-motors-at-madjeston-madjeston-animal-park/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Hazzard Breakfast Meet – Ashford",
+    "date": "2026-12-06",
+    "end_date": "2026-12-06",
+    "venue": "The Doghouse Micropub and Vinyl Bar",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/hazzard-breakfast-meet-ashford/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Annual Boxingday Meet Up – Brighton",
+    "date": "2026-12-26",
+    "end_date": "2026-12-26",
+    "venue": "Madeira Drive",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/annual-boxingday-meet-up-brighton/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Drag The Halls – Derby",
+    "date": "2026-12-28",
+    "end_date": "2026-12-29",
+    "venue": "Great Northern Classics Derby",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/drag-the-halls-derby/",
+    "status": "Unverified"
+  },
+  {
+    "name": "VW Spring Social 2027 – Thoresby Park, Newark",
+    "date": "2027-04-23",
+    "end_date": "2027-04-25",
+    "venue": "Thoresby Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/vw-spring-social-2027-thoresby-park-newark/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Retro Rides Weekender 2027 – Goodwood Motor Circuit",
+    "date": "2027-05-08",
+    "end_date": "2027-05-09",
+    "venue": "Goodwood Motor Circuit",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/retro-rides-weekender-2027-goodwood-motor-circuit/",
+    "status": "Unverified"
+  },
+  {
+    "name": "The Weekender 2027 – Westmoreland County Showground",
+    "date": "2027-07-10",
+    "end_date": "2027-07-11",
+    "venue": "Westmorland County Showground",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/the-weekender-2027-westmoreland-county-showground/",
+    "status": "Unverified"
+  },
+  {
+    "name": "VWFestival 2027 – Newby Hall Ripon",
+    "date": "2027-08-05",
+    "end_date": "2027-08-08",
+    "venue": "Newby Hall",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/vwfestival-2027-newby-hall-ripon/",
+    "status": "Unverified"
   }
 ]
