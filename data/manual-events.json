@@ -1195,17 +1195,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Mid-Week Motor Meet – Leeds",
-    "date": "2026-11-04",
-    "end_date": "2026-11-04",
-    "venue": "The Motorist",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds-2/",
-    "status": "Unverified"
-  },
-  {
     "name": "Cruise: A Monthly Gathering for Enthusiasts – Wakefield",
     "date": "2026-11-07",
     "end_date": "2026-11-07",
@@ -2691,17 +2680,6 @@
     "status": "Unverified"
   },
   {
-    "name": "TIPEC Yorkshire – Sherburn in Elmet",
-    "date": "2026-11-04",
-    "end_date": "2026-11-04",
-    "venue": "Motorist Hub",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/tipec-yorkshire-sherburn-in-elmet/",
-    "status": "Unverified"
-  },
-  {
     "name": "We Stand Together Supercars and Classic Cars – The Riverview",
     "date": "2026-11-08",
     "end_date": "2026-11-08",
@@ -3051,6 +3029,39 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/vwfestival-2027-newby-hall-ripon/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Pendle Powerfest Cars, Bikes and Coffee – Nelson",
+    "date": "2027-03-14",
+    "end_date": "2027-03-14",
+    "venue": "Daisy Diner in Nelson",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/pendle-powerfest-cars-bikes-and-coffee-nelson/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Tunerfest South 2027 – Brands Hatch",
+    "date": "2027-03-29",
+    "end_date": "2027-03-29",
+    "venue": "Brands Hatch Indy Circuit",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/tunerfest-south-2027-brands-hatch/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Tunerfest North 2027 – Oulton Park",
+    "date": "2027-07-24",
+    "end_date": "2027-07-24",
+    "venue": "Oulton Park Circuit",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/tunerfest-north-2027-oulton-park/",
     "status": "Unverified"
   }
 ]
