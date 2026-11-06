@@ -3063,5 +3063,38 @@
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/tunerfest-north-2027-oulton-park/",
     "status": "Unverified"
+  },
+  {
+    "name": "Car Meet – Watford",
+    "date": "2026-11-08",
+    "end_date": "2026-11-08",
+    "venue": "Unit Viii",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/car-meet-watford/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Swap Meet – Man Cave Garage",
+    "date": "2026-11-22",
+    "end_date": "2026-11-22",
+    "venue": "Route 1066 Cafe",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/2535/",
+    "status": "Unverified"
+  },
+  {
+    "name": "New Years Day Car Meet – RE:Fuel",
+    "date": "2027-01-01",
+    "end_date": "2027-01-01",
+    "venue": "Re:Fuel",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/new-years-day-car-meet-refuel/",
+    "status": "Unverified"
   }
 ]
