@@ -1800,17 +1800,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Friday Night Static – Grays",
-    "date": "2026-11-06",
-    "end_date": "2026-11-06",
-    "venue": "Thurrock Services",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/friday-night-static-grays/",
-    "status": "Unverified"
-  },
-  {
     "name": "Brew and Horsepower – Rayleigh",
     "date": "2026-11-15",
     "end_date": "2026-11-15",
@@ -2435,28 +2424,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-14/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Bonfire Burnout – Holsworthy",
-    "date": "2026-11-06",
-    "end_date": "2026-11-06",
-    "venue": "Stadson Grange Farm",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/bonfire-burnout-holsworthy/",
-    "status": "Unverified"
-  },
-  {
-    "name": "First Friday Motor Social – Bristol",
-    "date": "2026-11-06",
-    "end_date": "2026-11-06",
-    "venue": "Toby Carvery Almondsbury",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/first-friday-motor-social-bristol/",
     "status": "Unverified"
   },
   {
@@ -3095,6 +3062,17 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/new-years-day-car-meet-refuel/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Car Meet : Good Vibes Only – St. Helens",
+    "date": "2026-11-10",
+    "end_date": "2026-11-10",
+    "venue": "Toby Carvery Waterside",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/car-meet-good-vibes-only-st-helens/",
     "status": "Unverified"
   }
 ]
