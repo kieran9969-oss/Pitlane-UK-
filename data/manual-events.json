@@ -1,15 +1,5 @@
 [
   {
-    "name": "Britcar into the Night 2026",
-    "date": "2026-11-07",
-    "venue": "Brands Hatch",
-    "region": "Kent",
-    "category": "Motorsport",
-    "organiser": "MSVR",
-    "official_url": "https://www.msv.com/calendar",
-    "status": "Listed by organiser"
-  },
-  {
     "name": "MSVR Club Car Championships 2026",
     "date": "2026-11-14",
     "venue": "Brands Hatch",
@@ -114,17 +104,6 @@
     "category": "Classic cars",
     "organiser": "Goodwood",
     "official_url": "https://www.goodwood.com/motorsport/goodwood-revival/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Lakeland Motor Museum’s monthly morning meet – Ulverston",
-    "date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "venue": "Lakeland Motor Museum",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/lakeland-motor-museums-monthly-morning-meet-ulverston-4/",
     "status": "Unverified"
   },
   {
@@ -359,17 +338,6 @@
     "status": "Listed by organiser"
   },
   {
-    "name": "Classics By The River – Arundel",
-    "date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "venue": "Ship & Anchor Pub",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/classics-by-the-river-arundel-2/",
-    "status": "Unverified"
-  },
-  {
     "name": "Annual Hibernation Meet – Eastbourne",
     "date": "2026-11-08",
     "end_date": "2026-11-08",
@@ -378,17 +346,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/annual-hibernation-meet-eastbourne/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Bonfire and Fireworks Spectacular 2026! – Dunfermline",
-    "date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "venue": "Knockhill Racing Circuit",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/bonfire-and-fireworks-spectacular-2026/",
     "status": "Unverified"
   },
   {
@@ -521,17 +478,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/classics-at-the-oval-margate-2/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Stage Rally and Fireworks – Oulton Park Circuit",
-    "date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "venue": "Oulton Park Circuit",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/stage-rally-and-fireworks-oulton-park-circuit/",
     "status": "Unverified"
   },
   {
@@ -1129,17 +1075,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Broken Beauties Monthly Meet – Kirkham",
-    "date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "venue": "Bell & Bottle",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/broken-beauties-monthly-meet-kirkham/",
-    "status": "Unverified"
-  },
-  {
     "name": "Classic Motor Show 2026 – NEC Birmingham",
     "date": "2026-11-13",
     "end_date": "2026-11-15",
@@ -1192,17 +1127,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/the-gibraltar-run-newhaven/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Cruise: A Monthly Gathering for Enthusiasts – Wakefield",
-    "date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "venue": "The King’s Arms",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/cruise-a-monthly-gathering-for-enthusiasts-wakefield/",
     "status": "Unverified"
   },
   {
@@ -1866,17 +1790,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Renegades Car Meet – Sheffield",
-    "date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "venue": "LRSS Ltd. Security",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/renegades-car-meet-sheffield/",
-    "status": "Unverified"
-  },
-  {
     "name": "Classic Car and Bike Meet – North Weald Airfield",
     "date": "2026-11-08",
     "end_date": "2026-11-08",
@@ -2424,17 +2337,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-14/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Motors & Munch – Bridgnorth",
-    "date": "2026-11-07",
-    "end_date": "2026-11-07",
-    "venue": "Poolehall Cafe",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/motors-munch-bridgnorth/",
     "status": "Unverified"
   },
   {
@@ -3073,6 +2975,39 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/car-meet-good-vibes-only-st-helens/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Classics at the Manor – Heskin Hall",
+    "date": "2026-11-15",
+    "end_date": "2026-11-15",
+    "venue": "Heskin Hall",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/classics-at-the-manor-heskin-hall/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Car & Bike Meet – Scarborough",
+    "date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "venue": "Scarborough",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/car-bike-meet-scarborough/",
+    "status": "Unverified"
+  },
+  {
+    "name": "All Club Big Day Out 2027 – Statfold Country Park",
+    "date": "2027-05-30",
+    "end_date": "2027-05-30",
+    "venue": "Statfold Country Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/all-club-big-day-out-2027-statfold-country-park/",
     "status": "Unverified"
   }
 ]
