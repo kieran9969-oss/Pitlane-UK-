@@ -592,17 +592,6 @@
   },
   {
     "name": "Car Meet – Lyndhurst",
-    "date": "2026-11-09",
-    "end_date": "2026-11-09",
-    "venue": "The Sir Walter Tyrrell",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-3/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Car Meet – Lyndhurst",
     "date": "2026-11-16",
     "end_date": "2026-11-16",
     "venue": "The Sir Walter Tyrrell",
@@ -2461,39 +2450,6 @@
     "status": "Unverified"
   },
   {
-    "name": "The Ind. Porsche Enthusiasts Club North West Meet – Chorley",
-    "date": "2026-11-09",
-    "end_date": "2026-11-09",
-    "venue": "The Hartwood Hall",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/the-ind-porsche-enthusiasts-club-north-west-meet-chorley/",
-    "status": "Unverified"
-  },
-  {
-    "name": "The Ind. Porsche Enthusiasts Club Central Meet – Lichfield",
-    "date": "2026-11-09",
-    "end_date": "2026-11-09",
-    "venue": "The Bull’s Head",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/the-ind-porsche-enthusiasts-club-central-meet-lichfield/",
-    "status": "Unverified"
-  },
-  {
-    "name": "TIPEC Sussex and Surrey Meet – Bolney",
-    "date": "2026-11-09",
-    "end_date": "2026-11-09",
-    "venue": "The Bolney Stage Inn",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/tipec-sussex-and-surrey-meet-bolney/",
-    "status": "Unverified"
-  },
-  {
     "name": "TIPEC Thames Valley Meet – Reading",
     "date": "2026-11-10",
     "end_date": "2026-11-10",
@@ -3140,6 +3096,39 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/minis-through-cheddar-2027-cheddar/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Boosted Syndicate – Blackburn",
+    "date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "venue": "Currys Retail Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/boosted-syndicate-blackburn/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Cars at the Barn – Birmingham",
+    "date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "venue": "J9 Food Barn",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/cars-at-the-barn-birmingham/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Supercars Sunday Crew – Midway Truck Stop",
+    "date": "2026-11-29",
+    "end_date": "2026-11-29",
+    "venue": "Midway Truck Stop",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/supercars-sunday-crew-midway-truck-stop/",
     "status": "Unverified"
   }
 ]
