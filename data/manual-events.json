@@ -1053,17 +1053,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Ace Cafe Classic Car Night – London",
-    "date": "2026-11-10",
-    "end_date": "2026-11-10",
-    "venue": "Ace Cafe",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/ace-cafe-classic-car-night-london/",
-    "status": "Unverified"
-  },
-  {
     "name": "Mid-Week Motor Meet – Leeds",
     "date": "2026-11-11",
     "end_date": "2026-11-11",
@@ -2450,17 +2439,6 @@
     "status": "Unverified"
   },
   {
-    "name": "TIPEC Thames Valley Meet – Reading",
-    "date": "2026-11-10",
-    "end_date": "2026-11-10",
-    "venue": "The Bird In Hand",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/tipec-thames-valley-meet-reading/",
-    "status": "Unverified"
-  },
-  {
     "name": "TIPEC East Midlands Meet – Hoton",
     "date": "2026-11-15",
     "end_date": "2026-11-15",
@@ -2813,17 +2791,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Car Meet : Good Vibes Only – St. Helens",
-    "date": "2026-11-10",
-    "end_date": "2026-11-10",
-    "venue": "Toby Carvery Waterside",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/car-meet-good-vibes-only-st-helens/",
-    "status": "Unverified"
-  },
-  {
     "name": "Classics at the Manor – Heskin Hall",
     "date": "2026-11-15",
     "end_date": "2026-11-15",
@@ -3129,6 +3096,72 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/supercars-sunday-crew-midway-truck-stop/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Cruise for Cancer – Halesowen",
+    "date": "2026-11-12",
+    "end_date": "2026-11-12",
+    "venue": "Somers Sports & Social Club",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/cruise-for-cancer-halesowen/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Car Meet – Ebbw Vale",
+    "date": "2026-11-13",
+    "end_date": "2026-11-13",
+    "venue": "Rassau Industrial Estate",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/car-meet-ebbw-vale/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Ford Meet – Colchester",
+    "date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "venue": "The Bungalow Diner",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/ford-meet-colchester/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Car Meet – Derry/Londonderry",
+    "date": "2026-11-14",
+    "end_date": "2026-11-14",
+    "venue": "Buncrana Road Store & Car Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/car-meet-derry-londonderry/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Porsche Meet – Ashford",
+    "date": "2026-11-15",
+    "end_date": "2026-11-15",
+    "venue": "The Dog House",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/porsche-meet-ashford/",
+    "status": "Unverified"
+  },
+  {
+    "name": "One Day Event – Christmas Drags Manston",
+    "date": "2026-12-27",
+    "end_date": "2026-12-27",
+    "venue": "Manston Raceway Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/one-day-event-christmas-drags-manston/",
     "status": "Unverified"
   }
 ]
