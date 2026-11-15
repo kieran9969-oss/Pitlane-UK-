@@ -1,15 +1,5 @@
 [
   {
-    "name": "MSVR Club Car Championships 2026",
-    "date": "2026-11-14",
-    "venue": "Brands Hatch",
-    "region": "Kent",
-    "category": "Motorsport",
-    "organiser": "MSVR",
-    "official_url": "https://www.msv.com/calendar",
-    "status": "Listed by organiser"
-  },
-  {
     "name": "Tunerfest South 2027",
     "date": "2027-03-29",
     "venue": "Brands Hatch",
@@ -1009,17 +999,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Blackpool Illuminations – Blackpool",
-    "date": "2026-11-14",
-    "end_date": "2026-11-14",
-    "venue": "Halfords – Blackpool",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/blackpool-illuminations-blackpool/",
-    "status": "Unverified"
-  },
-  {
     "name": "Scottish Banger Rally – Gretna Green",
     "date": "2027-04-05",
     "end_date": "2027-04-10",
@@ -1691,17 +1670,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Car Meets – Bromsgrove",
-    "date": "2026-11-14",
-    "end_date": "2026-11-14",
-    "venue": "Stoke Prior Sports and Country Club",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/car-meets-bromsgrove/",
-    "status": "Unverified"
-  },
-  {
     "name": "Off The Clocks Car Meet – Redruth",
     "date": "2026-11-15",
     "end_date": "2026-11-15",
@@ -2227,17 +2195,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/millets-classic-and-sports-car-breakfast-meet-14/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Breakfast with Vintage Tyres – Beaulieu",
-    "date": "2026-11-14",
-    "end_date": "2026-11-14",
-    "venue": "Beaulieu National Motor Museum",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/breakfast-with-vintage-tyres-beaulieu/",
     "status": "Unverified"
   },
   {
@@ -3044,17 +3001,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Boosted Syndicate – Blackburn",
-    "date": "2026-11-14",
-    "end_date": "2026-11-14",
-    "venue": "Currys Retail Park",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/boosted-syndicate-blackburn/",
-    "status": "Unverified"
-  },
-  {
     "name": "Cars at the Barn – Birmingham",
     "date": "2026-11-21",
     "end_date": "2026-11-21",
@@ -3074,28 +3020,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/supercars-sunday-crew-midway-truck-stop/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Ford Meet – Colchester",
-    "date": "2026-11-14",
-    "end_date": "2026-11-14",
-    "venue": "The Bungalow Diner",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/ford-meet-colchester/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Car Meet – Derry/Londonderry",
-    "date": "2026-11-14",
-    "end_date": "2026-11-14",
-    "venue": "Buncrana Road Store & Car Park",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/car-meet-derry-londonderry/",
     "status": "Unverified"
   },
   {
