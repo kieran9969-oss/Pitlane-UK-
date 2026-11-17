@@ -549,17 +549,6 @@
   },
   {
     "name": "Car Meet – Lyndhurst",
-    "date": "2026-11-16",
-    "end_date": "2026-11-16",
-    "venue": "The Sir Walter Tyrrell",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/car-meet-lyndhurst-4/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Car Meet – Lyndhurst",
     "date": "2026-11-23",
     "end_date": "2026-11-23",
     "venue": "The Sir Walter Tyrrell",
@@ -2286,17 +2275,6 @@
     "status": "Unverified"
   },
   {
-    "name": "TIPEC Shropshire and Mid Wales Meet – Berriew",
-    "date": "2026-11-16",
-    "end_date": "2026-11-16",
-    "venue": "The Horseshoes",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/tipec-shropshire-and-mid-wales-meet-berriew/",
-    "status": "Unverified"
-  },
-  {
     "name": "TIPEC Cheshire & Staffs Meet – Knutsford",
     "date": "2026-11-17",
     "end_date": "2026-11-17",
@@ -2921,6 +2899,28 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/frost-furious-cumbernauld/",
+    "status": "Unverified"
+  },
+  {
+    "name": "DT Xmas Breakfast Meet – Atherstone",
+    "date": "2026-12-06",
+    "end_date": "2026-12-06",
+    "venue": "DT Performance Cars Ltd",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/dt-xmas-breakfast-meet-atherstone/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Christmas, Cars & Coffee – Leamington Spa",
+    "date": "2026-12-12",
+    "end_date": "2026-12-12",
+    "venue": "Gas Guzzlers Garage UK",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/christmas-cars-coffee-leamington-spa/",
     "status": "Unverified"
   }
 ]
