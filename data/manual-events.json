@@ -977,17 +977,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Mid-Week Motor Meet – Leeds",
-    "date": "2026-11-18",
-    "end_date": "2026-11-18",
-    "venue": "The Motorist",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/mid-week-motor-meet-leeds-4/",
-    "status": "Unverified"
-  },
-  {
     "name": "The Hotrod & Classic Car Meet – Weeley",
     "date": "2026-11-24",
     "end_date": "2026-11-24",
@@ -2899,6 +2888,17 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/christmas-cars-coffee-leamington-spa/",
+    "status": "Unverified"
+  },
+  {
+    "name": "Extremebhp Car And Family Festival 2027 – Southport",
+    "date": "2027-07-25",
+    "end_date": "2027-07-25",
+    "venue": "Victoria Park",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/extremebhp-car-and-family-festival-2027-southport/",
     "status": "Unverified"
   }
 ]
