@@ -2099,17 +2099,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Ball & Wicket Classic Car Breakfast Meet – Farnham",
-    "date": "2026-11-20",
-    "end_date": "2026-11-20",
-    "venue": "The Ball and Wicket",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/ball-wicket-classic-car-breakfast-meet-farnham/",
-    "status": "Unverified"
-  },
-  {
     "name": "Poole Classic Cars Pre ’86 Breakfast Meet – Hamworthy",
     "date": "2026-11-21",
     "end_date": "2026-11-21",
@@ -2899,6 +2888,17 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/extremebhp-car-and-family-festival-2027-southport/",
+    "status": "Unverified"
+  },
+  {
+    "name": "2027 Llandudno Promenade show – Wales",
+    "date": "2027-06-19",
+    "end_date": "2027-06-19",
+    "venue": "Llandudno Promenade",
+    "region": "",
+    "category": "Car show",
+    "organiser": "Carmeets UK",
+    "official_url": "https://carmeetsuk.com/event/2027-llandudno-promenade-show-wales/",
     "status": "Unverified"
   }
 ]
