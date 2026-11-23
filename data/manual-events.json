@@ -306,17 +306,6 @@
     "status": "Listed by organiser"
   },
   {
-    "name": "Cars Coffee – Royal Wootton Basset",
-    "date": "2026-11-22",
-    "end_date": "2026-11-22",
-    "venue": "Sustain Farm Shop & Cafe",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/cars-coffee-royal-wootton-basset/",
-    "status": "Unverified"
-  },
-  {
     "name": "Cars & Coffee & Breakfast – Buxton",
     "date": "2027-01-24",
     "end_date": "2027-01-24",
@@ -424,17 +413,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/classics-at-the-oval-margate-2/",
-    "status": "Unverified"
-  },
-  {
-    "name": "Supercar Meet – Preston",
-    "date": "2026-11-22",
-    "end_date": "2026-11-22",
-    "venue": "Ancient Oak",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/supercar-meet-preston/",
     "status": "Unverified"
   },
   {
@@ -1505,28 +1483,6 @@
     "status": "Unverified"
   },
   {
-    "name": "The Ultimate Car Meet – Ipswich",
-    "date": "2026-11-22",
-    "end_date": "2026-11-22",
-    "venue": "Suffolk Water Park Cafe",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/the-ultimate-car-meet-ipswich/",
-    "status": "Unverified"
-  },
-  {
-    "name": "British Classic Car Club – Stratford upon Avon",
-    "date": "2026-11-22",
-    "end_date": "2026-11-22",
-    "venue": "Binton Social Club",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/british-classic-car-club/",
-    "status": "Unverified"
-  },
-  {
     "name": "The Redditch Motor Show – Redditch",
     "date": "2027-05-15",
     "end_date": "2027-05-16",
@@ -2495,17 +2451,6 @@
     "status": "Unverified"
   },
   {
-    "name": "Swap Meet – Man Cave Garage",
-    "date": "2026-11-22",
-    "end_date": "2026-11-22",
-    "venue": "Route 1066 Cafe",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/2535/",
-    "status": "Unverified"
-  },
-  {
     "name": "New Years Day Car Meet – RE:Fuel",
     "date": "2027-01-01",
     "end_date": "2027-01-01",
@@ -2525,17 +2470,6 @@
     "category": "Car show",
     "organiser": "Carmeets UK",
     "official_url": "https://carmeetsuk.com/event/all-club-big-day-out-2027-statfold-country-park/",
-    "status": "Unverified"
-  },
-  {
-    "name": "MDK Breakfast and Coffee Meet Up – Shirley",
-    "date": "2026-11-22",
-    "end_date": "2026-11-22",
-    "venue": "Hillfield Farmhouse Inn",
-    "region": "",
-    "category": "Car show",
-    "organiser": "Carmeets UK",
-    "official_url": "https://carmeetsuk.com/event/mdk-breakfast-and-coffee-meet-up-shirley/",
     "status": "Unverified"
   },
   {
